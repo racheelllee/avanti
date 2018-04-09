@@ -1,0 +1,150 @@
+ALTER TABLE `user_group_permissions` ADD `prefix` VARCHAR(256) NULL AFTER `user_group_id`;
+
+UPDATE `user_settings` SET `display_name` = 'Enter private key for Recaptcha from google (also known as secret key)' WHERE `user_settings`.`name` = 'privateKeyFromRecaptcha';
+
+UPDATE `user_settings` SET `display_name` = 'Enter public key for recaptcha from google (also known as site key)' WHERE `user_settings`.`name` = 'publicKeyFromRecaptcha';
+
+UPDATE `user_settings` SET `name` = 'siteNameShort' WHERE `user_settings`.`id` = 3 AND `user_settings`.`name` = 'siteName';
+
+UPDATE `user_settings` SET `name` = 'default_time_zone' WHERE `user_settings`.`name` = 'defaultTimeZone';
+UPDATE `user_settings` SET `name` = 'site_name' WHERE `user_settings`.`name` = 'siteName';
+UPDATE `user_settings` SET `name` = 'site_name_short' WHERE `user_settings`.`name` = 'siteNameShort';
+UPDATE `user_settings` SET `name` = 'login_redirect_url' WHERE `user_settings`.`name` = 'loginRedirectUrl';
+UPDATE `user_settings` SET `name` = 'logout_redirect_url' WHERE `user_settings`.`name` = 'logoutRedirectUrl';
+UPDATE `user_settings` SET `name` = 'login_cookie_name' WHERE `user_settings`.`name` = 'loginCookieName';
+UPDATE `user_settings` SET `name` = 'use_https' WHERE `user_settings`.`name` = 'useHttps';
+UPDATE `user_settings` SET `name` = 'https_urls' WHERE `user_settings`.`name` = 'httpsUrls';
+UPDATE `user_settings` SET `name` = 'default_group_id' WHERE `user_settings`.`name` = 'defaultGroupId';
+UPDATE `user_settings` SET `name` = 'admin_group_id' WHERE `user_settings`.`name` = 'adminGroupId';
+UPDATE `user_settings` SET `name` = 'guest_group_id' WHERE `user_settings`.`name` = 'guestGroupId';
+UPDATE `user_settings` SET `name` = 'site_registration' WHERE `user_settings`.`name` = 'siteRegistration';
+UPDATE `user_settings` SET `name` = 'email_verification' WHERE `user_settings`.`name` = 'emailVerification';
+UPDATE `user_settings` SET `name` = 'allow_delete_account' WHERE `user_settings`.`name` = 'allowDeleteAccount';
+UPDATE `user_settings` SET `name` = 'allow_change_username' WHERE `user_settings`.`name` = 'allowChangeUsername';
+UPDATE `user_settings` SET `name` = 'banned_usernames' WHERE `user_settings`.`name` = 'bannedUsernames';
+UPDATE `user_settings` SET `name` = 'permissions' WHERE `user_settings`.`name` = 'permissions';
+UPDATE `user_settings` SET `name` = 'admin_permissions' WHERE `user_settings`.`name` = 'adminPermissions';
+UPDATE `user_settings` SET `name` = 'allow_user_multiple_login' WHERE `user_settings`.`name` = 'allowUserMultipleLogin';
+UPDATE `user_settings` SET `name` = 'allow_admin_multiple_login' WHERE `user_settings`.`name` = 'allowAdminMultipleLogin';
+UPDATE `user_settings` SET `name` = 'login_idle_time' WHERE `user_settings`.`name` = 'loginIdleTime';
+UPDATE `user_settings` SET `name` = 'view_online_user_time' WHERE `user_settings`.`name` = 'viewOnlineUserTime';
+UPDATE `user_settings` SET `name` = 'img_dir' WHERE `user_settings`.`name` = 'imgDir';
+UPDATE `user_settings` SET `name` = 'qrdn' WHERE `user_settings`.`name` = 'QRDN';
+UPDATE `user_settings` SET `name` = 'use_remember_me' WHERE `user_settings`.`name` = 'useRememberMe';
+UPDATE `user_settings` SET `name` = 'email_from_address' WHERE `user_settings`.`name` = 'emailFromAddress';
+UPDATE `user_settings` SET `name` = 'email_from_name' WHERE `user_settings`.`name` = 'emailFromName';
+UPDATE `user_settings` SET `name` = 'admin_email_address' WHERE `user_settings`.`name` = 'adminEmailAddress';
+UPDATE `user_settings` SET `name` = 'send_registration_mail' WHERE `user_settings`.`name` = 'sendRegistrationMail';
+UPDATE `user_settings` SET `name` = 'send_password_change_mail' WHERE `user_settings`.`name` = 'sendPasswordChangeMail';
+UPDATE `user_settings` SET `name` = 'private_key_from_recaptcha' WHERE `user_settings`.`name` = 'privateKeyFromRecaptcha';
+UPDATE `user_settings` SET `name` = 'public_key_from_recaptcha' WHERE `user_settings`.`name` = 'publicKeyFromRecaptcha';
+UPDATE `user_settings` SET `name` = 'use_recaptcha_on_login' WHERE `user_settings`.`name` = 'useRecaptchaOnLogin';
+UPDATE `user_settings` SET `name` = 'use_recaptcha_on_bad_login' WHERE `user_settings`.`name` = 'useRecaptchaOnBadLogin';
+UPDATE `user_settings` SET `name` = 'bad_login_allow_count' WHERE `user_settings`.`name` = 'badLoginAllowCount';
+UPDATE `user_settings` SET `name` = 'use_recaptcha_on_registration' WHERE `user_settings`.`name` = 'useRecaptchaOnRegistration';
+UPDATE `user_settings` SET `name` = 'use_recaptcha_on_forgot_password' WHERE `user_settings`.`name` = 'useRecaptchaOnForgotPassword';
+UPDATE `user_settings` SET `name` = 'use_recaptcha_on_email_verification' WHERE `user_settings`.`name` = 'useRecaptchaOnEmailVerification';
+UPDATE `user_settings` SET `name` = 'use_fb_login' WHERE `user_settings`.`name` = 'useFacebookLogin';
+UPDATE `user_settings` SET `name` = 'fb_app_id' WHERE `user_settings`.`name` = 'facebookAppId';
+UPDATE `user_settings` SET `name` = 'fb_secret' WHERE `user_settings`.`name` = 'facebookSecret';
+UPDATE `user_settings` SET `name` = 'fb_scope' WHERE `user_settings`.`name` = 'facebookScope';
+UPDATE `user_settings` SET `name` = 'use_twt_login' WHERE `user_settings`.`name` = 'useTwitterLogin';
+UPDATE `user_settings` SET `name` = 'twt_app_id' WHERE `user_settings`.`name` = 'twitterConsumerKey';
+UPDATE `user_settings` SET `name` = 'twt_secret' WHERE `user_settings`.`name` = 'twitterConsumerSecret';
+UPDATE `user_settings` SET `name` = 'use_gmail_login' WHERE `user_settings`.`name` = 'useGmailLogin';
+UPDATE `user_settings` SET `name` = 'gmail_api_key' WHERE `user_settings`.`name` = 'gmailApiKey';
+UPDATE `user_settings` SET `name` = 'gmail_client_id' WHERE `user_settings`.`name` = 'gmailClientId';
+UPDATE `user_settings` SET `name` = 'gmail_client_secret' WHERE `user_settings`.`name` = 'gmailClientSecret';
+UPDATE `user_settings` SET `name` = 'use_yahoo_login' WHERE `user_settings`.`name` = 'useYahooLogin';
+UPDATE `user_settings` SET `name` = 'use_ldn_login' WHERE `user_settings`.`name` = 'useLinkedinLogin';
+UPDATE `user_settings` SET `name` = 'ldn_api_key' WHERE `user_settings`.`name` = 'linkedinApiKey';
+UPDATE `user_settings` SET `name` = 'ldn_secret_key' WHERE `user_settings`.`name` = 'linkedinSecretKey';
+UPDATE `user_settings` SET `name` = 'use_fs_login' WHERE `user_settings`.`name` = 'useFoursquareLogin';
+UPDATE `user_settings` SET `name` = 'fs_client_id' WHERE `user_settings`.`name` = 'foursquareClientId';
+UPDATE `user_settings` SET `name` = 'fs_client_secret' WHERE `user_settings`.`name` = 'foursquareClientSecret';
+
+
+INSERT INTO `user_settings` (`id`, `name`, `display_name`, `value`, `type`, `category`) VALUES (NULL, 'change_password_on_social_registration', 'Do you want to show change password page after user registration from social account?', '1', 'checkbox', 'USER');
+
+INSERT INTO `user_settings` (`id`, `name`, `display_name`, `value`, `type`, `category`) VALUES (NULL, 'default_html_editor', 'Which is default html editor for your application, possible values are Tinymce, Ckeditor', '2', 'radio', 'SITE');
+
+INSERT INTO `user_settings` (`id`, `name`, `display_name`, `value`, `type`, `category`) VALUES (NULL, 'notification_message_position', 'We are using toastr message notification. Please enter flash message position on screen. possible values are
+toast-top-center
+toast-bottom-center
+toast-top-full-width
+toast-bottom-full-width
+toast-top-left
+toast-top-right
+toast-bottom-right
+toast-bottom-left', 'toast-top-full-width', 'input', 'SITE');
+
+
+INSERT INTO `user_settings` (`id`, `name`, `display_name`, `value`, `type`, `category`) VALUES (NULL, 'notification_message_close_time', 'We are using toastr message notification. Please enter flash message close/hide time in seconds. You can leave blank if you do not want to auto close/hide.', '10', 'input', 'SITE');
+
+ALTER TABLE `user_emails` CHANGE `type` `type` VARCHAR(50) CHARACTER SET latin1 COLLATE latin1_swedish_ci NULL DEFAULT NULL;
+
+CREATE TABLE IF NOT EXISTS `scheduled_emails` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `user_email_id` int(11) DEFAULT NULL,
+  `type` varchar(50) DEFAULT NULL,
+  `user_group_id` varchar(256) DEFAULT NULL,
+  `cc_to` text,
+  `from_name` varchar(200) CHARACTER SET utf8 DEFAULT NULL,
+  `from_email` varchar(200) DEFAULT NULL,
+  `subject` varchar(500) CHARACTER SET utf8 DEFAULT NULL,
+  `message` text CHARACTER SET utf8,
+  `schedule_date` datetime DEFAULT NULL,
+  `is_sent` int(1) NOT NULL DEFAULT '0',
+  `scheduled_by` int(11) DEFAULT NULL COMMENT 'user_id',
+  `created` datetime DEFAULT NULL,
+  `modified` datetime DEFAULT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=MyISAM  DEFAULT CHARSET=latin1 AUTO_INCREMENT=1 ;
+
+
+CREATE TABLE IF NOT EXISTS `scheduled_email_recipients` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `scheduled_email_id` int(11) NOT NULL,
+  `user_id` int(11) DEFAULT NULL,
+  `email_address` varchar(100) NOT NULL,
+  `is_email_sent` int(1) NOT NULL DEFAULT '0',
+  PRIMARY KEY (`id`)
+) ENGINE=MyISAM DEFAULT CHARSET=latin1 AUTO_INCREMENT=1 ;
+
+CREATE TABLE IF NOT EXISTS `setting_options` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `title` varchar(256) CHARACTER SET utf8 NOT NULL,
+  `created` datetime DEFAULT NULL,
+  `modified` datetime DEFAULT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=MyISAM DEFAULT CHARSET=latin1 AUTO_INCREMENT=1 ;
+
+INSERT INTO `setting_options` (`id`, `title`, `created`, `modified`) VALUES
+(1, 'Tinymce', now(), now()),
+(2, 'Ckeditor', now(), now());
+
+CREATE TABLE IF NOT EXISTS `user_setting_options` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `user_setting_id` int(11) NOT NULL,
+  `setting_option_id` int(11) NOT NULL,
+  `created` datetime DEFAULT NULL,
+  `modified` datetime DEFAULT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=MyISAM DEFAULT CHARSET=latin1 AUTO_INCREMENT=1 ;
+
+INSERT INTO `user_setting_options` (`id`, `user_setting_id`, `setting_option_id`, `created`, `modified`) VALUES
+(1, 58, 1, now(), now()),
+(2, 58, 2, now(), now());
+
+INSERT INTO `user_group_permissions` (`id`, `user_group_id`, `prefix`, `plugin`, `controller`, `action`, `allowed`) VALUES
+(NULL, 1, NULL, 'Usermgmt', 'CronJobs', 'sendScheduledEmails', 1),
+(NULL, 1, NULL, 'Usermgmt', 'ScheduledEmails', 'index', 1),
+(NULL, 1, NULL, 'Usermgmt', 'ScheduledEmails', 'edit', 1),
+(NULL, 1, NULL, 'Usermgmt', 'ScheduledEmails', 'view', 1),
+(NULL, 1, NULL, 'Usermgmt', 'ScheduledEmails', 'delete', 1),
+(NULL, 1, NULL, 'Usermgmt', 'ScheduledEmails', 'delete_recipient', 1),
+(NULL, 1, NULL, 'Usermgmt', 'SettingOptions', 'index', 1),
+(NULL, 1, NULL, 'Usermgmt', 'SettingOptions', 'add', 1),
+(NULL, 1, NULL, 'Usermgmt', 'SettingOptions', 'edit', 1),
+(NULL, 1, NULL, 'Usermgmt', 'SettingOptions', 'delete', 1),
+(NULL, 1, NULL, 'Usermgmt', 'UserGroupPermissions', 'printPermissionChanges', 1);

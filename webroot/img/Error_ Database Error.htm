@@ -1,0 +1,2752 @@
+<!DOCTYPE html>
+<!-- saved from url=(0054)http://rtorres:8888/sc/sillas-y-bancos?sort=precio+ASC -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>
+        Error: Database Error    </title>
+    <link href="http://rtorres:8888/favicon.ico" type="image/x-icon" rel="icon"><link href="http://rtorres:8888/favicon.ico" type="image/x-icon" rel="shortcut icon">    <style>
+    body {
+        font: 14px helvetica, arial, sans-serif;
+        color: #222;
+        background-color: #f8f8f8;
+        padding:0;
+        margin: 0;
+        max-height: 100%;
+    }
+
+    .code-dump,
+    pre {
+        background: #fefefe;
+        border: 1px solid #ddd;
+        padding: 5px;
+        white-space: pre-wrap;
+    }
+
+    header {
+        background-color: #C3232D;
+        color: #ffffff;
+        padding: 16px 10px;
+        border-bottom: 3px solid #626262;
+    }
+    .header-title {
+        margin: 0;
+        font-weight: normal;
+        font-size: 30px;
+        line-height: 64px;
+    }
+    .header-type {
+        opacity: 0.75;
+        display: block;
+        font-size: 16px;
+        line-height: 1;
+    }
+    .header-help {
+        font-size: 12px;
+        line-height: 1;
+        position: absolute;
+        top: 30px;
+        right: 16px;
+    }
+    .header-help a {
+        color: #fff;
+    }
+
+    .error-nav {
+        float: left;
+        width: 30%;
+    }
+    .error-contents {
+        padding: 10px 1%;
+        float: right;
+        width: 68%;
+    }
+
+    .error,
+    .error-subheading {
+        font-size: 18px;
+        margin-top: 0;
+        padding: 10px;
+        border: 1px solid #EDBD26;
+    }
+    .error-subheading {
+        background: #1798A5;
+        color: #fff;
+        border: 1px solid #02808C;
+    }
+    .error {
+        background: #ffd54f;
+    }
+    .customize {
+        opacity: 0.6;
+    }
+
+    .stack-trace {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+    }
+    .stack-frame {
+        padding: 10px;
+        border-bottom: 1px solid #212121;
+    }
+    .stack-frame:last-child {
+        border-bottom: none;
+    }
+    .stack-frame a {
+        display: block;
+        color: #212121;
+        text-decoration: none;
+    }
+    .stack-frame.active {
+        background: #e5e5e5;
+    }
+    .stack-frame a:hover {
+        text-decoration: underline;
+    }
+    .stack-file,
+    .stack-function {
+        display: block;
+        margin-bottom: 5px;
+    }
+
+    .stack-frame-file,
+    .stack-file {
+        font-family: consolas, monospace;
+    }
+    .stack-function {
+        font-weight: bold;
+    }
+    .stack-file {
+        font-size: 0.9em;
+        word-wrap: break-word;
+    }
+
+    .stack-details {
+        background: #ececec;
+        box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+        border: 1px solid #ababab;
+        padding: 10px;
+        margin-bottom: 18px;
+    }
+    .stack-frame-args {
+        float: right;
+    }
+
+    .toggle-link {
+        color: #1798A5;
+        text-decoration: none;
+    }
+    .toggle-link:hover {
+        text-decoration: underline;
+    }
+    .toggle-vendor-frames {
+        padding: 5px;
+        display: block;
+        text-align: center;
+    }
+
+    .code-excerpt {
+        width: 100%;
+        margin: 5px 0;
+        background: #fefefe;
+    }
+    .code-highlight {
+        display: block;
+        background: #fff59d;
+    }
+    .excerpt-line {
+        padding-left: 2px;
+    }
+    .excerpt-number {
+        background: #f6f6f6;
+        width: 50px;
+        text-align: right;
+        color: #666;
+        border-right: 1px solid #ddd;
+        padding: 2px;
+    }
+    .excerpt-number:after {
+        content: attr(data-number);
+    }
+
+    table {
+        text-align: left;
+    }
+    th, td {
+        padding: 4px;
+    }
+    th {
+        border-bottom: 1px solid #ccc;
+    }
+    </style>
+</head>
+<body>
+    <header>
+        <h1 class="header-title">
+            Database Error            <span class="header-type">PDOException</span>
+        </h1>
+        <div class="header-help">
+            <a target="_blank" href="http://book.cakephp.org/3.0/">Documentation</a>
+            <a target="_blank" href="http://api.cakephp.org/">API</a>
+        </div>
+    </header>
+
+    <div class="error-contents">
+                <p class="error-subheading">
+                <strong>Error: </strong>
+    SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AS `Productos__*`, Productos.precio AS `precio_real` FROM productos Productos IN' at line 1        </p>
+        
+        
+    <div id="stack-frame-0" style="display:none;" class="stack-details">
+        <span class="stack-frame-file">/Applications/MAMP/htdocs/rtorres/vendor/cakephp/cakephp/src/Database/Statement/MysqlStatement.php</span>
+        <a href="http://rtorres:8888/sc/sillas-y-bancos?sort=precio+ASC#" class="toggle-link stack-frame-args" data-target="stack-args-0">toggle arguments</a>
+
+        <table class="code-excerpt" cellspacing="0" cellpadding="0">
+                            <tbody><tr>
+                <td class="excerpt-number" data-number="32"></td>
+                <td class="excerpt-line"><code><span style="color: #000000"><span style="color: #0000BB">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">*/</span></span></code></td>
+            </tr>
+                    <tr>
+                <td class="excerpt-number" data-number="33"></td>
+                <td class="excerpt-line"><code><span style="color: #000000"><span style="color: #0000BB">&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">public&nbsp;function&nbsp;</span><span style="color: #0000BB">execute</span><span style="color: #007700">(</span><span style="color: #0000BB">$params&nbsp;</span><span style="color: #007700">=&nbsp;</span><span style="color: #0000BB">null</span><span style="color: #007700">)</span></span></code></td>
+            </tr>
+                    <tr>
+                <td class="excerpt-number" data-number="34"></td>
+                <td class="excerpt-line"><code><span style="color: #000000"><span style="color: #0000BB">&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">{</span></span></code></td>
+            </tr>
+                    <tr>
+                <td class="excerpt-number" data-number="35"></td>
+                <td class="excerpt-line"><code><span style="color: #000000"><span style="color: #0000BB">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;$this</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">_driver</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">connection</span><span style="color: #007700">()-&gt;</span><span style="color: #0000BB">setAttribute</span><span style="color: #007700">(</span><span style="color: #0000BB">PDO</span><span style="color: #007700">::</span><span style="color: #0000BB">MYSQL_ATTR_USE_BUFFERED_QUERY</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">$this</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">_bufferResults</span><span style="color: #007700">);</span></span></code></td>
+            </tr>
+                    <tr>
+                <td class="excerpt-number" data-number="36"></td>
+                <td class="excerpt-line"><span class="code-highlight"><code><span style="color: #000000"><span style="color: #0000BB">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;$result&nbsp;</span><span style="color: #007700">=&nbsp;</span><span style="color: #0000BB">$this</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">_statement</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">execute</span><span style="color: #007700">(</span><span style="color: #0000BB">$params</span><span style="color: #007700">);</span></span></code></span></td>
+            </tr>
+                    <tr>
+                <td class="excerpt-number" data-number="37"></td>
+                <td class="excerpt-line"><code><span style="color: #000000"><span style="color: #0000BB">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;$this</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">_driver</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">connection</span><span style="color: #007700">()-&gt;</span><span style="color: #0000BB">setAttribute</span><span style="color: #007700">(</span><span style="color: #0000BB">PDO</span><span style="color: #007700">::</span><span style="color: #0000BB">MYSQL_ATTR_USE_BUFFERED_QUERY</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">true</span><span style="color: #007700">);</span></span></code></td>
+            </tr>
+                    <tr>
+                <td class="excerpt-number" data-number="38"></td>
+                <td class="excerpt-line"><code><span style="color: #000000"><span style="color: #0000BB"></span></span></code></td>
+            </tr>
+                    <tr>
+                <td class="excerpt-number" data-number="39"></td>
+                <td class="excerpt-line"><code><span style="color: #000000"><span style="color: #0000BB">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">return&nbsp;</span><span style="color: #0000BB">$result</span><span style="color: #007700">;</span></span></code></td>
+            </tr>
+                    <tr>
+                <td class="excerpt-number" data-number="40"></td>
+                <td class="excerpt-line"><code><span style="color: #000000"><span style="color: #0000BB">&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">}</span></span></code></td>
+            </tr>
+                </tbody></table>
+
+        <div id="stack-args-0" style="display: none;">
+            <pre>null</pre>
+        </div>
+    </div>
+    <div id="stack-frame-1" style="display:none;" class="stack-details">
+        <span class="stack-frame-file">/Applications/MAMP/htdocs/rtorres/vendor/cakephp/cakephp/src/Database/Statement/StatementDecorator.php</span>
+        <a href="http://rtorres:8888/sc/sillas-y-bancos?sort=precio+ASC#" class="toggle-link stack-frame-args" data-target="stack-args-1">toggle arguments</a>
+
+        <table class="code-excerpt" cellspacing="0" cellpadding="0">
+                            <tbody><tr>
+                <td class="excerpt-number" data-number="168"></td>
+                <td class="excerpt-line"><code><span style="color: #000000"><span style="color: #0000BB">&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">public&nbsp;function&nbsp;</span><span style="color: #0000BB">execute</span><span style="color: #007700">(</span><span style="color: #0000BB">$params&nbsp;</span><span style="color: #007700">=&nbsp;</span><span style="color: #0000BB">null</span><span style="color: #007700">)</span></span></code></td>
+            </tr>
+                    <tr>
+                <td class="excerpt-number" data-number="169"></td>
+                <td class="excerpt-line"><code><span style="color: #000000"><span style="color: #0000BB">&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">{</span></span></code></td>
+            </tr>
+                    <tr>
+                <td class="excerpt-number" data-number="170"></td>
+                <td class="excerpt-line"><code><span style="color: #000000"><span style="color: #0000BB">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;$this</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">_hasExecuted&nbsp;</span><span style="color: #007700">=&nbsp;</span><span style="color: #0000BB">true</span><span style="color: #007700">;</span></span></code></td>
+            </tr>
+                    <tr>
+                <td class="excerpt-number" data-number="171"></td>
+                <td class="excerpt-line"><code><span style="color: #000000"><span style="color: #0000BB"></span></span></code></td>
+            </tr>
+                    <tr>
+                <td class="excerpt-number" data-number="172"></td>
+                <td class="excerpt-line"><span class="code-highlight"><code><span style="color: #000000"><span style="color: #0000BB">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">return&nbsp;</span><span style="color: #0000BB">$this</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">_statement</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">execute</span><span style="color: #007700">(</span><span style="color: #0000BB">$params</span><span style="color: #007700">);</span></span></code></span></td>
+            </tr>
+                    <tr>
+                <td class="excerpt-number" data-number="173"></td>
+                <td class="excerpt-line"><code><span style="color: #000000"><span style="color: #0000BB">&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">}</span></span></code></td>
+            </tr>
+                    <tr>
+                <td class="excerpt-number" data-number="174"></td>
+                <td class="excerpt-line"><code><span style="color: #000000"><span style="color: #0000BB"></span></span></code></td>
+            </tr>
+                    <tr>
+                <td class="excerpt-number" data-number="175"></td>
+                <td class="excerpt-line"><code><span style="color: #000000"><span style="color: #0000BB">&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #FF8000">/**</span></span></code></td>
+            </tr>
+                    <tr>
+                <td class="excerpt-number" data-number="176"></td>
+                <td class="excerpt-line"><code><span style="color: #000000"><span style="color: #0000BB">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">*&nbsp;</span><span style="color: #0000BB">Returns&nbsp;the&nbsp;next&nbsp;row&nbsp;</span><span style="color: #007700">for&nbsp;</span><span style="color: #0000BB">the&nbsp;result&nbsp;set&nbsp;after&nbsp;executing&nbsp;this&nbsp;statement</span><span style="color: #007700">.</span></span></code></td>
+            </tr>
+                </tbody></table>
+
+        <div id="stack-args-1" style="display: none;">
+            <pre>null</pre>
+        </div>
+    </div>
+    <div id="stack-frame-2" style="display:none;" class="stack-details">
+        <span class="stack-frame-file">/Applications/MAMP/htdocs/rtorres/vendor/cakephp/cakephp/src/Database/Log/LoggingStatement.php</span>
+        <a href="http://rtorres:8888/sc/sillas-y-bancos?sort=precio+ASC#" class="toggle-link stack-frame-args" data-target="stack-args-2">toggle arguments</a>
+
+        <table class="code-excerpt" cellspacing="0" cellpadding="0">
+                            <tbody><tr>
+                <td class="excerpt-number" data-number="52"></td>
+                <td class="excerpt-line"><code><span style="color: #000000"><span style="color: #0000BB">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;$t&nbsp;</span><span style="color: #007700">=&nbsp;</span><span style="color: #0000BB">microtime</span><span style="color: #007700">(</span><span style="color: #0000BB">true</span><span style="color: #007700">);</span></span></code></td>
+            </tr>
+                    <tr>
+                <td class="excerpt-number" data-number="53"></td>
+                <td class="excerpt-line"><code><span style="color: #000000"><span style="color: #0000BB">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;$query&nbsp;</span><span style="color: #007700">=&nbsp;new&nbsp;</span><span style="color: #0000BB">LoggedQuery</span><span style="color: #007700">();</span></span></code></td>
+            </tr>
+                    <tr>
+                <td class="excerpt-number" data-number="54"></td>
+                <td class="excerpt-line"><code><span style="color: #000000"><span style="color: #0000BB"></span></span></code></td>
+            </tr>
+                    <tr>
+                <td class="excerpt-number" data-number="55"></td>
+                <td class="excerpt-line"><code><span style="color: #000000"><span style="color: #0000BB">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">try&nbsp;{</span></span></code></td>
+            </tr>
+                    <tr>
+                <td class="excerpt-number" data-number="56"></td>
+                <td class="excerpt-line"><span class="code-highlight"><code><span style="color: #000000"><span style="color: #0000BB">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;$result&nbsp;</span><span style="color: #007700">=&nbsp;</span><span style="color: #0000BB">parent</span><span style="color: #007700">::</span><span style="color: #0000BB">execute</span><span style="color: #007700">(</span><span style="color: #0000BB">$params</span><span style="color: #007700">);</span></span></code></span></td>
+            </tr>
+                    <tr>
+                <td class="excerpt-number" data-number="57"></td>
+                <td class="excerpt-line"><code><span style="color: #000000"><span style="color: #0000BB">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">}&nbsp;catch&nbsp;(</span><span style="color: #0000BB">Exception&nbsp;$e</span><span style="color: #007700">)&nbsp;{</span></span></code></td>
+            </tr>
+                    <tr>
+                <td class="excerpt-number" data-number="58"></td>
+                <td class="excerpt-line"><code><span style="color: #000000"><span style="color: #0000BB">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;$e</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">queryString&nbsp;</span><span style="color: #007700">=&nbsp;</span><span style="color: #0000BB">$this</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">queryString</span><span style="color: #007700">;</span></span></code></td>
+            </tr>
+                    <tr>
+                <td class="excerpt-number" data-number="59"></td>
+                <td class="excerpt-line"><code><span style="color: #000000"><span style="color: #0000BB">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;$query</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">error&nbsp;</span><span style="color: #007700">=&nbsp;</span><span style="color: #0000BB">$e</span><span style="color: #007700">;</span></span></code></td>
+            </tr>
+                    <tr>
+                <td class="excerpt-number" data-number="60"></td>
+                <td class="excerpt-line"><code><span style="color: #000000"><span style="color: #0000BB">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;$this</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">_log</span><span style="color: #007700">(</span><span style="color: #0000BB">$query</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">$params</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">$t</span><span style="color: #007700">);</span></span></code></td>
+            </tr>
+                </tbody></table>
+
+        <div id="stack-args-2" style="display: none;">
+            <pre>null</pre>
+        </div>
+    </div>
+    <div id="stack-frame-3" style="display:none;" class="stack-details">
+        <span class="stack-frame-file">/Applications/MAMP/htdocs/rtorres/vendor/cakephp/cakephp/src/Database/Connection.php</span>
+        <a href="http://rtorres:8888/sc/sillas-y-bancos?sort=precio+ASC#" class="toggle-link stack-frame-args" data-target="stack-args-3">toggle arguments</a>
+
+        <table class="code-excerpt" cellspacing="0" cellpadding="0">
+                            <tbody><tr>
+                <td class="excerpt-number" data-number="272"></td>
+                <td class="excerpt-line"><code><span style="color: #000000"><span style="color: #0000BB">&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">public&nbsp;function&nbsp;</span><span style="color: #0000BB">run</span><span style="color: #007700">(</span><span style="color: #0000BB">Query&nbsp;$query</span><span style="color: #007700">)</span></span></code></td>
+            </tr>
+                    <tr>
+                <td class="excerpt-number" data-number="273"></td>
+                <td class="excerpt-line"><code><span style="color: #000000"><span style="color: #0000BB">&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">{</span></span></code></td>
+            </tr>
+                    <tr>
+                <td class="excerpt-number" data-number="274"></td>
+                <td class="excerpt-line"><code><span style="color: #000000"><span style="color: #0000BB">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;$statement&nbsp;</span><span style="color: #007700">=&nbsp;</span><span style="color: #0000BB">$this</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">prepare</span><span style="color: #007700">(</span><span style="color: #0000BB">$query</span><span style="color: #007700">);</span></span></code></td>
+            </tr>
+                    <tr>
+                <td class="excerpt-number" data-number="275"></td>
+                <td class="excerpt-line"><code><span style="color: #000000"><span style="color: #0000BB">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;$query</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">valueBinder</span><span style="color: #007700">()-&gt;</span><span style="color: #0000BB">attachTo</span><span style="color: #007700">(</span><span style="color: #0000BB">$statement</span><span style="color: #007700">);</span></span></code></td>
+            </tr>
+                    <tr>
+                <td class="excerpt-number" data-number="276"></td>
+                <td class="excerpt-line"><span class="code-highlight"><code><span style="color: #000000"><span style="color: #0000BB">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;$statement</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">execute</span><span style="color: #007700">();</span></span></code></span></td>
+            </tr>
+                    <tr>
+                <td class="excerpt-number" data-number="277"></td>
+                <td class="excerpt-line"><code><span style="color: #000000"><span style="color: #0000BB"></span></span></code></td>
+            </tr>
+                    <tr>
+                <td class="excerpt-number" data-number="278"></td>
+                <td class="excerpt-line"><code><span style="color: #000000"><span style="color: #0000BB">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">return&nbsp;</span><span style="color: #0000BB">$statement</span><span style="color: #007700">;</span></span></code></td>
+            </tr>
+                    <tr>
+                <td class="excerpt-number" data-number="279"></td>
+                <td class="excerpt-line"><code><span style="color: #000000"><span style="color: #0000BB">&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">}</span></span></code></td>
+            </tr>
+                    <tr>
+                <td class="excerpt-number" data-number="280"></td>
+                <td class="excerpt-line"><code><span style="color: #000000"><span style="color: #0000BB"></span></span></code></td>
+            </tr>
+                </tbody></table>
+
+        <div id="stack-args-3" style="display: none;">
+            <pre>No arguments</pre>
+        </div>
+    </div>
+    <div id="stack-frame-4" style="display:none;" class="stack-details">
+        <span class="stack-frame-file">/Applications/MAMP/htdocs/rtorres/vendor/cakephp/cakephp/src/Database/Query.php</span>
+        <a href="http://rtorres:8888/sc/sillas-y-bancos?sort=precio+ASC#" class="toggle-link stack-frame-args" data-target="stack-args-4">toggle arguments</a>
+
+        <table class="code-excerpt" cellspacing="0" cellpadding="0">
+                            <tbody><tr>
+                <td class="excerpt-number" data-number="185"></td>
+                <td class="excerpt-line"><code><span style="color: #000000"><span style="color: #0000BB">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">*&nbsp;@return&nbsp;\</span><span style="color: #0000BB">Cake</span><span style="color: #007700">\</span><span style="color: #0000BB">Database</span><span style="color: #007700">\</span><span style="color: #0000BB">StatementInterface</span></span></code></td>
+            </tr>
+                    <tr>
+                <td class="excerpt-number" data-number="186"></td>
+                <td class="excerpt-line"><code><span style="color: #000000"><span style="color: #0000BB">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">*/</span></span></code></td>
+            </tr>
+                    <tr>
+                <td class="excerpt-number" data-number="187"></td>
+                <td class="excerpt-line"><code><span style="color: #000000"><span style="color: #0000BB">&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">public&nbsp;function&nbsp;</span><span style="color: #0000BB">execute</span><span style="color: #007700">()</span></span></code></td>
+            </tr>
+                    <tr>
+                <td class="excerpt-number" data-number="188"></td>
+                <td class="excerpt-line"><code><span style="color: #000000"><span style="color: #0000BB">&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">{</span></span></code></td>
+            </tr>
+                    <tr>
+                <td class="excerpt-number" data-number="189"></td>
+                <td class="excerpt-line"><span class="code-highlight"><code><span style="color: #000000"><span style="color: #0000BB">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;$statement&nbsp;</span><span style="color: #007700">=&nbsp;</span><span style="color: #0000BB">$this</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">_connection</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">run</span><span style="color: #007700">(</span><span style="color: #0000BB">$this</span><span style="color: #007700">);</span></span></code></span></td>
+            </tr>
+                    <tr>
+                <td class="excerpt-number" data-number="190"></td>
+                <td class="excerpt-line"><code><span style="color: #000000"><span style="color: #0000BB">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;$driver&nbsp;</span><span style="color: #007700">=&nbsp;</span><span style="color: #0000BB">$this</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">_connection</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">driver</span><span style="color: #007700">();</span></span></code></td>
+            </tr>
+                    <tr>
+                <td class="excerpt-number" data-number="191"></td>
+                <td class="excerpt-line"><code><span style="color: #000000"><span style="color: #0000BB">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;$typeMap&nbsp;</span><span style="color: #007700">=&nbsp;</span><span style="color: #0000BB">$this</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">selectTypeMap</span><span style="color: #007700">();</span></span></code></td>
+            </tr>
+                    <tr>
+                <td class="excerpt-number" data-number="192"></td>
+                <td class="excerpt-line"><code><span style="color: #000000"><span style="color: #0000BB"></span></span></code></td>
+            </tr>
+                    <tr>
+                <td class="excerpt-number" data-number="193"></td>
+                <td class="excerpt-line"><code><span style="color: #000000"><span style="color: #0000BB">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">if&nbsp;(</span><span style="color: #0000BB">$typeMap</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">toArray</span><span style="color: #007700">()&nbsp;&amp;&amp;&nbsp;</span><span style="color: #0000BB">$this</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">_typeCastAttached&nbsp;</span><span style="color: #007700">===&nbsp;</span><span style="color: #0000BB">false</span><span style="color: #007700">)&nbsp;{</span></span></code></td>
+            </tr>
+                </tbody></table>
+
+        <div id="stack-args-4" style="display: none;">
+            <pre>object(Cake\ORM\Query) {
+
+	'(help)' =&gt; 'This is a Query object, to get the results execute or iterate it.',
+	'sql' =&gt; 'SELECT Productos.* AS `Productos__*`, Productos.precio AS `precio_real` FROM productos Productos INNER JOIN categorias_productos CategoriasProductos ON Productos.id = (CategoriasProductos.producto_id) INNER JOIN categorias Categorias ON (Categorias.publicado = 1 AND Categorias.id in (:c0) AND Productos.estatus_id = :c1 AND Categorias.id = (CategoriasProductos.categoria_id)) LEFT JOIN marcas Marcas ON Marcas.id = (Productos.marca_id) WHERE (Productos.estatus_id=1 and Productos.padre_id is null AND Productos.estatus_id = :c2 AND (padre_id) IS NULL) GROUP BY Productos.id  ORDER BY Productos.precio ASC',
+	'params' =&gt; [
+		':c0' =&gt; [
+			'value' =&gt; (int) 10,
+			'type' =&gt; 'integer',
+			'placeholder' =&gt; ':c0'
+		],
+		':c1' =&gt; [
+			'value' =&gt; (int) 1,
+			'type' =&gt; null,
+			'placeholder' =&gt; 'c1'
+		],
+		':c2' =&gt; [
+			'value' =&gt; (int) 1,
+			'type' =&gt; 'integer',
+			'placeholder' =&gt; 'c2'
+		]
+	],
+	'defaultTypes' =&gt; [
+		'Productos__id' =&gt; 'integer',
+		'Productos.id' =&gt; 'integer',
+		'id' =&gt; 'integer',
+		'Productos__usuario_id' =&gt; 'integer',
+		'Productos.usuario_id' =&gt; 'integer',
+		'usuario_id' =&gt; 'integer',
+		'Productos__proveedor_id' =&gt; 'integer',
+		'Productos.proveedor_id' =&gt; 'integer',
+		'proveedor_id' =&gt; 'integer',
+		'Productos__marca_id' =&gt; 'integer',
+		'Productos.marca_id' =&gt; 'integer',
+		'marca_id' =&gt; 'integer',
+		'Productos__sku' =&gt; 'string',
+		'Productos.sku' =&gt; 'string',
+		'sku' =&gt; 'string',
+		'Productos__nombre' =&gt; 'string',
+		'Productos.nombre' =&gt; 'string',
+		'nombre' =&gt; 'string',
+		'Productos__url' =&gt; 'string',
+		'Productos.url' =&gt; 'string',
+		'url' =&gt; 'string',
+		'Productos__descripcion_corta' =&gt; 'string',
+		'Productos.descripcion_corta' =&gt; 'string',
+		'descripcion_corta' =&gt; 'string',
+		'Productos__descripcion_larga' =&gt; 'text',
+		'Productos.descripcion_larga' =&gt; 'text',
+		'descripcion_larga' =&gt; 'text',
+		'Productos__modelo' =&gt; 'string',
+		'Productos.modelo' =&gt; 'string',
+		'modelo' =&gt; 'string',
+		'Productos__ficha_tecnica' =&gt; 'text',
+		'Productos.ficha_tecnica' =&gt; 'text',
+		'ficha_tecnica' =&gt; 'text',
+		'Productos__costo' =&gt; 'decimal',
+		'Productos.costo' =&gt; 'decimal',
+		'costo' =&gt; 'decimal',
+		'Productos__margen' =&gt; 'decimal',
+		'Productos.margen' =&gt; 'decimal',
+		'margen' =&gt; 'decimal',
+		'Productos__precio' =&gt; 'decimal',
+		'Productos.precio' =&gt; 'decimal',
+		'precio' =&gt; 'decimal',
+		'Productos__ver_precio' =&gt; 'integer',
+		'Productos.ver_precio' =&gt; 'integer',
+		'ver_precio' =&gt; 'integer',
+		'Productos__precio_promocion' =&gt; 'decimal',
+		'Productos.precio_promocion' =&gt; 'decimal',
+		'precio_promocion' =&gt; 'decimal',
+		'Productos__ver_precio_promocion' =&gt; 'integer',
+		'Productos.ver_precio_promocion' =&gt; 'integer',
+		'ver_precio_promocion' =&gt; 'integer',
+		'Productos__precio_meses_sin_intereses' =&gt; 'decimal',
+		'Productos.precio_meses_sin_intereses' =&gt; 'decimal',
+		'precio_meses_sin_intereses' =&gt; 'decimal',
+		'Productos__meses_sin_intereses' =&gt; 'integer',
+		'Productos.meses_sin_intereses' =&gt; 'integer',
+		'meses_sin_intereses' =&gt; 'integer',
+		'Productos__ver_meses_sin_intereses' =&gt; 'integer',
+		'Productos.ver_meses_sin_intereses' =&gt; 'integer',
+		'ver_meses_sin_intereses' =&gt; 'integer',
+		'Productos__porcentaje_descuento_promocion' =&gt; 'integer',
+		'Productos.porcentaje_descuento_promocion' =&gt; 'integer',
+		'porcentaje_descuento_promocion' =&gt; 'integer',
+		'Productos__ver_porcentaje_descuento_promocion' =&gt; 'integer',
+		'Productos.ver_porcentaje_descuento_promocion' =&gt; 'integer',
+		'ver_porcentaje_descuento_promocion' =&gt; 'integer',
+		'Productos__activo' =&gt; 'integer',
+		'Productos.activo' =&gt; 'integer',
+		'activo' =&gt; 'integer',
+		'Productos__estatus_id' =&gt; 'integer',
+		'Productos.estatus_id' =&gt; 'integer',
+		'estatus_id' =&gt; 'integer',
+		'Productos__deleted' =&gt; 'boolean',
+		'Productos.deleted' =&gt; 'boolean',
+		'deleted' =&gt; 'boolean',
+		'Productos__garantia' =&gt; 'string',
+		'Productos.garantia' =&gt; 'string',
+		'garantia' =&gt; 'string',
+		'Productos__meta_titulo' =&gt; 'string',
+		'Productos.meta_titulo' =&gt; 'string',
+		'meta_titulo' =&gt; 'string',
+		'Productos__meta_descripcion' =&gt; 'text',
+		'Productos.meta_descripcion' =&gt; 'text',
+		'meta_descripcion' =&gt; 'text',
+		'Productos__meta_keywords' =&gt; 'text',
+		'Productos.meta_keywords' =&gt; 'text',
+		'meta_keywords' =&gt; 'text',
+		'Productos__padre_id' =&gt; 'integer',
+		'Productos.padre_id' =&gt; 'integer',
+		'padre_id' =&gt; 'integer',
+		'Productos__lft' =&gt; 'integer',
+		'Productos.lft' =&gt; 'integer',
+		'lft' =&gt; 'integer',
+		'Productos__rght' =&gt; 'integer',
+		'Productos.rght' =&gt; 'integer',
+		'rght' =&gt; 'integer',
+		'Productos__created' =&gt; 'datetime',
+		'Productos.created' =&gt; 'datetime',
+		'created' =&gt; 'datetime',
+		'Imagenes__id' =&gt; 'integer',
+		'Imagenes.id' =&gt; 'integer',
+		'Imagenes__producto_id' =&gt; 'integer',
+		'Imagenes.producto_id' =&gt; 'integer',
+		'producto_id' =&gt; 'integer',
+		'Imagenes__nombre' =&gt; 'string',
+		'Imagenes.nombre' =&gt; 'string',
+		'Imagenes__orden' =&gt; 'integer',
+		'Imagenes.orden' =&gt; 'integer',
+		'orden' =&gt; 'integer',
+		'Marcas__id' =&gt; 'integer',
+		'Marcas.id' =&gt; 'integer',
+		'Marcas__nombre' =&gt; 'string',
+		'Marcas.nombre' =&gt; 'string',
+		'Marcas__logo' =&gt; 'string',
+		'Marcas.logo' =&gt; 'string',
+		'logo' =&gt; 'string',
+		'Marcas__url' =&gt; 'string',
+		'Marcas.url' =&gt; 'string',
+		'Marcas__activo' =&gt; 'boolean',
+		'Marcas.activo' =&gt; 'boolean',
+		'Marcas__cantidad' =&gt; 'integer',
+		'Marcas.cantidad' =&gt; 'integer',
+		'cantidad' =&gt; 'integer',
+		'Atributos__id' =&gt; 'integer',
+		'Atributos.id' =&gt; 'integer',
+		'Atributos__nombre' =&gt; 'string',
+		'Atributos.nombre' =&gt; 'string',
+		'Atributos__producto_id' =&gt; 'integer',
+		'Atributos.producto_id' =&gt; 'integer',
+		'Atributos__is_color' =&gt; 'boolean',
+		'Atributos.is_color' =&gt; 'boolean',
+		'is_color' =&gt; 'boolean',
+		'Opciones__id' =&gt; 'integer',
+		'Opciones.id' =&gt; 'integer',
+		'Opciones__atributo_id' =&gt; 'integer',
+		'Opciones.atributo_id' =&gt; 'integer',
+		'atributo_id' =&gt; 'integer',
+		'Opciones__nombre' =&gt; 'string',
+		'Opciones.nombre' =&gt; 'string',
+		'Opciones__orden' =&gt; 'integer',
+		'Opciones.orden' =&gt; 'integer',
+		'OpcionefiltrosProductos__id' =&gt; 'integer',
+		'OpcionefiltrosProductos.id' =&gt; 'integer',
+		'OpcionefiltrosProductos__producto_id' =&gt; 'integer',
+		'OpcionefiltrosProductos.producto_id' =&gt; 'integer',
+		'OpcionefiltrosProductos__opcionesfiltro_id' =&gt; 'integer',
+		'OpcionefiltrosProductos.opcionesfiltro_id' =&gt; 'integer',
+		'opcionesfiltro_id' =&gt; 'integer',
+		'Categorias__id' =&gt; 'integer',
+		'Categorias.id' =&gt; 'integer',
+		'Categorias__parent_id' =&gt; 'integer',
+		'Categorias.parent_id' =&gt; 'integer',
+		'parent_id' =&gt; 'integer',
+		'Categorias__nombre' =&gt; 'string',
+		'Categorias.nombre' =&gt; 'string',
+		'Categorias__descripcion' =&gt; 'text',
+		'Categorias.descripcion' =&gt; 'text',
+		'descripcion' =&gt; 'text',
+		'Categorias__meta_descripcion' =&gt; 'text',
+		'Categorias.meta_descripcion' =&gt; 'text',
+		'Categorias__meta_keywords' =&gt; 'text',
+		'Categorias.meta_keywords' =&gt; 'text',
+		'Categorias__meta_titulo' =&gt; 'string',
+		'Categorias.meta_titulo' =&gt; 'string',
+		'Categorias__url' =&gt; 'string',
+		'Categorias.url' =&gt; 'string',
+		'Categorias__orden' =&gt; 'integer',
+		'Categorias.orden' =&gt; 'integer',
+		'Categorias__banner' =&gt; 'string',
+		'Categorias.banner' =&gt; 'string',
+		'banner' =&gt; 'string',
+		'Categorias__imagen_fondo' =&gt; 'string',
+		'Categorias.imagen_fondo' =&gt; 'string',
+		'imagen_fondo' =&gt; 'string',
+		'Categorias__publicado' =&gt; 'boolean',
+		'Categorias.publicado' =&gt; 'boolean',
+		'publicado' =&gt; 'boolean',
+		'Categorias__lft' =&gt; 'integer',
+		'Categorias.lft' =&gt; 'integer',
+		'Categorias__rght' =&gt; 'integer',
+		'Categorias.rght' =&gt; 'integer',
+		'Categorias__deleted' =&gt; 'integer',
+		'Categorias.deleted' =&gt; 'integer',
+		'CategoriasProductos__categoria_id' =&gt; 'integer',
+		'CategoriasProductos.categoria_id' =&gt; 'integer',
+		'categoria_id' =&gt; 'integer',
+		'CategoriasProductos__producto_id' =&gt; 'integer',
+		'CategoriasProductos.producto_id' =&gt; 'integer',
+		'CategoriasProductos__id' =&gt; 'integer',
+		'CategoriasProductos.id' =&gt; 'integer'
+	],
+	'decorators' =&gt; (int) 0,
+	'executed' =&gt; false,
+	'hydrate' =&gt; true,
+	'buffered' =&gt; true,
+	'formatters' =&gt; (int) 0,
+	'mapReducers' =&gt; (int) 0,
+	'contain' =&gt; [
+		'Imagenes' =&gt; [],
+		'Marcas' =&gt; [],
+		'Atributos' =&gt; [
+			'Opciones' =&gt; [[maximum depth reached]]
+		],
+		'OpcionefiltrosProductos' =&gt; []
+	],
+	'matching' =&gt; [
+		'Categorias' =&gt; [
+			'queryBuilder' =&gt; object(Closure) {},
+			'matching' =&gt; true,
+			'joinType' =&gt; 'INNER'
+		]
+	],
+	'extraOptions' =&gt; [],
+	'repository' =&gt; object(App\Model\Table\ProductosTable) {
+
+		'registryAlias' =&gt; 'Productos',
+		'table' =&gt; 'productos',
+		'alias' =&gt; 'Productos',
+		'entityClass' =&gt; 'App\Model\Entity\Producto',
+		'associations' =&gt; [
+			[maximum depth reached]
+		],
+		'behaviors' =&gt; [
+			[maximum depth reached]
+		],
+		'defaultConnection' =&gt; 'default',
+		'connectionName' =&gt; 'default'
+	
+	}
+
+}</pre>
+        </div>
+    </div>
+    <div id="stack-frame-5" style="display:none;" class="stack-details">
+        <span class="stack-frame-file">/Applications/MAMP/htdocs/rtorres/vendor/cakephp/cakephp/src/ORM/Query.php</span>
+        <a href="http://rtorres:8888/sc/sillas-y-bancos?sort=precio+ASC#" class="toggle-link stack-frame-args" data-target="stack-args-5">toggle arguments</a>
+
+        <table class="code-excerpt" cellspacing="0" cellpadding="0">
+                            <tbody><tr>
+                <td class="excerpt-number" data-number="954"></td>
+                <td class="excerpt-line"><code><span style="color: #000000"><span style="color: #0000BB"></span></span></code></td>
+            </tr>
+                    <tr>
+                <td class="excerpt-number" data-number="955"></td>
+                <td class="excerpt-line"><code><span style="color: #000000"><span style="color: #0000BB">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">return&nbsp;new&nbsp;</span><span style="color: #0000BB">$decorator</span><span style="color: #007700">(</span><span style="color: #0000BB">$this</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">_results</span><span style="color: #007700">);</span></span></code></td>
+            </tr>
+                    <tr>
+                <td class="excerpt-number" data-number="956"></td>
+                <td class="excerpt-line"><code><span style="color: #000000"><span style="color: #0000BB">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">}</span></span></code></td>
+            </tr>
+                    <tr>
+                <td class="excerpt-number" data-number="957"></td>
+                <td class="excerpt-line"><code><span style="color: #000000"><span style="color: #0000BB"></span></span></code></td>
+            </tr>
+                    <tr>
+                <td class="excerpt-number" data-number="958"></td>
+                <td class="excerpt-line"><span class="code-highlight"><code><span style="color: #000000"><span style="color: #0000BB">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;$statement&nbsp;</span><span style="color: #007700">=&nbsp;</span><span style="color: #0000BB">$this</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">eagerLoader</span><span style="color: #007700">()-&gt;</span><span style="color: #0000BB">loadExternal</span><span style="color: #007700">(</span><span style="color: #0000BB">$this</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">$this</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">execute</span><span style="color: #007700">());</span></span></code></span></td>
+            </tr>
+                    <tr>
+                <td class="excerpt-number" data-number="959"></td>
+                <td class="excerpt-line"><code><span style="color: #000000"><span style="color: #0000BB"></span></span></code></td>
+            </tr>
+                    <tr>
+                <td class="excerpt-number" data-number="960"></td>
+                <td class="excerpt-line"><code><span style="color: #000000"><span style="color: #0000BB">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">return&nbsp;new&nbsp;</span><span style="color: #0000BB">ResultSet</span><span style="color: #007700">(</span><span style="color: #0000BB">$this</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">$statement</span><span style="color: #007700">);</span></span></code></td>
+            </tr>
+                    <tr>
+                <td class="excerpt-number" data-number="961"></td>
+                <td class="excerpt-line"><code><span style="color: #000000"><span style="color: #0000BB">&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">}</span></span></code></td>
+            </tr>
+                    <tr>
+                <td class="excerpt-number" data-number="962"></td>
+                <td class="excerpt-line"><code><span style="color: #000000"><span style="color: #0000BB"></span></span></code></td>
+            </tr>
+                </tbody></table>
+
+        <div id="stack-args-5" style="display: none;">
+            <pre>No arguments</pre>
+        </div>
+    </div>
+    <div id="stack-frame-6" style="display:none;" class="stack-details">
+        <span class="stack-frame-file">/Applications/MAMP/htdocs/rtorres/vendor/cakephp/cakephp/src/Datasource/QueryTrait.php</span>
+        <a href="http://rtorres:8888/sc/sillas-y-bancos?sort=precio+ASC#" class="toggle-link stack-frame-args" data-target="stack-args-6">toggle arguments</a>
+
+        <table class="code-excerpt" cellspacing="0" cellpadding="0">
+                            <tbody><tr>
+                <td class="excerpt-number" data-number="272"></td>
+                <td class="excerpt-line"><code><span style="color: #000000"><span style="color: #0000BB">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">if&nbsp;(</span><span style="color: #0000BB">$this</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">_cache</span><span style="color: #007700">)&nbsp;{</span></span></code></td>
+            </tr>
+                    <tr>
+                <td class="excerpt-number" data-number="273"></td>
+                <td class="excerpt-line"><code><span style="color: #000000"><span style="color: #0000BB">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;$results&nbsp;</span><span style="color: #007700">=&nbsp;</span><span style="color: #0000BB">$this</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">_cache</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">fetch</span><span style="color: #007700">(</span><span style="color: #0000BB">$this</span><span style="color: #007700">);</span></span></code></td>
+            </tr>
+                    <tr>
+                <td class="excerpt-number" data-number="274"></td>
+                <td class="excerpt-line"><code><span style="color: #000000"><span style="color: #0000BB">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">}</span></span></code></td>
+            </tr>
+                    <tr>
+                <td class="excerpt-number" data-number="275"></td>
+                <td class="excerpt-line"><code><span style="color: #000000"><span style="color: #0000BB">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">if&nbsp;(!isset(</span><span style="color: #0000BB">$results</span><span style="color: #007700">))&nbsp;{</span></span></code></td>
+            </tr>
+                    <tr>
+                <td class="excerpt-number" data-number="276"></td>
+                <td class="excerpt-line"><span class="code-highlight"><code><span style="color: #000000"><span style="color: #0000BB">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;$results&nbsp;</span><span style="color: #007700">=&nbsp;</span><span style="color: #0000BB">$this</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">_decorateResults</span><span style="color: #007700">(</span><span style="color: #0000BB">$this</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">_execute</span><span style="color: #007700">());</span></span></code></span></td>
+            </tr>
+                    <tr>
+                <td class="excerpt-number" data-number="277"></td>
+                <td class="excerpt-line"><code><span style="color: #000000"><span style="color: #0000BB">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">if&nbsp;(</span><span style="color: #0000BB">$this</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">_cache</span><span style="color: #007700">)&nbsp;{</span></span></code></td>
+            </tr>
+                    <tr>
+                <td class="excerpt-number" data-number="278"></td>
+                <td class="excerpt-line"><code><span style="color: #000000"><span style="color: #0000BB">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;$this</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">_cache</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">store</span><span style="color: #007700">(</span><span style="color: #0000BB">$this</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">$results</span><span style="color: #007700">);</span></span></code></td>
+            </tr>
+                    <tr>
+                <td class="excerpt-number" data-number="279"></td>
+                <td class="excerpt-line"><code><span style="color: #000000"><span style="color: #0000BB">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">}</span></span></code></td>
+            </tr>
+                    <tr>
+                <td class="excerpt-number" data-number="280"></td>
+                <td class="excerpt-line"><code><span style="color: #000000"><span style="color: #0000BB">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">}</span></span></code></td>
+            </tr>
+                </tbody></table>
+
+        <div id="stack-args-6" style="display: none;">
+            <pre>No arguments</pre>
+        </div>
+    </div>
+    <div id="stack-frame-7" style="display:none;" class="stack-details">
+        <span class="stack-frame-file">/Applications/MAMP/htdocs/rtorres/vendor/cakephp/cakephp/src/ORM/Query.php</span>
+        <a href="http://rtorres:8888/sc/sillas-y-bancos?sort=precio+ASC#" class="toggle-link stack-frame-args" data-target="stack-args-7">toggle arguments</a>
+
+        <table class="code-excerpt" cellspacing="0" cellpadding="0">
+                            <tbody><tr>
+                <td class="excerpt-number" data-number="902"></td>
+                <td class="excerpt-line"><code><span style="color: #000000"><span style="color: #0000BB">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #DD0000">'You&nbsp;cannot&nbsp;call&nbsp;all()&nbsp;on&nbsp;a&nbsp;non-select&nbsp;query.&nbsp;Use&nbsp;execute()&nbsp;instead.'</span></span></code></td>
+            </tr>
+                    <tr>
+                <td class="excerpt-number" data-number="903"></td>
+                <td class="excerpt-line"><code><span style="color: #000000"><span style="color: #0000BB">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">);</span></span></code></td>
+            </tr>
+                    <tr>
+                <td class="excerpt-number" data-number="904"></td>
+                <td class="excerpt-line"><code><span style="color: #000000"><span style="color: #0000BB">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">}</span></span></code></td>
+            </tr>
+                    <tr>
+                <td class="excerpt-number" data-number="905"></td>
+                <td class="excerpt-line"><code><span style="color: #000000"><span style="color: #0000BB"></span></span></code></td>
+            </tr>
+                    <tr>
+                <td class="excerpt-number" data-number="906"></td>
+                <td class="excerpt-line"><span class="code-highlight"><code><span style="color: #000000"><span style="color: #0000BB">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">return&nbsp;</span><span style="color: #0000BB">$this</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">_all</span><span style="color: #007700">();</span></span></code></span></td>
+            </tr>
+                    <tr>
+                <td class="excerpt-number" data-number="907"></td>
+                <td class="excerpt-line"><code><span style="color: #000000"><span style="color: #0000BB">&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">}</span></span></code></td>
+            </tr>
+                    <tr>
+                <td class="excerpt-number" data-number="908"></td>
+                <td class="excerpt-line"><code><span style="color: #000000"><span style="color: #0000BB"></span></span></code></td>
+            </tr>
+                    <tr>
+                <td class="excerpt-number" data-number="909"></td>
+                <td class="excerpt-line"><code><span style="color: #000000"><span style="color: #0000BB">&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #FF8000">/**</span></span></code></td>
+            </tr>
+                    <tr>
+                <td class="excerpt-number" data-number="910"></td>
+                <td class="excerpt-line"><code><span style="color: #000000"><span style="color: #0000BB">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">*&nbsp;</span><span style="color: #0000BB">Trigger&nbsp;the&nbsp;beforeFind&nbsp;event&nbsp;on&nbsp;the&nbsp;query</span><span style="color: #DD0000">'s&nbsp;repository&nbsp;object.</span></span></code></td>
+            </tr>
+                </tbody></table>
+
+        <div id="stack-args-7" style="display: none;">
+            <pre>No arguments</pre>
+        </div>
+    </div>
+    <div id="stack-frame-8" style="display:none;" class="stack-details">
+        <span class="stack-frame-file">/Applications/MAMP/htdocs/rtorres/vendor/cakephp/cakephp/src/Datasource/QueryTrait.php</span>
+        <a href="http://rtorres:8888/sc/sillas-y-bancos?sort=precio+ASC#" class="toggle-link stack-frame-args" data-target="stack-args-8">toggle arguments</a>
+
+        <table class="code-excerpt" cellspacing="0" cellpadding="0">
+                            <tbody><tr>
+                <td class="excerpt-number" data-number="289"></td>
+                <td class="excerpt-line"><code><span style="color: #000000"><span style="color: #0000BB">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">*&nbsp;@return&nbsp;array</span></span></code></td>
+            </tr>
+                    <tr>
+                <td class="excerpt-number" data-number="290"></td>
+                <td class="excerpt-line"><code><span style="color: #000000"><span style="color: #0000BB">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">*/</span></span></code></td>
+            </tr>
+                    <tr>
+                <td class="excerpt-number" data-number="291"></td>
+                <td class="excerpt-line"><code><span style="color: #000000"><span style="color: #0000BB">&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">public&nbsp;function&nbsp;</span><span style="color: #0000BB">toArray</span><span style="color: #007700">()</span></span></code></td>
+            </tr>
+                    <tr>
+                <td class="excerpt-number" data-number="292"></td>
+                <td class="excerpt-line"><code><span style="color: #000000"><span style="color: #0000BB">&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">{</span></span></code></td>
+            </tr>
+                    <tr>
+                <td class="excerpt-number" data-number="293"></td>
+                <td class="excerpt-line"><span class="code-highlight"><code><span style="color: #000000"><span style="color: #0000BB">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">return&nbsp;</span><span style="color: #0000BB">$this</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">all</span><span style="color: #007700">()-&gt;</span><span style="color: #0000BB">toArray</span><span style="color: #007700">();</span></span></code></span></td>
+            </tr>
+                    <tr>
+                <td class="excerpt-number" data-number="294"></td>
+                <td class="excerpt-line"><code><span style="color: #000000"><span style="color: #0000BB">&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">}</span></span></code></td>
+            </tr>
+                    <tr>
+                <td class="excerpt-number" data-number="295"></td>
+                <td class="excerpt-line"><code><span style="color: #000000"><span style="color: #0000BB"></span></span></code></td>
+            </tr>
+                    <tr>
+                <td class="excerpt-number" data-number="296"></td>
+                <td class="excerpt-line"><code><span style="color: #000000"><span style="color: #0000BB">&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #FF8000">/**</span></span></code></td>
+            </tr>
+                    <tr>
+                <td class="excerpt-number" data-number="297"></td>
+                <td class="excerpt-line"><code><span style="color: #000000"><span style="color: #0000BB">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">*&nbsp;</span><span style="color: #0000BB">Register&nbsp;a&nbsp;</span><span style="color: #007700">new&nbsp;</span><span style="color: #0000BB">MapReduce&nbsp;routine&nbsp;to&nbsp;be&nbsp;executed&nbsp;on&nbsp;top&nbsp;of&nbsp;the&nbsp;database&nbsp;results</span></span></code></td>
+            </tr>
+                </tbody></table>
+
+        <div id="stack-args-8" style="display: none;">
+            <pre>No arguments</pre>
+        </div>
+    </div>
+    <div id="stack-frame-9" style="display:none;" class="stack-details">
+        <span class="stack-frame-file">/Applications/MAMP/htdocs/rtorres/src/Controller/CategoriasController.php</span>
+        <a href="http://rtorres:8888/sc/sillas-y-bancos?sort=precio+ASC#" class="toggle-link stack-frame-args" data-target="stack-args-9">toggle arguments</a>
+
+        <table class="code-excerpt" cellspacing="0" cellpadding="0">
+                            <tbody><tr>
+                <td class="excerpt-number" data-number="408"></td>
+                <td class="excerpt-line"><code><span style="color: #000000"><span style="color: #0000BB">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">return&nbsp;</span><span style="color: #0000BB">$q</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">where</span><span style="color: #007700">(&nbsp;[&nbsp;</span><span style="color: #DD0000">'Categorias.id&nbsp;IN'&nbsp;</span><span style="color: #007700">=&gt;&nbsp;</span><span style="color: #0000BB">$catsHijosArray</span><span style="color: #007700">,</span><span style="color: #DD0000">'Productos.estatus_id'</span><span style="color: #007700">=&gt;</span><span style="color: #0000BB">1</span><span style="color: #007700">]);</span></span></code></td>
+            </tr>
+                    <tr>
+                <td class="excerpt-number" data-number="409"></td>
+                <td class="excerpt-line"><code><span style="color: #000000"><span style="color: #0000BB">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">})</span></span></code></td>
+            </tr>
+                    <tr>
+                <td class="excerpt-number" data-number="410"></td>
+                <td class="excerpt-line"><code><span style="color: #000000"><span style="color: #0000BB">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">order&nbsp;</span><span style="color: #007700">([</span><span style="color: #DD0000">'Productos.'</span><span style="color: #007700">.</span><span style="color: #0000BB">$sort</span><span style="color: #007700">]);</span></span></code></td>
+            </tr>
+                    <tr>
+                <td class="excerpt-number" data-number="411"></td>
+                <td class="excerpt-line"><code><span style="color: #000000"><span style="color: #0000BB"></span></span></code></td>
+            </tr>
+                    <tr>
+                <td class="excerpt-number" data-number="412"></td>
+                <td class="excerpt-line"><span class="code-highlight"><code><span style="color: #000000"><span style="color: #0000BB">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;debug</span><span style="color: #007700">(</span><span style="color: #0000BB">$productos</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">toArray</span><span style="color: #007700">());&nbsp;die;</span></span></code></span></td>
+            </tr>
+                    <tr>
+                <td class="excerpt-number" data-number="413"></td>
+                <td class="excerpt-line"><code><span style="color: #000000"><span style="color: #0000BB"></span></span></code></td>
+            </tr>
+                    <tr>
+                <td class="excerpt-number" data-number="414"></td>
+                <td class="excerpt-line"><code><span style="color: #000000"><span style="color: #0000BB">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;$marcas&nbsp;</span><span style="color: #007700">=&nbsp;</span><span style="color: #0000BB">$this</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">Categorias</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">Productos</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">find</span><span style="color: #007700">(</span><span style="color: #DD0000">'all'</span><span style="color: #007700">,&nbsp;[</span><span style="color: #DD0000">'fields'</span><span style="color: #007700">=&gt;</span><span style="color: #DD0000">'Marcas.nombre'</span><span style="color: #007700">])</span></span></code></td>
+            </tr>
+                    <tr>
+                <td class="excerpt-number" data-number="415"></td>
+                <td class="excerpt-line"><code><span style="color: #000000"><span style="color: #0000BB">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">contain</span><span style="color: #007700">([</span><span style="color: #DD0000">'Marcas'</span><span style="color: #007700">])</span></span></code></td>
+            </tr>
+                    <tr>
+                <td class="excerpt-number" data-number="416"></td>
+                <td class="excerpt-line"><code><span style="color: #000000"><span style="color: #0000BB">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">group</span><span style="color: #007700">(</span><span style="color: #DD0000">'Productos.marca_id'</span><span style="color: #007700">)</span></span></code></td>
+            </tr>
+                </tbody></table>
+
+        <div id="stack-args-9" style="display: none;">
+            <pre>No arguments</pre>
+        </div>
+    </div>
+    <div id="stack-frame-10" style="display:none;" class="stack-details">
+        <span class="stack-frame-file">/Applications/MAMP/htdocs/rtorres/src/Controller/CategoriasController.php</span>
+        <a href="http://rtorres:8888/sc/sillas-y-bancos?sort=precio+ASC#" class="toggle-link stack-frame-args" data-target="stack-args-10">toggle arguments</a>
+
+        <table class="code-excerpt" cellspacing="0" cellpadding="0">
+                            <tbody><tr>
+                <td class="excerpt-number" data-number="193"></td>
+                <td class="excerpt-line"><code><span style="color: #000000"><span style="color: #0000BB">&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">public&nbsp;function&nbsp;</span><span style="color: #0000BB">subcategoria</span><span style="color: #007700">(</span><span style="color: #0000BB">$url&nbsp;</span><span style="color: #007700">=&nbsp;</span><span style="color: #0000BB">null</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">$prod&nbsp;</span><span style="color: #007700">=&nbsp;</span><span style="color: #0000BB">null</span><span style="color: #007700">)</span></span></code></td>
+            </tr>
+                    <tr>
+                <td class="excerpt-number" data-number="194"></td>
+                <td class="excerpt-line"><code><span style="color: #000000"><span style="color: #0000BB">&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">{</span></span></code></td>
+            </tr>
+                    <tr>
+                <td class="excerpt-number" data-number="195"></td>
+                <td class="excerpt-line"><code><span style="color: #000000"><span style="color: #0000BB"></span></span></code></td>
+            </tr>
+                    <tr>
+                <td class="excerpt-number" data-number="196"></td>
+                <td class="excerpt-line"><code><span style="color: #000000"><span style="color: #0000BB">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></span></code></td>
+            </tr>
+                    <tr>
+                <td class="excerpt-number" data-number="197"></td>
+                <td class="excerpt-line"><span class="code-highlight"><code><span style="color: #000000"><span style="color: #0000BB">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;$this</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">subcategorias_datos</span><span style="color: #007700">(</span><span style="color: #0000BB">$url&nbsp;</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">$prod</span><span style="color: #007700">);</span></span></code></span></td>
+            </tr>
+                    <tr>
+                <td class="excerpt-number" data-number="198"></td>
+                <td class="excerpt-line"><code><span style="color: #000000"><span style="color: #0000BB">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;$this</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">render</span><span style="color: #007700">(</span><span style="color: #DD0000">"subcategoriasmosaico"</span><span style="color: #007700">,</span><span style="color: #DD0000">'front'</span><span style="color: #007700">);</span></span></code></td>
+            </tr>
+                    <tr>
+                <td class="excerpt-number" data-number="199"></td>
+                <td class="excerpt-line"><code><span style="color: #000000"><span style="color: #0000BB">&nbsp;&nbsp;</span></span></code></td>
+            </tr>
+                    <tr>
+                <td class="excerpt-number" data-number="200"></td>
+                <td class="excerpt-line"><code><span style="color: #000000"><span style="color: #0000BB"></span></span></code></td>
+            </tr>
+                    <tr>
+                <td class="excerpt-number" data-number="201"></td>
+                <td class="excerpt-line"><code><span style="color: #000000"><span style="color: #0000BB">&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">}</span></span></code></td>
+            </tr>
+                </tbody></table>
+
+        <div id="stack-args-10" style="display: none;">
+            <pre>'sillas-y-bancos'
+null</pre>
+        </div>
+    </div>
+    <div id="stack-frame-11" style="display:none;" class="stack-details">
+        <span class="stack-frame-file">[internal function]</span>
+        <a href="http://rtorres:8888/sc/sillas-y-bancos?sort=precio+ASC#" class="toggle-link stack-frame-args" data-target="stack-args-11">toggle arguments</a>
+
+        <table class="code-excerpt" cellspacing="0" cellpadding="0">
+                        </table>
+
+        <div id="stack-args-11" style="display: none;">
+            <pre>'sillas-y-bancos'</pre>
+        </div>
+    </div>
+    <div id="stack-frame-12" style="display:none;" class="stack-details">
+        <span class="stack-frame-file">/Applications/MAMP/htdocs/rtorres/vendor/cakephp/cakephp/src/Controller/Controller.php</span>
+        <a href="http://rtorres:8888/sc/sillas-y-bancos?sort=precio+ASC#" class="toggle-link stack-frame-args" data-target="stack-args-12">toggle arguments</a>
+
+        <table class="code-excerpt" cellspacing="0" cellpadding="0">
+                            <tbody><tr>
+                <td class="excerpt-number" data-number="431"></td>
+                <td class="excerpt-line"><code><span style="color: #000000"><span style="color: #0000BB">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">]);</span></span></code></td>
+            </tr>
+                    <tr>
+                <td class="excerpt-number" data-number="432"></td>
+                <td class="excerpt-line"><code><span style="color: #000000"><span style="color: #0000BB">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">}</span></span></code></td>
+            </tr>
+                    <tr>
+                <td class="excerpt-number" data-number="433"></td>
+                <td class="excerpt-line"><code><span style="color: #000000"><span style="color: #0000BB">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;$callable&nbsp;</span><span style="color: #007700">=&nbsp;[</span><span style="color: #0000BB">$this</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">$request</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">params</span><span style="color: #007700">[</span><span style="color: #DD0000">'action'</span><span style="color: #007700">]];</span></span></code></td>
+            </tr>
+                    <tr>
+                <td class="excerpt-number" data-number="434"></td>
+                <td class="excerpt-line"><code><span style="color: #000000"><span style="color: #0000BB"></span></span></code></td>
+            </tr>
+                    <tr>
+                <td class="excerpt-number" data-number="435"></td>
+                <td class="excerpt-line"><span class="code-highlight"><code><span style="color: #000000"><span style="color: #0000BB">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">return&nbsp;</span><span style="color: #0000BB">call_user_func_array</span><span style="color: #007700">(</span><span style="color: #0000BB">$callable</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">$request</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">params</span><span style="color: #007700">[</span><span style="color: #DD0000">'pass'</span><span style="color: #007700">]);</span></span></code></span></td>
+            </tr>
+                    <tr>
+                <td class="excerpt-number" data-number="436"></td>
+                <td class="excerpt-line"><code><span style="color: #000000"><span style="color: #0000BB">&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">}</span></span></code></td>
+            </tr>
+                    <tr>
+                <td class="excerpt-number" data-number="437"></td>
+                <td class="excerpt-line"><code><span style="color: #000000"><span style="color: #0000BB"></span></span></code></td>
+            </tr>
+                    <tr>
+                <td class="excerpt-number" data-number="438"></td>
+                <td class="excerpt-line"><code><span style="color: #000000"><span style="color: #0000BB">&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #FF8000">/**</span></span></code></td>
+            </tr>
+                    <tr>
+                <td class="excerpt-number" data-number="439"></td>
+                <td class="excerpt-line"><code><span style="color: #000000"><span style="color: #0000BB">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">*&nbsp;</span><span style="color: #0000BB">Merge&nbsp;components</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">helpers&nbsp;vars&nbsp;from</span></span></code></td>
+            </tr>
+                </tbody></table>
+
+        <div id="stack-args-12" style="display: none;">
+            <pre>[
+	(int) 0 =&gt; object(App\Controller\CategoriasController) {
+		url =&gt; 'sillas-y-bancos'
+		paginate =&gt; [
+			'limit' =&gt; (int) 50
+		]
+		components =&gt; [
+			'Flash' =&gt; null,
+			'Auth' =&gt; null,
+			'Usermgmt.UserAuth' =&gt; null
+		]
+		helpers =&gt; [
+			'Usermgmt.UserAuth' =&gt; null,
+			'Usermgmt.Image' =&gt; null,
+			'Form' =&gt; null,
+			'Usermgmt.Search' =&gt; null
+		]
+		name =&gt; 'Categorias'
+		request =&gt; object(Cake\Network\Request) {}
+		response =&gt; object(Cake\Network\Response) {}
+		autoRender =&gt; true
+		View =&gt; null
+		plugin =&gt; null
+		passedArgs =&gt; [
+			(int) 0 =&gt; 'sillas-y-bancos'
+		]
+		modelClass =&gt; 'Categorias'
+		viewClass =&gt; null
+		viewVars =&gt; [
+			'hermanos' =&gt; [
+				[maximum depth reached]
+			],
+			'padres' =&gt; [[maximum depth reached]],
+			'all_precios' =&gt; [
+				[maximum depth reached]
+			],
+			'banner_sub' =&gt; [
+				[maximum depth reached]
+			],
+			'promociones' =&gt; [
+				[maximum depth reached]
+			],
+			'banners' =&gt; [
+				[maximum depth reached]
+			],
+			'categorias' =&gt; [
+				[maximum depth reached]
+			]
+		]
+		RequestHandler =&gt; object(Cake\Controller\Component\RequestHandlerComponent) {}
+		Flash =&gt; object(Cake\Controller\Component\FlashComponent) {}
+		Paginator =&gt; object(Cake\Controller\Component\PaginatorComponent) {}
+		Auth =&gt; object(Cake\Controller\Component\AuthComponent) {}
+		UserAuth =&gt; object(Usermgmt\Controller\Component\UserAuthComponent) {}
+		Banners =&gt; object(App\Model\Table\BannersTable) {}
+		Categorias =&gt; object(App\Model\Table\CategoriasTable) {}
+		Precios =&gt; object(App\Model\Table\PreciosTable) {}
+		Filtros =&gt; object(App\Model\Table\FiltrosTable) {}
+		[protected] _responseClass =&gt; 'Cake\Network\Response'
+		[protected] _components =&gt; object(Cake\Controller\ComponentRegistry) {}
+		[protected] _validViewOptions =&gt; [
+			(int) 0 =&gt; 'passedArgs'
+		]
+		[protected] _eventManager =&gt; object(Cake\Event\EventManager) {}
+		[protected] _eventClass =&gt; '\Cake\Event\Event'
+		[protected] _tableLocator =&gt; object(Cake\ORM\Locator\TableLocator) {}
+		[protected] _modelFactories =&gt; [
+			'Table' =&gt; [
+				[maximum depth reached]
+			]
+		]
+		[protected] _modelType =&gt; 'Table'
+		[protected] _viewBuilder =&gt; null
+	},
+	(int) 1 =&gt; 'subcategoria'
+]
+[
+	(int) 0 =&gt; 'sillas-y-bancos'
+]</pre>
+        </div>
+    </div>
+    <div id="stack-frame-13" style="display:none;" class="stack-details">
+        <span class="stack-frame-file">/Applications/MAMP/htdocs/rtorres/vendor/cakephp/cakephp/src/Http/ActionDispatcher.php</span>
+        <a href="http://rtorres:8888/sc/sillas-y-bancos?sort=precio+ASC#" class="toggle-link stack-frame-args" data-target="stack-args-13">toggle arguments</a>
+
+        <table class="code-excerpt" cellspacing="0" cellpadding="0">
+                            <tbody><tr>
+                <td class="excerpt-number" data-number="118"></td>
+                <td class="excerpt-line"><code><span style="color: #000000"><span style="color: #0000BB">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">if&nbsp;(</span><span style="color: #0000BB">$result&nbsp;</span><span style="color: #007700">instanceof&nbsp;</span><span style="color: #0000BB">Response</span><span style="color: #007700">)&nbsp;{</span></span></code></td>
+            </tr>
+                    <tr>
+                <td class="excerpt-number" data-number="119"></td>
+                <td class="excerpt-line"><code><span style="color: #000000"><span style="color: #0000BB">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">return&nbsp;</span><span style="color: #0000BB">$result</span><span style="color: #007700">;</span></span></code></td>
+            </tr>
+                    <tr>
+                <td class="excerpt-number" data-number="120"></td>
+                <td class="excerpt-line"><code><span style="color: #000000"><span style="color: #0000BB">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">}</span></span></code></td>
+            </tr>
+                    <tr>
+                <td class="excerpt-number" data-number="121"></td>
+                <td class="excerpt-line"><code><span style="color: #000000"><span style="color: #0000BB"></span></span></code></td>
+            </tr>
+                    <tr>
+                <td class="excerpt-number" data-number="122"></td>
+                <td class="excerpt-line"><span class="code-highlight"><code><span style="color: #000000"><span style="color: #0000BB">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;$response&nbsp;</span><span style="color: #007700">=&nbsp;</span><span style="color: #0000BB">$controller</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">invokeAction</span><span style="color: #007700">();</span></span></code></span></td>
+            </tr>
+                    <tr>
+                <td class="excerpt-number" data-number="123"></td>
+                <td class="excerpt-line"><code><span style="color: #000000"><span style="color: #0000BB">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">if&nbsp;(</span><span style="color: #0000BB">$response&nbsp;</span><span style="color: #007700">!==&nbsp;</span><span style="color: #0000BB">null&nbsp;</span><span style="color: #007700">&amp;&amp;&nbsp;!(</span><span style="color: #0000BB">$response&nbsp;</span><span style="color: #007700">instanceof&nbsp;</span><span style="color: #0000BB">Response</span><span style="color: #007700">))&nbsp;{</span></span></code></td>
+            </tr>
+                    <tr>
+                <td class="excerpt-number" data-number="124"></td>
+                <td class="excerpt-line"><code><span style="color: #000000"><span style="color: #0000BB">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">throw&nbsp;new&nbsp;</span><span style="color: #0000BB">LogicException</span><span style="color: #007700">(</span><span style="color: #DD0000">'Controller&nbsp;actions&nbsp;can&nbsp;only&nbsp;return&nbsp;Cake\Network\Response&nbsp;or&nbsp;null.'</span><span style="color: #007700">);</span></span></code></td>
+            </tr>
+                    <tr>
+                <td class="excerpt-number" data-number="125"></td>
+                <td class="excerpt-line"><code><span style="color: #000000"><span style="color: #0000BB">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">}</span></span></code></td>
+            </tr>
+                    <tr>
+                <td class="excerpt-number" data-number="126"></td>
+                <td class="excerpt-line"><code><span style="color: #000000"><span style="color: #0000BB"></span></span></code></td>
+            </tr>
+                </tbody></table>
+
+        <div id="stack-args-13" style="display: none;">
+            <pre>No arguments</pre>
+        </div>
+    </div>
+    <div id="stack-frame-14" style="display:none;" class="stack-details">
+        <span class="stack-frame-file">/Applications/MAMP/htdocs/rtorres/vendor/cakephp/cakephp/src/Http/ActionDispatcher.php</span>
+        <a href="http://rtorres:8888/sc/sillas-y-bancos?sort=precio+ASC#" class="toggle-link stack-frame-args" data-target="stack-args-14">toggle arguments</a>
+
+        <table class="code-excerpt" cellspacing="0" cellpadding="0">
+                            <tbody><tr>
+                <td class="excerpt-number" data-number="92"></td>
+                <td class="excerpt-line"><code><span style="color: #000000"><span style="color: #0000BB">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">}&nbsp;else&nbsp;{</span></span></code></td>
+            </tr>
+                    <tr>
+                <td class="excerpt-number" data-number="93"></td>
+                <td class="excerpt-line"><code><span style="color: #000000"><span style="color: #0000BB">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;$controller&nbsp;</span><span style="color: #007700">=&nbsp;</span><span style="color: #0000BB">$this</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">factory</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">create</span><span style="color: #007700">(</span><span style="color: #0000BB">$request</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">$response</span><span style="color: #007700">);</span></span></code></td>
+            </tr>
+                    <tr>
+                <td class="excerpt-number" data-number="94"></td>
+                <td class="excerpt-line"><code><span style="color: #000000"><span style="color: #0000BB">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">}</span></span></code></td>
+            </tr>
+                    <tr>
+                <td class="excerpt-number" data-number="95"></td>
+                <td class="excerpt-line"><code><span style="color: #000000"><span style="color: #0000BB"></span></span></code></td>
+            </tr>
+                    <tr>
+                <td class="excerpt-number" data-number="96"></td>
+                <td class="excerpt-line"><span class="code-highlight"><code><span style="color: #000000"><span style="color: #0000BB">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;$response&nbsp;</span><span style="color: #007700">=&nbsp;</span><span style="color: #0000BB">$this</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">_invoke</span><span style="color: #007700">(</span><span style="color: #0000BB">$controller</span><span style="color: #007700">);</span></span></code></span></td>
+            </tr>
+                    <tr>
+                <td class="excerpt-number" data-number="97"></td>
+                <td class="excerpt-line"><code><span style="color: #000000"><span style="color: #0000BB">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">if&nbsp;(isset(</span><span style="color: #0000BB">$request</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">params</span><span style="color: #007700">[</span><span style="color: #DD0000">'return'</span><span style="color: #007700">]))&nbsp;{</span></span></code></td>
+            </tr>
+                    <tr>
+                <td class="excerpt-number" data-number="98"></td>
+                <td class="excerpt-line"><code><span style="color: #000000"><span style="color: #0000BB">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">return&nbsp;</span><span style="color: #0000BB">$response</span><span style="color: #007700">;</span></span></code></td>
+            </tr>
+                    <tr>
+                <td class="excerpt-number" data-number="99"></td>
+                <td class="excerpt-line"><code><span style="color: #000000"><span style="color: #0000BB">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">}</span></span></code></td>
+            </tr>
+                    <tr>
+                <td class="excerpt-number" data-number="100"></td>
+                <td class="excerpt-line"><code><span style="color: #000000"><span style="color: #0000BB"></span></span></code></td>
+            </tr>
+                </tbody></table>
+
+        <div id="stack-args-14" style="display: none;">
+            <pre>object(App\Controller\CategoriasController) {
+	url =&gt; 'sillas-y-bancos'
+	paginate =&gt; [
+		'limit' =&gt; (int) 50
+	]
+	components =&gt; [
+		'Flash' =&gt; null,
+		'Auth' =&gt; null,
+		'Usermgmt.UserAuth' =&gt; null
+	]
+	helpers =&gt; [
+		'Usermgmt.UserAuth' =&gt; null,
+		'Usermgmt.Image' =&gt; null,
+		'Form' =&gt; null,
+		'Usermgmt.Search' =&gt; null
+	]
+	name =&gt; 'Categorias'
+	request =&gt; object(Cake\Network\Request) {
+		params =&gt; [
+			[maximum depth reached]
+		]
+		data =&gt; [[maximum depth reached]]
+		query =&gt; [
+			[maximum depth reached]
+		]
+		cookies =&gt; [
+			[maximum depth reached]
+		]
+		url =&gt; 'sc/sillas-y-bancos'
+		base =&gt; ''
+		webroot =&gt; '/'
+		here =&gt; '/sc/sillas-y-bancos'
+		trustProxy =&gt; false
+		[protected] _environment =&gt; [
+			[maximum depth reached]
+		]
+		[protected] _detectors =&gt; [
+			[maximum depth reached]
+		]
+		[protected] _detectorCache =&gt; [
+			[maximum depth reached]
+		]
+		[protected] _input =&gt; ''
+		[protected] _session =&gt; object(Cake\Network\Session) {}
+	}
+	response =&gt; object(Cake\Network\Response) {
+		[protected] _statusCodes =&gt; [
+			[maximum depth reached]
+		]
+		[protected] _mimeTypes =&gt; [
+			[maximum depth reached]
+		]
+		[protected] _protocol =&gt; 'HTTP/1.1'
+		[protected] _status =&gt; (int) 200
+		[protected] _contentType =&gt; 'text/html'
+		[protected] _headers =&gt; [[maximum depth reached]]
+		[protected] _body =&gt; null
+		[protected] _file =&gt; null
+		[protected] _fileRange =&gt; [[maximum depth reached]]
+		[protected] _charset =&gt; 'UTF-8'
+		[protected] _cacheDirectives =&gt; [[maximum depth reached]]
+		[protected] _cookies =&gt; [[maximum depth reached]]
+	}
+	autoRender =&gt; true
+	View =&gt; null
+	plugin =&gt; null
+	passedArgs =&gt; [
+		(int) 0 =&gt; 'sillas-y-bancos'
+	]
+	modelClass =&gt; 'Categorias'
+	viewClass =&gt; null
+	viewVars =&gt; [
+		'hermanos' =&gt; [
+			(int) 0 =&gt; object(App\Model\Entity\Categoria) {},
+			(int) 1 =&gt; object(App\Model\Entity\Categoria) {},
+			(int) 2 =&gt; object(App\Model\Entity\Categoria) {},
+			(int) 3 =&gt; object(App\Model\Entity\Categoria) {}
+		],
+		'padres' =&gt; [],
+		'all_precios' =&gt; [
+			(int) 0 =&gt; object(App\Model\Entity\Precio) {},
+			(int) 1 =&gt; object(App\Model\Entity\Precio) {},
+			(int) 2 =&gt; object(App\Model\Entity\Precio) {},
+			(int) 3 =&gt; object(App\Model\Entity\Precio) {},
+			(int) 4 =&gt; object(App\Model\Entity\Precio) {},
+			(int) 5 =&gt; object(App\Model\Entity\Precio) {},
+			(int) 6 =&gt; object(App\Model\Entity\Precio) {}
+		],
+		'banner_sub' =&gt; [
+			(int) 0 =&gt; object(App\Model\Entity\Banner) {}
+		],
+		'promociones' =&gt; [
+			(int) 0 =&gt; object(App\Model\Entity\Promocione) {},
+			(int) 1 =&gt; object(App\Model\Entity\Promocione) {}
+		],
+		'banners' =&gt; [
+			(int) 0 =&gt; object(App\Model\Entity\Banner) {}
+		],
+		'categorias' =&gt; [
+			(int) 0 =&gt; object(App\Model\Entity\Categoria) {},
+			(int) 1 =&gt; object(App\Model\Entity\Categoria) {},
+			(int) 2 =&gt; object(App\Model\Entity\Categoria) {},
+			(int) 3 =&gt; object(App\Model\Entity\Categoria) {},
+			(int) 4 =&gt; object(App\Model\Entity\Categoria) {},
+			(int) 5 =&gt; object(App\Model\Entity\Categoria) {},
+			(int) 6 =&gt; object(App\Model\Entity\Categoria) {}
+		]
+	]
+	RequestHandler =&gt; object(Cake\Controller\Component\RequestHandlerComponent) {
+
+		'components' =&gt; [[maximum depth reached]],
+		'implementedEvents' =&gt; [
+			[maximum depth reached]
+		],
+		'_config' =&gt; [
+			[maximum depth reached]
+		]
+	
+	}
+	Flash =&gt; object(Cake\Controller\Component\FlashComponent) {
+
+		'components' =&gt; [[maximum depth reached]],
+		'implementedEvents' =&gt; [[maximum depth reached]],
+		'_config' =&gt; [
+			[maximum depth reached]
+		]
+	
+	}
+	Paginator =&gt; object(Cake\Controller\Component\PaginatorComponent) {
+
+		'components' =&gt; [[maximum depth reached]],
+		'implementedEvents' =&gt; [[maximum depth reached]],
+		'_config' =&gt; [
+			[maximum depth reached]
+		]
+	
+	}
+	Auth =&gt; object(Cake\Controller\Component\AuthComponent) {
+
+		'components' =&gt; [
+			[maximum depth reached]
+		],
+		'implementedEvents' =&gt; [
+			[maximum depth reached]
+		],
+		'_config' =&gt; [
+			[maximum depth reached]
+		]
+	
+	}
+	UserAuth =&gt; object(Usermgmt\Controller\Component\UserAuthComponent) {
+
+		'components' =&gt; [
+			[maximum depth reached]
+		],
+		'implementedEvents' =&gt; [
+			[maximum depth reached]
+		],
+		'_config' =&gt; [[maximum depth reached]]
+	
+	}
+	Banners =&gt; object(App\Model\Table\BannersTable) {
+
+		'registryAlias' =&gt; 'Banners',
+		'table' =&gt; 'banners',
+		'alias' =&gt; 'Banners',
+		'entityClass' =&gt; 'App\Model\Entity\Banner',
+		'associations' =&gt; [[maximum depth reached]],
+		'behaviors' =&gt; [[maximum depth reached]],
+		'defaultConnection' =&gt; 'default',
+		'connectionName' =&gt; 'default'
+	
+	}
+	Categorias =&gt; object(App\Model\Table\CategoriasTable) {
+
+		'registryAlias' =&gt; 'Categorias',
+		'table' =&gt; 'categorias',
+		'alias' =&gt; 'Categorias',
+		'entityClass' =&gt; 'App\Model\Entity\Categoria',
+		'associations' =&gt; [
+			[maximum depth reached]
+		],
+		'behaviors' =&gt; [
+			[maximum depth reached]
+		],
+		'defaultConnection' =&gt; 'default',
+		'connectionName' =&gt; 'default'
+	
+	}
+	Precios =&gt; object(App\Model\Table\PreciosTable) {
+
+		'registryAlias' =&gt; 'Precios',
+		'table' =&gt; 'precios',
+		'alias' =&gt; 'Precios',
+		'entityClass' =&gt; 'App\Model\Entity\Precio',
+		'associations' =&gt; [[maximum depth reached]],
+		'behaviors' =&gt; [
+			[maximum depth reached]
+		],
+		'defaultConnection' =&gt; 'default',
+		'connectionName' =&gt; 'default'
+	
+	}
+	Filtros =&gt; object(App\Model\Table\FiltrosTable) {
+
+		'registryAlias' =&gt; 'Filtros',
+		'table' =&gt; 'filtros',
+		'alias' =&gt; 'Filtros',
+		'entityClass' =&gt; 'App\Model\Entity\Filtro',
+		'associations' =&gt; [
+			[maximum depth reached]
+		],
+		'behaviors' =&gt; [[maximum depth reached]],
+		'defaultConnection' =&gt; 'default',
+		'connectionName' =&gt; 'default'
+	
+	}
+	[protected] _responseClass =&gt; 'Cake\Network\Response'
+	[protected] _components =&gt; object(Cake\Controller\ComponentRegistry) {
+
+		'_Controller' =&gt; object(App\Controller\CategoriasController) {},
+		'_loaded' =&gt; [
+			[maximum depth reached]
+		],
+		'_eventManager' =&gt; object(Cake\Event\EventManager) {},
+		'_eventClass' =&gt; '\Cake\Event\Event'
+	
+	}
+	[protected] _validViewOptions =&gt; [
+		(int) 0 =&gt; 'passedArgs'
+	]
+	[protected] _eventManager =&gt; object(Cake\Event\EventManager) {
+
+		'_listeners' =&gt; [
+			[maximum depth reached]
+		],
+		'_isGlobal' =&gt; false,
+		'_eventList' =&gt; null,
+		'_trackEvents' =&gt; false,
+		'_generalManager' =&gt; '(object) EventManager'
+	
+	}
+	[protected] _eventClass =&gt; '\Cake\Event\Event'
+	[protected] _tableLocator =&gt; object(Cake\ORM\Locator\TableLocator) {
+		[protected] _config =&gt; [[maximum depth reached]]
+		[protected] _instances =&gt; [
+			[maximum depth reached]
+		]
+		[protected] _fallbacked =&gt; [
+			[maximum depth reached]
+		]
+		[protected] _options =&gt; [
+			[maximum depth reached]
+		]
+	}
+	[protected] _modelFactories =&gt; [
+		'Table' =&gt; [
+			(int) 0 =&gt; object(Cake\ORM\Locator\TableLocator) {},
+			(int) 1 =&gt; 'get'
+		]
+	]
+	[protected] _modelType =&gt; 'Table'
+	[protected] _viewBuilder =&gt; null
+}</pre>
+        </div>
+    </div>
+    <div id="stack-frame-15" style="display:none;" class="stack-details">
+        <span class="stack-frame-file">/Applications/MAMP/htdocs/rtorres/vendor/cakephp/cakephp/src/Routing/Dispatcher.php</span>
+        <a href="http://rtorres:8888/sc/sillas-y-bancos?sort=precio+ASC#" class="toggle-link stack-frame-args" data-target="stack-args-15">toggle arguments</a>
+
+        <table class="code-excerpt" cellspacing="0" cellpadding="0">
+                            <tbody><tr>
+                <td class="excerpt-number" data-number="56"></td>
+                <td class="excerpt-line"><code><span style="color: #000000"><span style="color: #0000BB">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">*/</span></span></code></td>
+            </tr>
+                    <tr>
+                <td class="excerpt-number" data-number="57"></td>
+                <td class="excerpt-line"><code><span style="color: #000000"><span style="color: #0000BB">&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">public&nbsp;function&nbsp;</span><span style="color: #0000BB">dispatch</span><span style="color: #007700">(</span><span style="color: #0000BB">Request&nbsp;$request</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">Response&nbsp;$response</span><span style="color: #007700">)</span></span></code></td>
+            </tr>
+                    <tr>
+                <td class="excerpt-number" data-number="58"></td>
+                <td class="excerpt-line"><code><span style="color: #000000"><span style="color: #0000BB">&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">{</span></span></code></td>
+            </tr>
+                    <tr>
+                <td class="excerpt-number" data-number="59"></td>
+                <td class="excerpt-line"><code><span style="color: #000000"><span style="color: #0000BB">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;$actionDispatcher&nbsp;</span><span style="color: #007700">=&nbsp;new&nbsp;</span><span style="color: #0000BB">ActionDispatcher</span><span style="color: #007700">(</span><span style="color: #0000BB">null</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">$this</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">eventManager</span><span style="color: #007700">(),&nbsp;</span><span style="color: #0000BB">$this</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">_filters</span><span style="color: #007700">);</span></span></code></td>
+            </tr>
+                    <tr>
+                <td class="excerpt-number" data-number="60"></td>
+                <td class="excerpt-line"><span class="code-highlight"><code><span style="color: #000000"><span style="color: #0000BB">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;$response&nbsp;</span><span style="color: #007700">=&nbsp;</span><span style="color: #0000BB">$actionDispatcher</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">dispatch</span><span style="color: #007700">(</span><span style="color: #0000BB">$request</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">$response</span><span style="color: #007700">);</span></span></code></span></td>
+            </tr>
+                    <tr>
+                <td class="excerpt-number" data-number="61"></td>
+                <td class="excerpt-line"><code><span style="color: #000000"><span style="color: #0000BB">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">if&nbsp;(isset(</span><span style="color: #0000BB">$request</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">params</span><span style="color: #007700">[</span><span style="color: #DD0000">'return'</span><span style="color: #007700">]))&nbsp;{</span></span></code></td>
+            </tr>
+                    <tr>
+                <td class="excerpt-number" data-number="62"></td>
+                <td class="excerpt-line"><code><span style="color: #000000"><span style="color: #0000BB">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">return&nbsp;</span><span style="color: #0000BB">$response</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">body</span><span style="color: #007700">();</span></span></code></td>
+            </tr>
+                    <tr>
+                <td class="excerpt-number" data-number="63"></td>
+                <td class="excerpt-line"><code><span style="color: #000000"><span style="color: #0000BB">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">}</span></span></code></td>
+            </tr>
+                    <tr>
+                <td class="excerpt-number" data-number="64"></td>
+                <td class="excerpt-line"><code><span style="color: #000000"><span style="color: #0000BB"></span></span></code></td>
+            </tr>
+                </tbody></table>
+
+        <div id="stack-args-15" style="display: none;">
+            <pre>object(Cake\Network\Request) {
+	params =&gt; [
+		'plugin' =&gt; null,
+		'controller' =&gt; 'Categorias',
+		'action' =&gt; 'subcategoria',
+		'_ext' =&gt; null,
+		'pass' =&gt; [
+			(int) 0 =&gt; 'sillas-y-bancos'
+		],
+		'_matchedRoute' =&gt; '/sc/*',
+		'isAjax' =&gt; false
+	]
+	data =&gt; []
+	query =&gt; [
+		'sort' =&gt; 'precio ASC'
+	]
+	cookies =&gt; [
+		'csrfToken' =&gt; '5d1d6c384a9e78ebd525feb1f366edda345be848c02bf8db8c1b5a494382f33d49be11c09fb3314f394e1d6ba70a0d50fe61c114c143ef1ad3cf97b78593c6fb',
+		'usermgmt_user_activity' =&gt; 'Q2FrZQ==.OWQ4ZDhmYmM3NGE4OTgxZTQ0MWExMDgxNTgxYTZiZmNjZjk1NDIwNjZhY2I4YWU1NDIxODY4M2Q1ZTk4MjY4NqFkiN9VYkeJaYLTbbxWurB3ahMc06pe5+gF9brGaOVi5+xrna2B0K77nx63CxJcLsLSWNQ8nu8d5I9K4+t9lEuZ04Liq8y3U1jB8iXYDPnBKS9+aDx6UCgpy66oVP4sYw==',
+		'_ga' =&gt; 'GA1.1.242843331.1501516943',
+		'CAKEPHP' =&gt; 'eafc0219eedf49e9630216f553542167'
+	]
+	url =&gt; 'sc/sillas-y-bancos'
+	base =&gt; ''
+	webroot =&gt; '/'
+	here =&gt; '/sc/sillas-y-bancos'
+	trustProxy =&gt; false
+	[protected] _environment =&gt; [
+		'PHP_FCGI_CHILDREN' =&gt; '4',
+		'PWD' =&gt; '/Applications/MAMP/fcgi-bin',
+		'SHLVL' =&gt; '0',
+		'PHP_FCGI_MAX_REQUESTS' =&gt; '200',
+		'__CF_USER_TEXT_ENCODING' =&gt; '0x1F5:0x0:0x8',
+		'ORIG_SCRIPT_NAME' =&gt; '/fcgi-bin/php5.5.26.fcgi',
+		'ORIG_PATH_TRANSLATED' =&gt; '/Applications/MAMP/htdocs/rtorres/webroot/index.php',
+		'ORIG_PATH_INFO' =&gt; '/index.php',
+		'ORIG_SCRIPT_FILENAME' =&gt; '/Applications/MAMP/fcgi-bin/php5.5.26.fcgi',
+		'SCRIPT_NAME' =&gt; '/index.php',
+		'REQUEST_URI' =&gt; '/sc/sillas-y-bancos?sort=precio+ASC',
+		'QUERY_STRING' =&gt; 'sort=precio+ASC',
+		'REQUEST_METHOD' =&gt; 'GET',
+		'SERVER_PROTOCOL' =&gt; 'HTTP/1.1',
+		'GATEWAY_INTERFACE' =&gt; 'CGI/1.1',
+		'REDIRECT_URL' =&gt; '/index.php',
+		'REDIRECT_QUERY_STRING' =&gt; 'sort=precio+ASC',
+		'REMOTE_PORT' =&gt; '57691',
+		'SCRIPT_FILENAME' =&gt; '/Applications/MAMP/htdocs/rtorres/webroot/index.php',
+		'SERVER_ADMIN' =&gt; 'you@example.com',
+		'DOCUMENT_ROOT' =&gt; '/Applications/MAMP/htdocs/rtorres/webroot/',
+		'REMOTE_ADDR' =&gt; '::1',
+		'SERVER_PORT' =&gt; '8888',
+		'SERVER_ADDR' =&gt; '::1',
+		'SERVER_NAME' =&gt; 'rtorres',
+		'SERVER_SOFTWARE' =&gt; 'Apache',
+		'SERVER_SIGNATURE' =&gt; '',
+		'PATH' =&gt; '/usr/bin:/bin:/usr/sbin:/sbin',
+		'HTTP_COOKIE' =&gt; 'csrfToken=5d1d6c384a9e78ebd525feb1f366edda345be848c02bf8db8c1b5a494382f33d49be11c09fb3314f394e1d6ba70a0d50fe61c114c143ef1ad3cf97b78593c6fb; usermgmt_user_activity=Q2FrZQ%3D%3D.OWQ4ZDhmYmM3NGE4OTgxZTQ0MWExMDgxNTgxYTZiZmNjZjk1NDIwNjZhY2I4YWU1NDIxODY4M2Q1ZTk4MjY4NqFkiN9VYkeJaYLTbbxWurB3ahMc06pe5%2BgF9brGaOVi5%2Bxrna2B0K77nx63CxJcLsLSWNQ8nu8d5I9K4%2Bt9lEuZ04Liq8y3U1jB8iXYDPnBKS9%2BaDx6UCgpy66oVP4sYw%3D%3D; _ga=GA1.1.242843331.1501516943; CAKEPHP=eafc0219eedf49e9630216f553542167',
+		'HTTP_ACCEPT_LANGUAGE' =&gt; 'es-ES,es;q=0.8,en;q=0.6,gl;q=0.4',
+		'HTTP_ACCEPT_ENCODING' =&gt; 'gzip, deflate',
+		'HTTP_REFERER' =&gt; 'http://rtorres:8888/sclista/sillas-y-bancos?sort=precio+ASC',
+		'HTTP_ACCEPT' =&gt; 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+		'HTTP_USER_AGENT' =&gt; 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+		'HTTP_UPGRADE_INSECURE_REQUESTS' =&gt; '1',
+		'HTTP_CACHE_CONTROL' =&gt; 'max-age=0',
+		'HTTP_CONNECTION' =&gt; 'keep-alive',
+		'HTTP_HOST' =&gt; 'rtorres:8888',
+		'REDIRECT_STATUS' =&gt; '200',
+		'REDIRECT_HANDLER' =&gt; 'php-fastcgi',
+		'REDIRECT_REDIRECT_STATUS' =&gt; '200',
+		'FCGI_ROLE' =&gt; 'RESPONDER',
+		'PHP_SELF' =&gt; '/index.php',
+		'REQUEST_TIME_FLOAT' =&gt; (float) 1501876849.66,
+		'REQUEST_TIME' =&gt; (int) 1501876849,
+		'argv' =&gt; [
+			(int) 0 =&gt; 'sort=precio',
+			(int) 1 =&gt; 'ASC'
+		],
+		'argc' =&gt; (int) 2,
+		'HTTP_X_HTTP_METHOD_OVERRIDE' =&gt; null,
+		'ORIGINAL_REQUEST_METHOD' =&gt; 'GET',
+		'HTTPS' =&gt; false,
+		'HTTP_X_REQUESTED_WITH' =&gt; null,
+		'HTTP_IF_NONE_MATCH' =&gt; null,
+		'HTTP_IF_MODIFIED_SINCE' =&gt; null
+	]
+	[protected] _detectors =&gt; [
+		'get' =&gt; [
+			'env' =&gt; 'REQUEST_METHOD',
+			'value' =&gt; 'GET'
+		],
+		'post' =&gt; [
+			'env' =&gt; 'REQUEST_METHOD',
+			'value' =&gt; 'POST'
+		],
+		'put' =&gt; [
+			'env' =&gt; 'REQUEST_METHOD',
+			'value' =&gt; 'PUT'
+		],
+		'patch' =&gt; [
+			'env' =&gt; 'REQUEST_METHOD',
+			'value' =&gt; 'PATCH'
+		],
+		'delete' =&gt; [
+			'env' =&gt; 'REQUEST_METHOD',
+			'value' =&gt; 'DELETE'
+		],
+		'head' =&gt; [
+			'env' =&gt; 'REQUEST_METHOD',
+			'value' =&gt; 'HEAD'
+		],
+		'options' =&gt; [
+			'env' =&gt; 'REQUEST_METHOD',
+			'value' =&gt; 'OPTIONS'
+		],
+		'ssl' =&gt; [
+			'env' =&gt; 'HTTPS',
+			'options' =&gt; [
+				[maximum depth reached]
+			]
+		],
+		'ajax' =&gt; [
+			'env' =&gt; 'HTTP_X_REQUESTED_WITH',
+			'value' =&gt; 'XMLHttpRequest'
+		],
+		'flash' =&gt; [
+			'env' =&gt; 'HTTP_USER_AGENT',
+			'pattern' =&gt; '/^(Shockwave|Adobe) Flash/'
+		],
+		'requested' =&gt; [
+			'param' =&gt; 'requested',
+			'value' =&gt; (int) 1
+		],
+		'json' =&gt; [
+			'accept' =&gt; [
+				[maximum depth reached]
+			],
+			'param' =&gt; '_ext',
+			'value' =&gt; 'json'
+		],
+		'xml' =&gt; [
+			'accept' =&gt; [
+				[maximum depth reached]
+			],
+			'param' =&gt; '_ext',
+			'value' =&gt; 'xml'
+		],
+		'mobile' =&gt; object(Closure) {},
+		'tablet' =&gt; object(Closure) {}
+	]
+	[protected] _detectorCache =&gt; [
+		'ajax' =&gt; false,
+		'get' =&gt; true,
+		'head' =&gt; false,
+		'options' =&gt; false
+	]
+	[protected] _input =&gt; ''
+	[protected] _session =&gt; object(Cake\Network\Session) {
+		[protected] _engine =&gt; null
+		[protected] _started =&gt; true
+		[protected] _lifetime =&gt; '1440'
+		[protected] _isCLI =&gt; false
+	}
+}
+object(Cake\Network\Response) {
+	[protected] _statusCodes =&gt; [
+		(int) 100 =&gt; 'Continue',
+		(int) 101 =&gt; 'Switching Protocols',
+		(int) 102 =&gt; 'Processing',
+		(int) 200 =&gt; 'OK',
+		(int) 201 =&gt; 'Created',
+		(int) 202 =&gt; 'Accepted',
+		(int) 203 =&gt; 'Non-Authoritative Information',
+		(int) 204 =&gt; 'No Content',
+		(int) 205 =&gt; 'Reset Content',
+		(int) 206 =&gt; 'Partial Content',
+		(int) 207 =&gt; 'Multi-status',
+		(int) 208 =&gt; 'Already Reported',
+		(int) 226 =&gt; 'IM used',
+		(int) 300 =&gt; 'Multiple Choices',
+		(int) 301 =&gt; 'Moved Permanently',
+		(int) 302 =&gt; 'Found',
+		(int) 303 =&gt; 'See Other',
+		(int) 304 =&gt; 'Not Modified',
+		(int) 305 =&gt; 'Use Proxy',
+		(int) 306 =&gt; 'Switch Proxy',
+		(int) 307 =&gt; 'Temporary Redirect',
+		(int) 308 =&gt; 'Permanent Redirect',
+		(int) 400 =&gt; 'Bad Request',
+		(int) 401 =&gt; 'Unauthorized',
+		(int) 402 =&gt; 'Payment Required',
+		(int) 403 =&gt; 'Forbidden',
+		(int) 404 =&gt; 'Not Found',
+		(int) 405 =&gt; 'Method Not Allowed',
+		(int) 406 =&gt; 'Not Acceptable',
+		(int) 407 =&gt; 'Proxy Authentication Required',
+		(int) 408 =&gt; 'Request Timeout',
+		(int) 409 =&gt; 'Conflict',
+		(int) 410 =&gt; 'Gone',
+		(int) 411 =&gt; 'Length Required',
+		(int) 412 =&gt; 'Precondition Failed',
+		(int) 413 =&gt; 'Request Entity Too Large',
+		(int) 414 =&gt; 'Request-URI Too Large',
+		(int) 415 =&gt; 'Unsupported Media Type',
+		(int) 416 =&gt; 'Requested range not satisfiable',
+		(int) 417 =&gt; 'Expectation Failed',
+		(int) 418 =&gt; 'I'm a teapot',
+		(int) 421 =&gt; 'Misdirected Request',
+		(int) 422 =&gt; 'Unprocessable Entity',
+		(int) 423 =&gt; 'Locked',
+		(int) 424 =&gt; 'Failed Dependency',
+		(int) 425 =&gt; 'Unordered Collection',
+		(int) 426 =&gt; 'Upgrade Required',
+		(int) 428 =&gt; 'Precondition Required',
+		(int) 429 =&gt; 'Too Many Requests',
+		(int) 431 =&gt; 'Request Header Fields Too Large',
+		(int) 444 =&gt; 'Connection Closed Without Response',
+		(int) 451 =&gt; 'Unavailable For Legal Reasons',
+		(int) 499 =&gt; 'Client Closed Request',
+		(int) 500 =&gt; 'Internal Server Error',
+		(int) 501 =&gt; 'Not Implemented',
+		(int) 502 =&gt; 'Bad Gateway',
+		(int) 503 =&gt; 'Service Unavailable',
+		(int) 504 =&gt; 'Gateway Timeout',
+		(int) 505 =&gt; 'Unsupported Version',
+		(int) 506 =&gt; 'Variant Also Negotiates',
+		(int) 507 =&gt; 'Insufficient Storage',
+		(int) 508 =&gt; 'Loop Detected',
+		(int) 510 =&gt; 'Not Extended',
+		(int) 511 =&gt; 'Network Authentication Required',
+		(int) 599 =&gt; 'Network Connect Timeout Error'
+	]
+	[protected] _mimeTypes =&gt; [
+		'html' =&gt; [
+			(int) 0 =&gt; 'text/html',
+			(int) 1 =&gt; '*/*'
+		],
+		'json' =&gt; 'application/json',
+		'xml' =&gt; [
+			(int) 0 =&gt; 'application/xml',
+			(int) 1 =&gt; 'text/xml'
+		],
+		'xhtml' =&gt; [
+			(int) 0 =&gt; 'application/xhtml+xml',
+			(int) 1 =&gt; 'application/xhtml',
+			(int) 2 =&gt; 'text/xhtml'
+		],
+		'webp' =&gt; 'image/webp',
+		'rss' =&gt; 'application/rss+xml',
+		'ai' =&gt; 'application/postscript',
+		'bcpio' =&gt; 'application/x-bcpio',
+		'bin' =&gt; 'application/octet-stream',
+		'ccad' =&gt; 'application/clariscad',
+		'cdf' =&gt; 'application/x-netcdf',
+		'class' =&gt; 'application/octet-stream',
+		'cpio' =&gt; 'application/x-cpio',
+		'cpt' =&gt; 'application/mac-compactpro',
+		'csh' =&gt; 'application/x-csh',
+		'csv' =&gt; [
+			(int) 0 =&gt; 'text/csv',
+			(int) 1 =&gt; 'application/vnd.ms-excel'
+		],
+		'dcr' =&gt; 'application/x-director',
+		'dir' =&gt; 'application/x-director',
+		'dms' =&gt; 'application/octet-stream',
+		'doc' =&gt; 'application/msword',
+		'docx' =&gt; 'application/vnd.openxmlformats-officedocument.wordprocessingml.document',
+		'drw' =&gt; 'application/drafting',
+		'dvi' =&gt; 'application/x-dvi',
+		'dwg' =&gt; 'application/acad',
+		'dxf' =&gt; 'application/dxf',
+		'dxr' =&gt; 'application/x-director',
+		'eot' =&gt; 'application/vnd.ms-fontobject',
+		'eps' =&gt; 'application/postscript',
+		'exe' =&gt; 'application/octet-stream',
+		'ez' =&gt; 'application/andrew-inset',
+		'flv' =&gt; 'video/x-flv',
+		'gtar' =&gt; 'application/x-gtar',
+		'gz' =&gt; 'application/x-gzip',
+		'bz2' =&gt; 'application/x-bzip',
+		'7z' =&gt; 'application/x-7z-compressed',
+		'hdf' =&gt; 'application/x-hdf',
+		'hqx' =&gt; 'application/mac-binhex40',
+		'ico' =&gt; 'image/x-icon',
+		'ips' =&gt; 'application/x-ipscript',
+		'ipx' =&gt; 'application/x-ipix',
+		'js' =&gt; 'application/javascript',
+		'jsonapi' =&gt; 'application/vnd.api+json',
+		'latex' =&gt; 'application/x-latex',
+		'lha' =&gt; 'application/octet-stream',
+		'lsp' =&gt; 'application/x-lisp',
+		'lzh' =&gt; 'application/octet-stream',
+		'man' =&gt; 'application/x-troff-man',
+		'me' =&gt; 'application/x-troff-me',
+		'mif' =&gt; 'application/vnd.mif',
+		'ms' =&gt; 'application/x-troff-ms',
+		'nc' =&gt; 'application/x-netcdf',
+		'oda' =&gt; 'application/oda',
+		'otf' =&gt; 'font/otf',
+		'pdf' =&gt; 'application/pdf',
+		'pgn' =&gt; 'application/x-chess-pgn',
+		'pot' =&gt; 'application/vnd.ms-powerpoint',
+		'pps' =&gt; 'application/vnd.ms-powerpoint',
+		'ppt' =&gt; 'application/vnd.ms-powerpoint',
+		'pptx' =&gt; 'application/vnd.openxmlformats-officedocument.presentationml.presentation',
+		'ppz' =&gt; 'application/vnd.ms-powerpoint',
+		'pre' =&gt; 'application/x-freelance',
+		'prt' =&gt; 'application/pro_eng',
+		'ps' =&gt; 'application/postscript',
+		'roff' =&gt; 'application/x-troff',
+		'scm' =&gt; 'application/x-lotusscreencam',
+		'set' =&gt; 'application/set',
+		'sh' =&gt; 'application/x-sh',
+		'shar' =&gt; 'application/x-shar',
+		'sit' =&gt; 'application/x-stuffit',
+		'skd' =&gt; 'application/x-koan',
+		'skm' =&gt; 'application/x-koan',
+		'skp' =&gt; 'application/x-koan',
+		'skt' =&gt; 'application/x-koan',
+		'smi' =&gt; 'application/smil',
+		'smil' =&gt; 'application/smil',
+		'sol' =&gt; 'application/solids',
+		'spl' =&gt; 'application/x-futuresplash',
+		'src' =&gt; 'application/x-wais-source',
+		'step' =&gt; 'application/STEP',
+		'stl' =&gt; 'application/SLA',
+		'stp' =&gt; 'application/STEP',
+		'sv4cpio' =&gt; 'application/x-sv4cpio',
+		'sv4crc' =&gt; 'application/x-sv4crc',
+		'svg' =&gt; 'image/svg+xml',
+		'svgz' =&gt; 'image/svg+xml',
+		'swf' =&gt; 'application/x-shockwave-flash',
+		't' =&gt; 'application/x-troff',
+		'tar' =&gt; 'application/x-tar',
+		'tcl' =&gt; 'application/x-tcl',
+		'tex' =&gt; 'application/x-tex',
+		'texi' =&gt; 'application/x-texinfo',
+		'texinfo' =&gt; 'application/x-texinfo',
+		'tr' =&gt; 'application/x-troff',
+		'tsp' =&gt; 'application/dsptype',
+		'ttc' =&gt; 'font/ttf',
+		'ttf' =&gt; 'font/ttf',
+		'unv' =&gt; 'application/i-deas',
+		'ustar' =&gt; 'application/x-ustar',
+		'vcd' =&gt; 'application/x-cdlink',
+		'vda' =&gt; 'application/vda',
+		'xlc' =&gt; 'application/vnd.ms-excel',
+		'xll' =&gt; 'application/vnd.ms-excel',
+		'xlm' =&gt; 'application/vnd.ms-excel',
+		'xls' =&gt; 'application/vnd.ms-excel',
+		'xlsx' =&gt; 'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet',
+		'xlw' =&gt; 'application/vnd.ms-excel',
+		'zip' =&gt; 'application/zip',
+		'aif' =&gt; 'audio/x-aiff',
+		'aifc' =&gt; 'audio/x-aiff',
+		'aiff' =&gt; 'audio/x-aiff',
+		'au' =&gt; 'audio/basic',
+		'kar' =&gt; 'audio/midi',
+		'mid' =&gt; 'audio/midi',
+		'midi' =&gt; 'audio/midi',
+		'mp2' =&gt; 'audio/mpeg',
+		'mp3' =&gt; 'audio/mpeg',
+		'mpga' =&gt; 'audio/mpeg',
+		'ogg' =&gt; 'audio/ogg',
+		'oga' =&gt; 'audio/ogg',
+		'spx' =&gt; 'audio/ogg',
+		'ra' =&gt; 'audio/x-realaudio',
+		'ram' =&gt; 'audio/x-pn-realaudio',
+		'rm' =&gt; 'audio/x-pn-realaudio',
+		'rpm' =&gt; 'audio/x-pn-realaudio-plugin',
+		'snd' =&gt; 'audio/basic',
+		'tsi' =&gt; 'audio/TSP-audio',
+		'wav' =&gt; 'audio/x-wav',
+		'aac' =&gt; 'audio/aac',
+		'asc' =&gt; 'text/plain',
+		'c' =&gt; 'text/plain',
+		'cc' =&gt; 'text/plain',
+		'css' =&gt; 'text/css',
+		'etx' =&gt; 'text/x-setext',
+		'f' =&gt; 'text/plain',
+		'f90' =&gt; 'text/plain',
+		'h' =&gt; 'text/plain',
+		'hh' =&gt; 'text/plain',
+		'htm' =&gt; [
+			(int) 0 =&gt; 'text/html',
+			(int) 1 =&gt; '*/*'
+		],
+		'ics' =&gt; 'text/calendar',
+		'm' =&gt; 'text/plain',
+		'rtf' =&gt; 'text/rtf',
+		'rtx' =&gt; 'text/richtext',
+		'sgm' =&gt; 'text/sgml',
+		'sgml' =&gt; 'text/sgml',
+		'tsv' =&gt; 'text/tab-separated-values',
+		'tpl' =&gt; 'text/template',
+		'txt' =&gt; 'text/plain',
+		'text' =&gt; 'text/plain',
+		'avi' =&gt; 'video/x-msvideo',
+		'fli' =&gt; 'video/x-fli',
+		'mov' =&gt; 'video/quicktime',
+		'movie' =&gt; 'video/x-sgi-movie',
+		'mpe' =&gt; 'video/mpeg',
+		'mpeg' =&gt; 'video/mpeg',
+		'mpg' =&gt; 'video/mpeg',
+		'qt' =&gt; 'video/quicktime',
+		'viv' =&gt; 'video/vnd.vivo',
+		'vivo' =&gt; 'video/vnd.vivo',
+		'ogv' =&gt; 'video/ogg',
+		'webm' =&gt; 'video/webm',
+		'mp4' =&gt; 'video/mp4',
+		'm4v' =&gt; 'video/mp4',
+		'f4v' =&gt; 'video/mp4',
+		'f4p' =&gt; 'video/mp4',
+		'm4a' =&gt; 'audio/mp4',
+		'f4a' =&gt; 'audio/mp4',
+		'f4b' =&gt; 'audio/mp4',
+		'gif' =&gt; 'image/gif',
+		'ief' =&gt; 'image/ief',
+		'jpg' =&gt; 'image/jpeg',
+		'jpeg' =&gt; 'image/jpeg',
+		'jpe' =&gt; 'image/jpeg',
+		'pbm' =&gt; 'image/x-portable-bitmap',
+		'pgm' =&gt; 'image/x-portable-graymap',
+		'png' =&gt; 'image/png',
+		'pnm' =&gt; 'image/x-portable-anymap',
+		'ppm' =&gt; 'image/x-portable-pixmap',
+		'ras' =&gt; 'image/cmu-raster',
+		'rgb' =&gt; 'image/x-rgb',
+		'tif' =&gt; 'image/tiff',
+		'tiff' =&gt; 'image/tiff',
+		'xbm' =&gt; 'image/x-xbitmap',
+		'xpm' =&gt; 'image/x-xpixmap',
+		'xwd' =&gt; 'image/x-xwindowdump',
+		'psd' =&gt; [
+			(int) 0 =&gt; 'application/photoshop',
+			(int) 1 =&gt; 'application/psd',
+			(int) 2 =&gt; 'image/psd',
+			(int) 3 =&gt; 'image/x-photoshop',
+			(int) 4 =&gt; 'image/photoshop',
+			(int) 5 =&gt; 'zz-application/zz-winassoc-psd'
+		],
+		'ice' =&gt; 'x-conference/x-cooltalk',
+		'iges' =&gt; 'model/iges',
+		'igs' =&gt; 'model/iges',
+		'mesh' =&gt; 'model/mesh',
+		'msh' =&gt; 'model/mesh',
+		'silo' =&gt; 'model/mesh',
+		'vrml' =&gt; 'model/vrml',
+		'wrl' =&gt; 'model/vrml',
+		'mime' =&gt; 'www/mime',
+		'pdb' =&gt; 'chemical/x-pdb',
+		'xyz' =&gt; 'chemical/x-pdb',
+		'javascript' =&gt; 'application/javascript',
+		'form' =&gt; 'application/x-www-form-urlencoded',
+		'file' =&gt; 'multipart/form-data',
+		'xhtml-mobile' =&gt; 'application/vnd.wap.xhtml+xml',
+		'atom' =&gt; 'application/atom+xml',
+		'amf' =&gt; 'application/x-amf',
+		'wap' =&gt; [
+			(int) 0 =&gt; 'text/vnd.wap.wml',
+			(int) 1 =&gt; 'text/vnd.wap.wmlscript',
+			(int) 2 =&gt; 'image/vnd.wap.wbmp'
+		],
+		'wml' =&gt; 'text/vnd.wap.wml',
+		'wmlscript' =&gt; 'text/vnd.wap.wmlscript',
+		'wbmp' =&gt; 'image/vnd.wap.wbmp',
+		'woff' =&gt; 'application/x-font-woff',
+		'appcache' =&gt; 'text/cache-manifest',
+		'manifest' =&gt; 'text/cache-manifest',
+		'htc' =&gt; 'text/x-component',
+		'rdf' =&gt; 'application/xml',
+		'crx' =&gt; 'application/x-chrome-extension',
+		'oex' =&gt; 'application/x-opera-extension',
+		'xpi' =&gt; 'application/x-xpinstall',
+		'safariextz' =&gt; 'application/octet-stream',
+		'webapp' =&gt; 'application/x-web-app-manifest+json',
+		'vcf' =&gt; 'text/x-vcard',
+		'vtt' =&gt; 'text/vtt',
+		'mkv' =&gt; 'video/x-matroska',
+		'pkpass' =&gt; 'application/vnd.apple.pkpass',
+		'ajax' =&gt; 'text/html'
+	]
+	[protected] _protocol =&gt; 'HTTP/1.1'
+	[protected] _status =&gt; (int) 200
+	[protected] _contentType =&gt; 'text/html'
+	[protected] _headers =&gt; []
+	[protected] _body =&gt; null
+	[protected] _file =&gt; null
+	[protected] _fileRange =&gt; []
+	[protected] _charset =&gt; 'UTF-8'
+	[protected] _cacheDirectives =&gt; []
+	[protected] _cookies =&gt; []
+}</pre>
+        </div>
+    </div>
+    <div id="stack-frame-16" style="display:none;" class="stack-details">
+        <span class="stack-frame-file">/Applications/MAMP/htdocs/rtorres/webroot/index.php</span>
+        <a href="http://rtorres:8888/sc/sillas-y-bancos?sort=precio+ASC#" class="toggle-link stack-frame-args" data-target="stack-args-16">toggle arguments</a>
+
+        <table class="code-excerpt" cellspacing="0" cellpadding="0">
+                            <tbody><tr>
+                <td class="excerpt-number" data-number="33"></td>
+                <td class="excerpt-line"><code><span style="color: #000000"><span style="color: #0000BB">$dispatcher&nbsp;</span><span style="color: #007700">=&nbsp;</span><span style="color: #0000BB">DispatcherFactory</span><span style="color: #007700">::</span><span style="color: #0000BB">create</span><span style="color: #007700">();</span></span></code></td>
+            </tr>
+                    <tr>
+                <td class="excerpt-number" data-number="34"></td>
+                <td class="excerpt-line"><code><span style="color: #000000"><span style="color: #0000BB">$dispatcher</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">dispatch</span><span style="color: #007700">(</span></span></code></td>
+            </tr>
+                    <tr>
+                <td class="excerpt-number" data-number="35"></td>
+                <td class="excerpt-line"><code><span style="color: #000000"><span style="color: #0000BB">&nbsp;&nbsp;&nbsp;&nbsp;Request</span><span style="color: #007700">::</span><span style="color: #0000BB">createFromGlobals</span><span style="color: #007700">(),</span></span></code></td>
+            </tr>
+                    <tr>
+                <td class="excerpt-number" data-number="36"></td>
+                <td class="excerpt-line"><code><span style="color: #000000"><span style="color: #0000BB">&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">new&nbsp;</span><span style="color: #0000BB">Response</span><span style="color: #007700">()</span></span></code></td>
+            </tr>
+                    <tr>
+                <td class="excerpt-number" data-number="37"></td>
+                <td class="excerpt-line"><span class="code-highlight"><code><span style="color: #000000"><span style="color: #0000BB"></span><span style="color: #007700">);</span></span></code></span></td>
+            </tr>
+                    <tr>
+                <td class="excerpt-number" data-number="38"></td>
+                <td class="excerpt-line"><code><span style="color: #000000"><span style="color: #0000BB"></span></span></code></td>
+            </tr>
+                </tbody></table>
+
+        <div id="stack-args-16" style="display: none;">
+            <pre>object(Cake\Network\Request) {
+	params =&gt; [
+		'plugin' =&gt; null,
+		'controller' =&gt; 'Categorias',
+		'action' =&gt; 'subcategoria',
+		'_ext' =&gt; null,
+		'pass' =&gt; [
+			(int) 0 =&gt; 'sillas-y-bancos'
+		],
+		'_matchedRoute' =&gt; '/sc/*',
+		'isAjax' =&gt; false
+	]
+	data =&gt; []
+	query =&gt; [
+		'sort' =&gt; 'precio ASC'
+	]
+	cookies =&gt; [
+		'csrfToken' =&gt; '5d1d6c384a9e78ebd525feb1f366edda345be848c02bf8db8c1b5a494382f33d49be11c09fb3314f394e1d6ba70a0d50fe61c114c143ef1ad3cf97b78593c6fb',
+		'usermgmt_user_activity' =&gt; 'Q2FrZQ==.OWQ4ZDhmYmM3NGE4OTgxZTQ0MWExMDgxNTgxYTZiZmNjZjk1NDIwNjZhY2I4YWU1NDIxODY4M2Q1ZTk4MjY4NqFkiN9VYkeJaYLTbbxWurB3ahMc06pe5+gF9brGaOVi5+xrna2B0K77nx63CxJcLsLSWNQ8nu8d5I9K4+t9lEuZ04Liq8y3U1jB8iXYDPnBKS9+aDx6UCgpy66oVP4sYw==',
+		'_ga' =&gt; 'GA1.1.242843331.1501516943',
+		'CAKEPHP' =&gt; 'eafc0219eedf49e9630216f553542167'
+	]
+	url =&gt; 'sc/sillas-y-bancos'
+	base =&gt; ''
+	webroot =&gt; '/'
+	here =&gt; '/sc/sillas-y-bancos'
+	trustProxy =&gt; false
+	[protected] _environment =&gt; [
+		'PHP_FCGI_CHILDREN' =&gt; '4',
+		'PWD' =&gt; '/Applications/MAMP/fcgi-bin',
+		'SHLVL' =&gt; '0',
+		'PHP_FCGI_MAX_REQUESTS' =&gt; '200',
+		'__CF_USER_TEXT_ENCODING' =&gt; '0x1F5:0x0:0x8',
+		'ORIG_SCRIPT_NAME' =&gt; '/fcgi-bin/php5.5.26.fcgi',
+		'ORIG_PATH_TRANSLATED' =&gt; '/Applications/MAMP/htdocs/rtorres/webroot/index.php',
+		'ORIG_PATH_INFO' =&gt; '/index.php',
+		'ORIG_SCRIPT_FILENAME' =&gt; '/Applications/MAMP/fcgi-bin/php5.5.26.fcgi',
+		'SCRIPT_NAME' =&gt; '/index.php',
+		'REQUEST_URI' =&gt; '/sc/sillas-y-bancos?sort=precio+ASC',
+		'QUERY_STRING' =&gt; 'sort=precio+ASC',
+		'REQUEST_METHOD' =&gt; 'GET',
+		'SERVER_PROTOCOL' =&gt; 'HTTP/1.1',
+		'GATEWAY_INTERFACE' =&gt; 'CGI/1.1',
+		'REDIRECT_URL' =&gt; '/index.php',
+		'REDIRECT_QUERY_STRING' =&gt; 'sort=precio+ASC',
+		'REMOTE_PORT' =&gt; '57691',
+		'SCRIPT_FILENAME' =&gt; '/Applications/MAMP/htdocs/rtorres/webroot/index.php',
+		'SERVER_ADMIN' =&gt; 'you@example.com',
+		'DOCUMENT_ROOT' =&gt; '/Applications/MAMP/htdocs/rtorres/webroot/',
+		'REMOTE_ADDR' =&gt; '::1',
+		'SERVER_PORT' =&gt; '8888',
+		'SERVER_ADDR' =&gt; '::1',
+		'SERVER_NAME' =&gt; 'rtorres',
+		'SERVER_SOFTWARE' =&gt; 'Apache',
+		'SERVER_SIGNATURE' =&gt; '',
+		'PATH' =&gt; '/usr/bin:/bin:/usr/sbin:/sbin',
+		'HTTP_COOKIE' =&gt; 'csrfToken=5d1d6c384a9e78ebd525feb1f366edda345be848c02bf8db8c1b5a494382f33d49be11c09fb3314f394e1d6ba70a0d50fe61c114c143ef1ad3cf97b78593c6fb; usermgmt_user_activity=Q2FrZQ%3D%3D.OWQ4ZDhmYmM3NGE4OTgxZTQ0MWExMDgxNTgxYTZiZmNjZjk1NDIwNjZhY2I4YWU1NDIxODY4M2Q1ZTk4MjY4NqFkiN9VYkeJaYLTbbxWurB3ahMc06pe5%2BgF9brGaOVi5%2Bxrna2B0K77nx63CxJcLsLSWNQ8nu8d5I9K4%2Bt9lEuZ04Liq8y3U1jB8iXYDPnBKS9%2BaDx6UCgpy66oVP4sYw%3D%3D; _ga=GA1.1.242843331.1501516943; CAKEPHP=eafc0219eedf49e9630216f553542167',
+		'HTTP_ACCEPT_LANGUAGE' =&gt; 'es-ES,es;q=0.8,en;q=0.6,gl;q=0.4',
+		'HTTP_ACCEPT_ENCODING' =&gt; 'gzip, deflate',
+		'HTTP_REFERER' =&gt; 'http://rtorres:8888/sclista/sillas-y-bancos?sort=precio+ASC',
+		'HTTP_ACCEPT' =&gt; 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+		'HTTP_USER_AGENT' =&gt; 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+		'HTTP_UPGRADE_INSECURE_REQUESTS' =&gt; '1',
+		'HTTP_CACHE_CONTROL' =&gt; 'max-age=0',
+		'HTTP_CONNECTION' =&gt; 'keep-alive',
+		'HTTP_HOST' =&gt; 'rtorres:8888',
+		'REDIRECT_STATUS' =&gt; '200',
+		'REDIRECT_HANDLER' =&gt; 'php-fastcgi',
+		'REDIRECT_REDIRECT_STATUS' =&gt; '200',
+		'FCGI_ROLE' =&gt; 'RESPONDER',
+		'PHP_SELF' =&gt; '/index.php',
+		'REQUEST_TIME_FLOAT' =&gt; (float) 1501876849.66,
+		'REQUEST_TIME' =&gt; (int) 1501876849,
+		'argv' =&gt; [
+			(int) 0 =&gt; 'sort=precio',
+			(int) 1 =&gt; 'ASC'
+		],
+		'argc' =&gt; (int) 2,
+		'HTTP_X_HTTP_METHOD_OVERRIDE' =&gt; null,
+		'ORIGINAL_REQUEST_METHOD' =&gt; 'GET',
+		'HTTPS' =&gt; false,
+		'HTTP_X_REQUESTED_WITH' =&gt; null,
+		'HTTP_IF_NONE_MATCH' =&gt; null,
+		'HTTP_IF_MODIFIED_SINCE' =&gt; null
+	]
+	[protected] _detectors =&gt; [
+		'get' =&gt; [
+			'env' =&gt; 'REQUEST_METHOD',
+			'value' =&gt; 'GET'
+		],
+		'post' =&gt; [
+			'env' =&gt; 'REQUEST_METHOD',
+			'value' =&gt; 'POST'
+		],
+		'put' =&gt; [
+			'env' =&gt; 'REQUEST_METHOD',
+			'value' =&gt; 'PUT'
+		],
+		'patch' =&gt; [
+			'env' =&gt; 'REQUEST_METHOD',
+			'value' =&gt; 'PATCH'
+		],
+		'delete' =&gt; [
+			'env' =&gt; 'REQUEST_METHOD',
+			'value' =&gt; 'DELETE'
+		],
+		'head' =&gt; [
+			'env' =&gt; 'REQUEST_METHOD',
+			'value' =&gt; 'HEAD'
+		],
+		'options' =&gt; [
+			'env' =&gt; 'REQUEST_METHOD',
+			'value' =&gt; 'OPTIONS'
+		],
+		'ssl' =&gt; [
+			'env' =&gt; 'HTTPS',
+			'options' =&gt; [
+				[maximum depth reached]
+			]
+		],
+		'ajax' =&gt; [
+			'env' =&gt; 'HTTP_X_REQUESTED_WITH',
+			'value' =&gt; 'XMLHttpRequest'
+		],
+		'flash' =&gt; [
+			'env' =&gt; 'HTTP_USER_AGENT',
+			'pattern' =&gt; '/^(Shockwave|Adobe) Flash/'
+		],
+		'requested' =&gt; [
+			'param' =&gt; 'requested',
+			'value' =&gt; (int) 1
+		],
+		'json' =&gt; [
+			'accept' =&gt; [
+				[maximum depth reached]
+			],
+			'param' =&gt; '_ext',
+			'value' =&gt; 'json'
+		],
+		'xml' =&gt; [
+			'accept' =&gt; [
+				[maximum depth reached]
+			],
+			'param' =&gt; '_ext',
+			'value' =&gt; 'xml'
+		],
+		'mobile' =&gt; object(Closure) {},
+		'tablet' =&gt; object(Closure) {}
+	]
+	[protected] _detectorCache =&gt; [
+		'ajax' =&gt; false,
+		'get' =&gt; true,
+		'head' =&gt; false,
+		'options' =&gt; false
+	]
+	[protected] _input =&gt; ''
+	[protected] _session =&gt; object(Cake\Network\Session) {
+		[protected] _engine =&gt; null
+		[protected] _started =&gt; true
+		[protected] _lifetime =&gt; '1440'
+		[protected] _isCLI =&gt; false
+	}
+}
+object(Cake\Network\Response) {
+	[protected] _statusCodes =&gt; [
+		(int) 100 =&gt; 'Continue',
+		(int) 101 =&gt; 'Switching Protocols',
+		(int) 102 =&gt; 'Processing',
+		(int) 200 =&gt; 'OK',
+		(int) 201 =&gt; 'Created',
+		(int) 202 =&gt; 'Accepted',
+		(int) 203 =&gt; 'Non-Authoritative Information',
+		(int) 204 =&gt; 'No Content',
+		(int) 205 =&gt; 'Reset Content',
+		(int) 206 =&gt; 'Partial Content',
+		(int) 207 =&gt; 'Multi-status',
+		(int) 208 =&gt; 'Already Reported',
+		(int) 226 =&gt; 'IM used',
+		(int) 300 =&gt; 'Multiple Choices',
+		(int) 301 =&gt; 'Moved Permanently',
+		(int) 302 =&gt; 'Found',
+		(int) 303 =&gt; 'See Other',
+		(int) 304 =&gt; 'Not Modified',
+		(int) 305 =&gt; 'Use Proxy',
+		(int) 306 =&gt; 'Switch Proxy',
+		(int) 307 =&gt; 'Temporary Redirect',
+		(int) 308 =&gt; 'Permanent Redirect',
+		(int) 400 =&gt; 'Bad Request',
+		(int) 401 =&gt; 'Unauthorized',
+		(int) 402 =&gt; 'Payment Required',
+		(int) 403 =&gt; 'Forbidden',
+		(int) 404 =&gt; 'Not Found',
+		(int) 405 =&gt; 'Method Not Allowed',
+		(int) 406 =&gt; 'Not Acceptable',
+		(int) 407 =&gt; 'Proxy Authentication Required',
+		(int) 408 =&gt; 'Request Timeout',
+		(int) 409 =&gt; 'Conflict',
+		(int) 410 =&gt; 'Gone',
+		(int) 411 =&gt; 'Length Required',
+		(int) 412 =&gt; 'Precondition Failed',
+		(int) 413 =&gt; 'Request Entity Too Large',
+		(int) 414 =&gt; 'Request-URI Too Large',
+		(int) 415 =&gt; 'Unsupported Media Type',
+		(int) 416 =&gt; 'Requested range not satisfiable',
+		(int) 417 =&gt; 'Expectation Failed',
+		(int) 418 =&gt; 'I'm a teapot',
+		(int) 421 =&gt; 'Misdirected Request',
+		(int) 422 =&gt; 'Unprocessable Entity',
+		(int) 423 =&gt; 'Locked',
+		(int) 424 =&gt; 'Failed Dependency',
+		(int) 425 =&gt; 'Unordered Collection',
+		(int) 426 =&gt; 'Upgrade Required',
+		(int) 428 =&gt; 'Precondition Required',
+		(int) 429 =&gt; 'Too Many Requests',
+		(int) 431 =&gt; 'Request Header Fields Too Large',
+		(int) 444 =&gt; 'Connection Closed Without Response',
+		(int) 451 =&gt; 'Unavailable For Legal Reasons',
+		(int) 499 =&gt; 'Client Closed Request',
+		(int) 500 =&gt; 'Internal Server Error',
+		(int) 501 =&gt; 'Not Implemented',
+		(int) 502 =&gt; 'Bad Gateway',
+		(int) 503 =&gt; 'Service Unavailable',
+		(int) 504 =&gt; 'Gateway Timeout',
+		(int) 505 =&gt; 'Unsupported Version',
+		(int) 506 =&gt; 'Variant Also Negotiates',
+		(int) 507 =&gt; 'Insufficient Storage',
+		(int) 508 =&gt; 'Loop Detected',
+		(int) 510 =&gt; 'Not Extended',
+		(int) 511 =&gt; 'Network Authentication Required',
+		(int) 599 =&gt; 'Network Connect Timeout Error'
+	]
+	[protected] _mimeTypes =&gt; [
+		'html' =&gt; [
+			(int) 0 =&gt; 'text/html',
+			(int) 1 =&gt; '*/*'
+		],
+		'json' =&gt; 'application/json',
+		'xml' =&gt; [
+			(int) 0 =&gt; 'application/xml',
+			(int) 1 =&gt; 'text/xml'
+		],
+		'xhtml' =&gt; [
+			(int) 0 =&gt; 'application/xhtml+xml',
+			(int) 1 =&gt; 'application/xhtml',
+			(int) 2 =&gt; 'text/xhtml'
+		],
+		'webp' =&gt; 'image/webp',
+		'rss' =&gt; 'application/rss+xml',
+		'ai' =&gt; 'application/postscript',
+		'bcpio' =&gt; 'application/x-bcpio',
+		'bin' =&gt; 'application/octet-stream',
+		'ccad' =&gt; 'application/clariscad',
+		'cdf' =&gt; 'application/x-netcdf',
+		'class' =&gt; 'application/octet-stream',
+		'cpio' =&gt; 'application/x-cpio',
+		'cpt' =&gt; 'application/mac-compactpro',
+		'csh' =&gt; 'application/x-csh',
+		'csv' =&gt; [
+			(int) 0 =&gt; 'text/csv',
+			(int) 1 =&gt; 'application/vnd.ms-excel'
+		],
+		'dcr' =&gt; 'application/x-director',
+		'dir' =&gt; 'application/x-director',
+		'dms' =&gt; 'application/octet-stream',
+		'doc' =&gt; 'application/msword',
+		'docx' =&gt; 'application/vnd.openxmlformats-officedocument.wordprocessingml.document',
+		'drw' =&gt; 'application/drafting',
+		'dvi' =&gt; 'application/x-dvi',
+		'dwg' =&gt; 'application/acad',
+		'dxf' =&gt; 'application/dxf',
+		'dxr' =&gt; 'application/x-director',
+		'eot' =&gt; 'application/vnd.ms-fontobject',
+		'eps' =&gt; 'application/postscript',
+		'exe' =&gt; 'application/octet-stream',
+		'ez' =&gt; 'application/andrew-inset',
+		'flv' =&gt; 'video/x-flv',
+		'gtar' =&gt; 'application/x-gtar',
+		'gz' =&gt; 'application/x-gzip',
+		'bz2' =&gt; 'application/x-bzip',
+		'7z' =&gt; 'application/x-7z-compressed',
+		'hdf' =&gt; 'application/x-hdf',
+		'hqx' =&gt; 'application/mac-binhex40',
+		'ico' =&gt; 'image/x-icon',
+		'ips' =&gt; 'application/x-ipscript',
+		'ipx' =&gt; 'application/x-ipix',
+		'js' =&gt; 'application/javascript',
+		'jsonapi' =&gt; 'application/vnd.api+json',
+		'latex' =&gt; 'application/x-latex',
+		'lha' =&gt; 'application/octet-stream',
+		'lsp' =&gt; 'application/x-lisp',
+		'lzh' =&gt; 'application/octet-stream',
+		'man' =&gt; 'application/x-troff-man',
+		'me' =&gt; 'application/x-troff-me',
+		'mif' =&gt; 'application/vnd.mif',
+		'ms' =&gt; 'application/x-troff-ms',
+		'nc' =&gt; 'application/x-netcdf',
+		'oda' =&gt; 'application/oda',
+		'otf' =&gt; 'font/otf',
+		'pdf' =&gt; 'application/pdf',
+		'pgn' =&gt; 'application/x-chess-pgn',
+		'pot' =&gt; 'application/vnd.ms-powerpoint',
+		'pps' =&gt; 'application/vnd.ms-powerpoint',
+		'ppt' =&gt; 'application/vnd.ms-powerpoint',
+		'pptx' =&gt; 'application/vnd.openxmlformats-officedocument.presentationml.presentation',
+		'ppz' =&gt; 'application/vnd.ms-powerpoint',
+		'pre' =&gt; 'application/x-freelance',
+		'prt' =&gt; 'application/pro_eng',
+		'ps' =&gt; 'application/postscript',
+		'roff' =&gt; 'application/x-troff',
+		'scm' =&gt; 'application/x-lotusscreencam',
+		'set' =&gt; 'application/set',
+		'sh' =&gt; 'application/x-sh',
+		'shar' =&gt; 'application/x-shar',
+		'sit' =&gt; 'application/x-stuffit',
+		'skd' =&gt; 'application/x-koan',
+		'skm' =&gt; 'application/x-koan',
+		'skp' =&gt; 'application/x-koan',
+		'skt' =&gt; 'application/x-koan',
+		'smi' =&gt; 'application/smil',
+		'smil' =&gt; 'application/smil',
+		'sol' =&gt; 'application/solids',
+		'spl' =&gt; 'application/x-futuresplash',
+		'src' =&gt; 'application/x-wais-source',
+		'step' =&gt; 'application/STEP',
+		'stl' =&gt; 'application/SLA',
+		'stp' =&gt; 'application/STEP',
+		'sv4cpio' =&gt; 'application/x-sv4cpio',
+		'sv4crc' =&gt; 'application/x-sv4crc',
+		'svg' =&gt; 'image/svg+xml',
+		'svgz' =&gt; 'image/svg+xml',
+		'swf' =&gt; 'application/x-shockwave-flash',
+		't' =&gt; 'application/x-troff',
+		'tar' =&gt; 'application/x-tar',
+		'tcl' =&gt; 'application/x-tcl',
+		'tex' =&gt; 'application/x-tex',
+		'texi' =&gt; 'application/x-texinfo',
+		'texinfo' =&gt; 'application/x-texinfo',
+		'tr' =&gt; 'application/x-troff',
+		'tsp' =&gt; 'application/dsptype',
+		'ttc' =&gt; 'font/ttf',
+		'ttf' =&gt; 'font/ttf',
+		'unv' =&gt; 'application/i-deas',
+		'ustar' =&gt; 'application/x-ustar',
+		'vcd' =&gt; 'application/x-cdlink',
+		'vda' =&gt; 'application/vda',
+		'xlc' =&gt; 'application/vnd.ms-excel',
+		'xll' =&gt; 'application/vnd.ms-excel',
+		'xlm' =&gt; 'application/vnd.ms-excel',
+		'xls' =&gt; 'application/vnd.ms-excel',
+		'xlsx' =&gt; 'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet',
+		'xlw' =&gt; 'application/vnd.ms-excel',
+		'zip' =&gt; 'application/zip',
+		'aif' =&gt; 'audio/x-aiff',
+		'aifc' =&gt; 'audio/x-aiff',
+		'aiff' =&gt; 'audio/x-aiff',
+		'au' =&gt; 'audio/basic',
+		'kar' =&gt; 'audio/midi',
+		'mid' =&gt; 'audio/midi',
+		'midi' =&gt; 'audio/midi',
+		'mp2' =&gt; 'audio/mpeg',
+		'mp3' =&gt; 'audio/mpeg',
+		'mpga' =&gt; 'audio/mpeg',
+		'ogg' =&gt; 'audio/ogg',
+		'oga' =&gt; 'audio/ogg',
+		'spx' =&gt; 'audio/ogg',
+		'ra' =&gt; 'audio/x-realaudio',
+		'ram' =&gt; 'audio/x-pn-realaudio',
+		'rm' =&gt; 'audio/x-pn-realaudio',
+		'rpm' =&gt; 'audio/x-pn-realaudio-plugin',
+		'snd' =&gt; 'audio/basic',
+		'tsi' =&gt; 'audio/TSP-audio',
+		'wav' =&gt; 'audio/x-wav',
+		'aac' =&gt; 'audio/aac',
+		'asc' =&gt; 'text/plain',
+		'c' =&gt; 'text/plain',
+		'cc' =&gt; 'text/plain',
+		'css' =&gt; 'text/css',
+		'etx' =&gt; 'text/x-setext',
+		'f' =&gt; 'text/plain',
+		'f90' =&gt; 'text/plain',
+		'h' =&gt; 'text/plain',
+		'hh' =&gt; 'text/plain',
+		'htm' =&gt; [
+			(int) 0 =&gt; 'text/html',
+			(int) 1 =&gt; '*/*'
+		],
+		'ics' =&gt; 'text/calendar',
+		'm' =&gt; 'text/plain',
+		'rtf' =&gt; 'text/rtf',
+		'rtx' =&gt; 'text/richtext',
+		'sgm' =&gt; 'text/sgml',
+		'sgml' =&gt; 'text/sgml',
+		'tsv' =&gt; 'text/tab-separated-values',
+		'tpl' =&gt; 'text/template',
+		'txt' =&gt; 'text/plain',
+		'text' =&gt; 'text/plain',
+		'avi' =&gt; 'video/x-msvideo',
+		'fli' =&gt; 'video/x-fli',
+		'mov' =&gt; 'video/quicktime',
+		'movie' =&gt; 'video/x-sgi-movie',
+		'mpe' =&gt; 'video/mpeg',
+		'mpeg' =&gt; 'video/mpeg',
+		'mpg' =&gt; 'video/mpeg',
+		'qt' =&gt; 'video/quicktime',
+		'viv' =&gt; 'video/vnd.vivo',
+		'vivo' =&gt; 'video/vnd.vivo',
+		'ogv' =&gt; 'video/ogg',
+		'webm' =&gt; 'video/webm',
+		'mp4' =&gt; 'video/mp4',
+		'm4v' =&gt; 'video/mp4',
+		'f4v' =&gt; 'video/mp4',
+		'f4p' =&gt; 'video/mp4',
+		'm4a' =&gt; 'audio/mp4',
+		'f4a' =&gt; 'audio/mp4',
+		'f4b' =&gt; 'audio/mp4',
+		'gif' =&gt; 'image/gif',
+		'ief' =&gt; 'image/ief',
+		'jpg' =&gt; 'image/jpeg',
+		'jpeg' =&gt; 'image/jpeg',
+		'jpe' =&gt; 'image/jpeg',
+		'pbm' =&gt; 'image/x-portable-bitmap',
+		'pgm' =&gt; 'image/x-portable-graymap',
+		'png' =&gt; 'image/png',
+		'pnm' =&gt; 'image/x-portable-anymap',
+		'ppm' =&gt; 'image/x-portable-pixmap',
+		'ras' =&gt; 'image/cmu-raster',
+		'rgb' =&gt; 'image/x-rgb',
+		'tif' =&gt; 'image/tiff',
+		'tiff' =&gt; 'image/tiff',
+		'xbm' =&gt; 'image/x-xbitmap',
+		'xpm' =&gt; 'image/x-xpixmap',
+		'xwd' =&gt; 'image/x-xwindowdump',
+		'psd' =&gt; [
+			(int) 0 =&gt; 'application/photoshop',
+			(int) 1 =&gt; 'application/psd',
+			(int) 2 =&gt; 'image/psd',
+			(int) 3 =&gt; 'image/x-photoshop',
+			(int) 4 =&gt; 'image/photoshop',
+			(int) 5 =&gt; 'zz-application/zz-winassoc-psd'
+		],
+		'ice' =&gt; 'x-conference/x-cooltalk',
+		'iges' =&gt; 'model/iges',
+		'igs' =&gt; 'model/iges',
+		'mesh' =&gt; 'model/mesh',
+		'msh' =&gt; 'model/mesh',
+		'silo' =&gt; 'model/mesh',
+		'vrml' =&gt; 'model/vrml',
+		'wrl' =&gt; 'model/vrml',
+		'mime' =&gt; 'www/mime',
+		'pdb' =&gt; 'chemical/x-pdb',
+		'xyz' =&gt; 'chemical/x-pdb',
+		'javascript' =&gt; 'application/javascript',
+		'form' =&gt; 'application/x-www-form-urlencoded',
+		'file' =&gt; 'multipart/form-data',
+		'xhtml-mobile' =&gt; 'application/vnd.wap.xhtml+xml',
+		'atom' =&gt; 'application/atom+xml',
+		'amf' =&gt; 'application/x-amf',
+		'wap' =&gt; [
+			(int) 0 =&gt; 'text/vnd.wap.wml',
+			(int) 1 =&gt; 'text/vnd.wap.wmlscript',
+			(int) 2 =&gt; 'image/vnd.wap.wbmp'
+		],
+		'wml' =&gt; 'text/vnd.wap.wml',
+		'wmlscript' =&gt; 'text/vnd.wap.wmlscript',
+		'wbmp' =&gt; 'image/vnd.wap.wbmp',
+		'woff' =&gt; 'application/x-font-woff',
+		'appcache' =&gt; 'text/cache-manifest',
+		'manifest' =&gt; 'text/cache-manifest',
+		'htc' =&gt; 'text/x-component',
+		'rdf' =&gt; 'application/xml',
+		'crx' =&gt; 'application/x-chrome-extension',
+		'oex' =&gt; 'application/x-opera-extension',
+		'xpi' =&gt; 'application/x-xpinstall',
+		'safariextz' =&gt; 'application/octet-stream',
+		'webapp' =&gt; 'application/x-web-app-manifest+json',
+		'vcf' =&gt; 'text/x-vcard',
+		'vtt' =&gt; 'text/vtt',
+		'mkv' =&gt; 'video/x-matroska',
+		'pkpass' =&gt; 'application/vnd.apple.pkpass',
+		'ajax' =&gt; 'text/html'
+	]
+	[protected] _protocol =&gt; 'HTTP/1.1'
+	[protected] _status =&gt; (int) 200
+	[protected] _contentType =&gt; 'text/html'
+	[protected] _headers =&gt; []
+	[protected] _body =&gt; null
+	[protected] _file =&gt; null
+	[protected] _fileRange =&gt; []
+	[protected] _charset =&gt; 'UTF-8'
+	[protected] _cacheDirectives =&gt; []
+	[protected] _cookies =&gt; []
+}</pre>
+        </div>
+    </div>
+
+        <div class="error-suggestion">
+            <p class="notice">
+    If you are using SQL keywords as table column names, you can enable identifier
+    quoting for your database connection in config/app.php.
+</p>
+    <p class="notice">
+        <strong>SQL Query: </strong>
+    </p>
+    <pre>SELECT Productos.* AS `Productos__*`, Productos.precio AS `precio_real` FROM productos Productos INNER JOIN categorias_productos CategoriasProductos ON Productos.id = (CategoriasProductos.producto_id) INNER JOIN categorias Categorias ON (Categorias.publicado = 1 AND Categorias.id in (:c0) AND Productos.estatus_id = :c1 AND Categorias.id = (CategoriasProductos.categoria_id)) LEFT JOIN marcas Marcas ON Marcas.id = (Productos.marca_id) WHERE (Productos.estatus_id=1 and Productos.padre_id is null AND Productos.estatus_id = :c2 AND (padre_id) IS NULL) GROUP BY Productos.id  ORDER BY Productos.precio ASC</pre>
+<h3>Could this be caused by using Auto-Tables?</h3>
+<p>
+Some of the Table objects in your application were created by instantiating "<strong>Cake\ORM\Table</strong>"
+instead of any other specific subclass.
+</p>
+<p>This could be the cause for this exception. Auto-Tables are created for you under the following circumstances:</p>
+<ul>
+    <li>The class for the specified table does not exist.</li>
+    <li>The Table was created with a typo: <strong><em>TableRegistry::get('Atricles');</em></strong></li>
+    <li>The class file has a typo in the name or incorrect namespace: <strong><em>class Atricles extends Table</em></strong></li>
+    <li>The file containing the class has a typo or incorrect casing: <strong><em>Atricles.php</em></strong></li>
+    <li>The Table was used using associations but the association has a typo: <strong><em>$this-&gt;belongsTo('Atricles')</em></strong></li>
+    <li>The table class resides in a Plugin but <strong><em>no plugin notation</em></strong> was used in the association definition.</li>
+</ul>
+<br>
+<p>Please try correcting the issue for the following table aliases:</p>
+<ul>
+    <li><strong>Marcas</strong></li>
+</ul>
+<br>
+        </div>
+
+                <p class="customize">
+            If you want to customize this error message, create
+            <em>src/Template/Error/pdo_error.ctp</em>
+        </p>
+            </div>
+
+    <div class="error-nav">
+        <a href="http://rtorres:8888/sc/sillas-y-bancos?sort=precio+ASC#" class="toggle-link toggle-vendor-frames">toggle vendor stack frames</a>
+
+<ul class="stack-trace">
+        <li class="stack-frame vendor-frame">
+            <a href="http://rtorres:8888/sc/sillas-y-bancos?sort=precio+ASC#" data-target="stack-frame-0">
+                            <span class="stack-function">⟩ PDOStatement-&gt;execute</span>
+                        <span class="stack-file">
+                            CORE/src/Database/Statement/MysqlStatement.php, line 36                        </span>
+        </a>
+        </li>
+        <li class="stack-frame vendor-frame">
+            <a href="http://rtorres:8888/sc/sillas-y-bancos?sort=precio+ASC#" data-target="stack-frame-1">
+                            <span class="stack-function">⟩ Cake\Database\Statement\MysqlStatement-&gt;execute</span>
+                        <span class="stack-file">
+                            CORE/src/Database/Statement/StatementDecorator.php, line 172                        </span>
+        </a>
+        </li>
+        <li class="stack-frame vendor-frame">
+            <a href="http://rtorres:8888/sc/sillas-y-bancos?sort=precio+ASC#" data-target="stack-frame-2">
+                            <span class="stack-function">⟩ Cake\Database\Statement\StatementDecorator-&gt;execute</span>
+                        <span class="stack-file">
+                            CORE/src/Database/Log/LoggingStatement.php, line 56                        </span>
+        </a>
+        </li>
+        <li class="stack-frame vendor-frame">
+            <a href="http://rtorres:8888/sc/sillas-y-bancos?sort=precio+ASC#" data-target="stack-frame-3">
+                            <span class="stack-function">⟩ Cake\Database\Log\LoggingStatement-&gt;execute</span>
+                        <span class="stack-file">
+                            CORE/src/Database/Connection.php, line 276                        </span>
+        </a>
+        </li>
+        <li class="stack-frame vendor-frame">
+            <a href="http://rtorres:8888/sc/sillas-y-bancos?sort=precio+ASC#" data-target="stack-frame-4">
+                            <span class="stack-function">⟩ Cake\Database\Connection-&gt;run</span>
+                        <span class="stack-file">
+                            CORE/src/Database/Query.php, line 189                        </span>
+        </a>
+        </li>
+        <li class="stack-frame vendor-frame">
+            <a href="http://rtorres:8888/sc/sillas-y-bancos?sort=precio+ASC#" data-target="stack-frame-5">
+                            <span class="stack-function">⟩ Cake\Database\Query-&gt;execute</span>
+                        <span class="stack-file">
+                            CORE/src/ORM/Query.php, line 958                        </span>
+        </a>
+        </li>
+        <li class="stack-frame vendor-frame">
+            <a href="http://rtorres:8888/sc/sillas-y-bancos?sort=precio+ASC#" data-target="stack-frame-6">
+                            <span class="stack-function">⟩ Cake\ORM\Query-&gt;_execute</span>
+                        <span class="stack-file">
+                            CORE/src/Datasource/QueryTrait.php, line 276                        </span>
+        </a>
+        </li>
+        <li class="stack-frame vendor-frame">
+            <a href="http://rtorres:8888/sc/sillas-y-bancos?sort=precio+ASC#" data-target="stack-frame-7">
+                            <span class="stack-function">⟩ Cake\ORM\Query-&gt;_all</span>
+                        <span class="stack-file">
+                            CORE/src/ORM/Query.php, line 906                        </span>
+        </a>
+        </li>
+        <li class="stack-frame vendor-frame">
+            <a href="http://rtorres:8888/sc/sillas-y-bancos?sort=precio+ASC#" data-target="stack-frame-8">
+                            <span class="stack-function">⟩ Cake\ORM\Query-&gt;all</span>
+                        <span class="stack-file">
+                            CORE/src/Datasource/QueryTrait.php, line 293                        </span>
+        </a>
+        </li>
+        <li class="stack-frame vendor-frame">
+            <a href="http://rtorres:8888/sc/sillas-y-bancos?sort=precio+ASC#" data-target="stack-frame-9">
+                            <span class="stack-function">⟩ Cake\ORM\Query-&gt;toArray</span>
+                        <span class="stack-file">
+                            APP/Controller/CategoriasController.php, line 412                        </span>
+        </a>
+        </li>
+        <li class="stack-frame vendor-frame">
+            <a href="http://rtorres:8888/sc/sillas-y-bancos?sort=precio+ASC#" data-target="stack-frame-10">
+                            <span class="stack-function">⟩ App\Controller\CategoriasController-&gt;subcategorias_datos</span>
+                        <span class="stack-file">
+                            APP/Controller/CategoriasController.php, line 197                        </span>
+        </a>
+        </li>
+        <li class="stack-frame app-frame">
+            <a href="http://rtorres:8888/sc/sillas-y-bancos?sort=precio+ASC#" data-target="stack-frame-11">
+                            <span class="stack-function">⟩ App\Controller\CategoriasController-&gt;subcategoria</span>
+                        <span class="stack-file">
+                            [internal function]
+                        </span>
+        </a>
+        </li>
+        <li class="stack-frame vendor-frame">
+            <a href="http://rtorres:8888/sc/sillas-y-bancos?sort=precio+ASC#" data-target="stack-frame-12">
+                            <span class="stack-function">⟩ call_user_func_array</span>
+                        <span class="stack-file">
+                            CORE/src/Controller/Controller.php, line 435                        </span>
+        </a>
+        </li>
+        <li class="stack-frame vendor-frame">
+            <a href="http://rtorres:8888/sc/sillas-y-bancos?sort=precio+ASC#" data-target="stack-frame-13">
+                            <span class="stack-function">⟩ Cake\Controller\Controller-&gt;invokeAction</span>
+                        <span class="stack-file">
+                            CORE/src/Http/ActionDispatcher.php, line 122                        </span>
+        </a>
+        </li>
+        <li class="stack-frame vendor-frame">
+            <a href="http://rtorres:8888/sc/sillas-y-bancos?sort=precio+ASC#" data-target="stack-frame-14">
+                            <span class="stack-function">⟩ Cake\Http\ActionDispatcher-&gt;_invoke</span>
+                        <span class="stack-file">
+                            CORE/src/Http/ActionDispatcher.php, line 96                        </span>
+        </a>
+        </li>
+        <li class="stack-frame vendor-frame">
+            <a href="http://rtorres:8888/sc/sillas-y-bancos?sort=precio+ASC#" data-target="stack-frame-15">
+                            <span class="stack-function">⟩ Cake\Http\ActionDispatcher-&gt;dispatch</span>
+                        <span class="stack-file">
+                            CORE/src/Routing/Dispatcher.php, line 60                        </span>
+        </a>
+        </li>
+        <li class="stack-frame vendor-frame">
+            <a href="http://rtorres:8888/sc/sillas-y-bancos?sort=precio+ASC#" data-target="stack-frame-16">
+                            <span class="stack-function">⟩ Cake\Routing\Dispatcher-&gt;dispatch</span>
+                        <span class="stack-file">
+                            ROOT/webroot/index.php, line 37                        </span>
+        </a>
+        </li>
+</ul>
+    </div>
+
+<script type="text/javascript">
+function bindEvent(selector, eventName, listener) {
+    var els = document.querySelectorAll(selector);
+    for (var i = 0, len = els.length; i < len; i++) {
+        els[i].addEventListener(eventName, listener, false);
+    }
+}
+
+function toggleElement(el) {
+    if (el.style.display === 'none') {
+        el.style.display = 'block';
+    } else {
+        el.style.display = 'none';
+    }
+}
+
+function each(els, cb) {
+    var i, len;
+    for (i = 0, len = els.length; i < len; i++) {
+        cb(els[i], i);
+    }
+}
+
+window.addEventListener('load', function() {
+    bindEvent('.stack-frame-args', 'click', function(event) {
+        var target = this.dataset['target'];
+        var el = document.getElementById(target);
+        toggleElement(el);
+        event.preventDefault();
+    });
+
+    var details = document.querySelectorAll('.stack-details');
+    var frames = document.querySelectorAll('.stack-frame');
+    bindEvent('.stack-frame a', 'click', function(event) {
+        each(frames, function(el) {
+            el.classList.remove('active');
+        });
+        this.parentNode.classList.add('active');
+
+        each(details, function(el) {
+            el.style.display = 'none';
+        });
+
+        var target = document.getElementById(this.dataset['target']);
+        toggleElement(target);
+        event.preventDefault();
+    });
+
+    bindEvent('.toggle-vendor-frames', 'click', function(event) {
+        each(frames, function(el) {
+            if (el.classList.contains('vendor-frame')) {
+                toggleElement(el);
+            }
+        });
+        event.preventDefault();
+    });
+});
+</script>
+<script id="__debug_kit" data-id="7591f1f8-87fa-4b60-b9d9-3d436efe44d3" data-url="http://rtorres:8888/" src="./Error_ Database Error_files/toolbar.js"></script>
+
+<iframe height="40" width="40" src="./Error_ Database Error_files/7591f1f8-87fa-4b60-b9d9-3d436efe44d3.html" style="position: fixed; bottom: 0px; right: 0px; border: 0px; outline: 0px; overflow: hidden; z-index: 99999;"></iframe></body></html>

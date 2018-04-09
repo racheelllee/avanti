@@ -1,0 +1,1734 @@
+<!DOCTYPE html>
+<!-- saved from url=(0074)http://rtorres:8888/debug_kit/toolbar/7591f1f8-87fa-4b60-b9d9-3d436efe44d3 -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>
+        Error: Missing Template    </title>
+    <link href="http://rtorres:8888/favicon.ico" type="image/x-icon" rel="icon"><link href="http://rtorres:8888/favicon.ico" type="image/x-icon" rel="shortcut icon">    <style>
+    body {
+        font: 14px helvetica, arial, sans-serif;
+        color: #222;
+        background-color: #f8f8f8;
+        padding:0;
+        margin: 0;
+        max-height: 100%;
+    }
+
+    .code-dump,
+    pre {
+        background: #fefefe;
+        border: 1px solid #ddd;
+        padding: 5px;
+        white-space: pre-wrap;
+    }
+
+    header {
+        background-color: #C3232D;
+        color: #ffffff;
+        padding: 16px 10px;
+        border-bottom: 3px solid #626262;
+    }
+    .header-title {
+        margin: 0;
+        font-weight: normal;
+        font-size: 30px;
+        line-height: 64px;
+    }
+    .header-type {
+        opacity: 0.75;
+        display: block;
+        font-size: 16px;
+        line-height: 1;
+    }
+    .header-help {
+        font-size: 12px;
+        line-height: 1;
+        position: absolute;
+        top: 30px;
+        right: 16px;
+    }
+    .header-help a {
+        color: #fff;
+    }
+
+    .error-nav {
+        float: left;
+        width: 30%;
+    }
+    .error-contents {
+        padding: 10px 1%;
+        float: right;
+        width: 68%;
+    }
+
+    .error,
+    .error-subheading {
+        font-size: 18px;
+        margin-top: 0;
+        padding: 10px;
+        border: 1px solid #EDBD26;
+    }
+    .error-subheading {
+        background: #1798A5;
+        color: #fff;
+        border: 1px solid #02808C;
+    }
+    .error {
+        background: #ffd54f;
+    }
+    .customize {
+        opacity: 0.6;
+    }
+
+    .stack-trace {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+    }
+    .stack-frame {
+        padding: 10px;
+        border-bottom: 1px solid #212121;
+    }
+    .stack-frame:last-child {
+        border-bottom: none;
+    }
+    .stack-frame a {
+        display: block;
+        color: #212121;
+        text-decoration: none;
+    }
+    .stack-frame.active {
+        background: #e5e5e5;
+    }
+    .stack-frame a:hover {
+        text-decoration: underline;
+    }
+    .stack-file,
+    .stack-function {
+        display: block;
+        margin-bottom: 5px;
+    }
+
+    .stack-frame-file,
+    .stack-file {
+        font-family: consolas, monospace;
+    }
+    .stack-function {
+        font-weight: bold;
+    }
+    .stack-file {
+        font-size: 0.9em;
+        word-wrap: break-word;
+    }
+
+    .stack-details {
+        background: #ececec;
+        box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+        border: 1px solid #ababab;
+        padding: 10px;
+        margin-bottom: 18px;
+    }
+    .stack-frame-args {
+        float: right;
+    }
+
+    .toggle-link {
+        color: #1798A5;
+        text-decoration: none;
+    }
+    .toggle-link:hover {
+        text-decoration: underline;
+    }
+    .toggle-vendor-frames {
+        padding: 5px;
+        display: block;
+        text-align: center;
+    }
+
+    .code-excerpt {
+        width: 100%;
+        margin: 5px 0;
+        background: #fefefe;
+    }
+    .code-highlight {
+        display: block;
+        background: #fff59d;
+    }
+    .excerpt-line {
+        padding-left: 2px;
+    }
+    .excerpt-number {
+        background: #f6f6f6;
+        width: 50px;
+        text-align: right;
+        color: #666;
+        border-right: 1px solid #ddd;
+        padding: 2px;
+    }
+    .excerpt-number:after {
+        content: attr(data-number);
+    }
+
+    table {
+        text-align: left;
+    }
+    th, td {
+        padding: 4px;
+    }
+    th {
+        border-bottom: 1px solid #ccc;
+    }
+    </style>
+</head>
+<body>
+    <header>
+        <h1 class="header-title">
+            Missing Template            <span class="header-type">Cake\View\Exception\MissingTemplateException</span>
+        </h1>
+        <div class="header-help">
+            <a target="_blank" href="http://book.cakephp.org/3.0/">Documentation</a>
+            <a target="_blank" href="http://api.cakephp.org/">API</a>
+        </div>
+    </header>
+
+    <div class="error-contents">
+                <p class="error-subheading">
+                <strong>Error: </strong>
+    The view for <em>RequestsController::view()</em> was not found.        </p>
+        
+        
+    <div id="stack-frame-0" style="display:none;" class="stack-details">
+        <span class="stack-frame-file">/Applications/MAMP/htdocs/rtorres/vendor/cakephp/cakephp/src/View/View.php</span>
+        <a href="http://rtorres:8888/debug_kit/toolbar/7591f1f8-87fa-4b60-b9d9-3d436efe44d3#" class="toggle-link stack-frame-args" data-target="stack-args-0">toggle arguments</a>
+
+        <table class="code-excerpt" cellspacing="0" cellpadding="0">
+                            <tbody><tr>
+                <td class="excerpt-number" data-number="587"></td>
+                <td class="excerpt-line"><code><span style="color: #000000"><span style="color: #0000BB">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;$defaultLayout&nbsp;</span><span style="color: #007700">=&nbsp;</span><span style="color: #0000BB">$this</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">layout</span><span style="color: #007700">;</span></span></code></td>
+            </tr>
+                    <tr>
+                <td class="excerpt-number" data-number="588"></td>
+                <td class="excerpt-line"><code><span style="color: #000000"><span style="color: #0000BB">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;$this</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">layout&nbsp;</span><span style="color: #007700">=&nbsp;</span><span style="color: #0000BB">$layout</span><span style="color: #007700">;</span></span></code></td>
+            </tr>
+                    <tr>
+                <td class="excerpt-number" data-number="589"></td>
+                <td class="excerpt-line"><code><span style="color: #000000"><span style="color: #0000BB">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">}</span></span></code></td>
+            </tr>
+                    <tr>
+                <td class="excerpt-number" data-number="590"></td>
+                <td class="excerpt-line"><code><span style="color: #000000"><span style="color: #0000BB"></span></span></code></td>
+            </tr>
+                    <tr>
+                <td class="excerpt-number" data-number="591"></td>
+                <td class="excerpt-line"><span class="code-highlight"><code><span style="color: #000000"><span style="color: #0000BB">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;$viewFileName&nbsp;</span><span style="color: #007700">=&nbsp;</span><span style="color: #0000BB">$view&nbsp;</span><span style="color: #007700">!==&nbsp;</span><span style="color: #0000BB">false&nbsp;</span><span style="color: #007700">?&nbsp;</span><span style="color: #0000BB">$this</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">_getViewFileName</span><span style="color: #007700">(</span><span style="color: #0000BB">$view</span><span style="color: #007700">)&nbsp;:&nbsp;</span><span style="color: #0000BB">null</span><span style="color: #007700">;</span></span></code></span></td>
+            </tr>
+                    <tr>
+                <td class="excerpt-number" data-number="592"></td>
+                <td class="excerpt-line"><code><span style="color: #000000"><span style="color: #0000BB">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">if&nbsp;(</span><span style="color: #0000BB">$viewFileName</span><span style="color: #007700">)&nbsp;{</span></span></code></td>
+            </tr>
+                    <tr>
+                <td class="excerpt-number" data-number="593"></td>
+                <td class="excerpt-line"><code><span style="color: #000000"><span style="color: #0000BB">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;$this</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">_currentType&nbsp;</span><span style="color: #007700">=&nbsp;static::</span><span style="color: #0000BB">TYPE_TEMPLATE</span><span style="color: #007700">;</span></span></code></td>
+            </tr>
+                    <tr>
+                <td class="excerpt-number" data-number="594"></td>
+                <td class="excerpt-line"><code><span style="color: #000000"><span style="color: #0000BB">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;$this</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">dispatchEvent</span><span style="color: #007700">(</span><span style="color: #DD0000">'View.beforeRender'</span><span style="color: #007700">,&nbsp;[</span><span style="color: #0000BB">$viewFileName</span><span style="color: #007700">]);</span></span></code></td>
+            </tr>
+                    <tr>
+                <td class="excerpt-number" data-number="595"></td>
+                <td class="excerpt-line"><code><span style="color: #000000"><span style="color: #0000BB">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;$this</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">Blocks</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">set</span><span style="color: #007700">(</span><span style="color: #DD0000">'content'</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">$this</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">_render</span><span style="color: #007700">(</span><span style="color: #0000BB">$viewFileName</span><span style="color: #007700">));</span></span></code></td>
+            </tr>
+                </tbody></table>
+
+        <div id="stack-args-0" style="display: none;">
+            <pre>null</pre>
+        </div>
+    </div>
+    <div id="stack-frame-1" style="display:none;" class="stack-details">
+        <span class="stack-frame-file">/Applications/MAMP/htdocs/rtorres/vendor/cakephp/cakephp/src/Controller/Controller.php</span>
+        <a href="http://rtorres:8888/debug_kit/toolbar/7591f1f8-87fa-4b60-b9d9-3d436efe44d3#" class="toggle-link stack-frame-args" data-target="stack-args-1">toggle arguments</a>
+
+        <table class="code-excerpt" cellspacing="0" cellpadding="0">
+                            <tbody><tr>
+                <td class="excerpt-number" data-number="613"></td>
+                <td class="excerpt-line"><code><span style="color: #000000"><span style="color: #0000BB">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;$builder</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">template</span><span style="color: #007700">(</span><span style="color: #0000BB">$this</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">request</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">params</span><span style="color: #007700">[</span><span style="color: #DD0000">'action'</span><span style="color: #007700">]);</span></span></code></td>
+            </tr>
+                    <tr>
+                <td class="excerpt-number" data-number="614"></td>
+                <td class="excerpt-line"><code><span style="color: #000000"><span style="color: #0000BB">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">}</span></span></code></td>
+            </tr>
+                    <tr>
+                <td class="excerpt-number" data-number="615"></td>
+                <td class="excerpt-line"><code><span style="color: #000000"><span style="color: #0000BB"></span></span></code></td>
+            </tr>
+                    <tr>
+                <td class="excerpt-number" data-number="616"></td>
+                <td class="excerpt-line"><code><span style="color: #000000"><span style="color: #0000BB">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;$this</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">View&nbsp;</span><span style="color: #007700">=&nbsp;</span><span style="color: #0000BB">$this</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">createView</span><span style="color: #007700">();</span></span></code></td>
+            </tr>
+                    <tr>
+                <td class="excerpt-number" data-number="617"></td>
+                <td class="excerpt-line"><span class="code-highlight"><code><span style="color: #000000"><span style="color: #0000BB">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;$this</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">response</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">body</span><span style="color: #007700">(</span><span style="color: #0000BB">$this</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">View</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">render</span><span style="color: #007700">(</span><span style="color: #0000BB">$view</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">$layout</span><span style="color: #007700">));</span></span></code></span></td>
+            </tr>
+                    <tr>
+                <td class="excerpt-number" data-number="618"></td>
+                <td class="excerpt-line"><code><span style="color: #000000"><span style="color: #0000BB"></span></span></code></td>
+            </tr>
+                    <tr>
+                <td class="excerpt-number" data-number="619"></td>
+                <td class="excerpt-line"><code><span style="color: #000000"><span style="color: #0000BB">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">return&nbsp;</span><span style="color: #0000BB">$this</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">response</span><span style="color: #007700">;</span></span></code></td>
+            </tr>
+                    <tr>
+                <td class="excerpt-number" data-number="620"></td>
+                <td class="excerpt-line"><code><span style="color: #000000"><span style="color: #0000BB">&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">}</span></span></code></td>
+            </tr>
+                    <tr>
+                <td class="excerpt-number" data-number="621"></td>
+                <td class="excerpt-line"><code><span style="color: #000000"><span style="color: #0000BB"></span></span></code></td>
+            </tr>
+                </tbody></table>
+
+        <div id="stack-args-1" style="display: none;">
+            <pre>null
+null</pre>
+        </div>
+    </div>
+    <div id="stack-frame-2" style="display:none;" class="stack-details">
+        <span class="stack-frame-file">/Applications/MAMP/htdocs/rtorres/vendor/cakephp/cakephp/src/Http/ActionDispatcher.php</span>
+        <a href="http://rtorres:8888/debug_kit/toolbar/7591f1f8-87fa-4b60-b9d9-3d436efe44d3#" class="toggle-link stack-frame-args" data-target="stack-args-2">toggle arguments</a>
+
+        <table class="code-excerpt" cellspacing="0" cellpadding="0">
+                            <tbody><tr>
+                <td class="excerpt-number" data-number="124"></td>
+                <td class="excerpt-line"><code><span style="color: #000000"><span style="color: #0000BB">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">throw&nbsp;new&nbsp;</span><span style="color: #0000BB">LogicException</span><span style="color: #007700">(</span><span style="color: #DD0000">'Controller&nbsp;actions&nbsp;can&nbsp;only&nbsp;return&nbsp;Cake\Network\Response&nbsp;or&nbsp;null.'</span><span style="color: #007700">);</span></span></code></td>
+            </tr>
+                    <tr>
+                <td class="excerpt-number" data-number="125"></td>
+                <td class="excerpt-line"><code><span style="color: #000000"><span style="color: #0000BB">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">}</span></span></code></td>
+            </tr>
+                    <tr>
+                <td class="excerpt-number" data-number="126"></td>
+                <td class="excerpt-line"><code><span style="color: #000000"><span style="color: #0000BB"></span></span></code></td>
+            </tr>
+                    <tr>
+                <td class="excerpt-number" data-number="127"></td>
+                <td class="excerpt-line"><code><span style="color: #000000"><span style="color: #0000BB">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">if&nbsp;(!</span><span style="color: #0000BB">$response&nbsp;</span><span style="color: #007700">&amp;&amp;&nbsp;</span><span style="color: #0000BB">$controller</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">autoRender</span><span style="color: #007700">)&nbsp;{</span></span></code></td>
+            </tr>
+                    <tr>
+                <td class="excerpt-number" data-number="128"></td>
+                <td class="excerpt-line"><span class="code-highlight"><code><span style="color: #000000"><span style="color: #0000BB">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;$response&nbsp;</span><span style="color: #007700">=&nbsp;</span><span style="color: #0000BB">$controller</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">render</span><span style="color: #007700">();</span></span></code></span></td>
+            </tr>
+                    <tr>
+                <td class="excerpt-number" data-number="129"></td>
+                <td class="excerpt-line"><code><span style="color: #000000"><span style="color: #0000BB">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">}&nbsp;elseif&nbsp;(!</span><span style="color: #0000BB">$response</span><span style="color: #007700">)&nbsp;{</span></span></code></td>
+            </tr>
+                    <tr>
+                <td class="excerpt-number" data-number="130"></td>
+                <td class="excerpt-line"><code><span style="color: #000000"><span style="color: #0000BB">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;$response&nbsp;</span><span style="color: #007700">=&nbsp;</span><span style="color: #0000BB">$controller</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">response</span><span style="color: #007700">;</span></span></code></td>
+            </tr>
+                    <tr>
+                <td class="excerpt-number" data-number="131"></td>
+                <td class="excerpt-line"><code><span style="color: #000000"><span style="color: #0000BB">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">}</span></span></code></td>
+            </tr>
+                    <tr>
+                <td class="excerpt-number" data-number="132"></td>
+                <td class="excerpt-line"><code><span style="color: #000000"><span style="color: #0000BB"></span></span></code></td>
+            </tr>
+                </tbody></table>
+
+        <div id="stack-args-2" style="display: none;">
+            <pre>No arguments</pre>
+        </div>
+    </div>
+    <div id="stack-frame-3" style="display:none;" class="stack-details">
+        <span class="stack-frame-file">/Applications/MAMP/htdocs/rtorres/vendor/cakephp/cakephp/src/Http/ActionDispatcher.php</span>
+        <a href="http://rtorres:8888/debug_kit/toolbar/7591f1f8-87fa-4b60-b9d9-3d436efe44d3#" class="toggle-link stack-frame-args" data-target="stack-args-3">toggle arguments</a>
+
+        <table class="code-excerpt" cellspacing="0" cellpadding="0">
+                            <tbody><tr>
+                <td class="excerpt-number" data-number="92"></td>
+                <td class="excerpt-line"><code><span style="color: #000000"><span style="color: #0000BB">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">}&nbsp;else&nbsp;{</span></span></code></td>
+            </tr>
+                    <tr>
+                <td class="excerpt-number" data-number="93"></td>
+                <td class="excerpt-line"><code><span style="color: #000000"><span style="color: #0000BB">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;$controller&nbsp;</span><span style="color: #007700">=&nbsp;</span><span style="color: #0000BB">$this</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">factory</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">create</span><span style="color: #007700">(</span><span style="color: #0000BB">$request</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">$response</span><span style="color: #007700">);</span></span></code></td>
+            </tr>
+                    <tr>
+                <td class="excerpt-number" data-number="94"></td>
+                <td class="excerpt-line"><code><span style="color: #000000"><span style="color: #0000BB">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">}</span></span></code></td>
+            </tr>
+                    <tr>
+                <td class="excerpt-number" data-number="95"></td>
+                <td class="excerpt-line"><code><span style="color: #000000"><span style="color: #0000BB"></span></span></code></td>
+            </tr>
+                    <tr>
+                <td class="excerpt-number" data-number="96"></td>
+                <td class="excerpt-line"><span class="code-highlight"><code><span style="color: #000000"><span style="color: #0000BB">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;$response&nbsp;</span><span style="color: #007700">=&nbsp;</span><span style="color: #0000BB">$this</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">_invoke</span><span style="color: #007700">(</span><span style="color: #0000BB">$controller</span><span style="color: #007700">);</span></span></code></span></td>
+            </tr>
+                    <tr>
+                <td class="excerpt-number" data-number="97"></td>
+                <td class="excerpt-line"><code><span style="color: #000000"><span style="color: #0000BB">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">if&nbsp;(isset(</span><span style="color: #0000BB">$request</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">params</span><span style="color: #007700">[</span><span style="color: #DD0000">'return'</span><span style="color: #007700">]))&nbsp;{</span></span></code></td>
+            </tr>
+                    <tr>
+                <td class="excerpt-number" data-number="98"></td>
+                <td class="excerpt-line"><code><span style="color: #000000"><span style="color: #0000BB">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">return&nbsp;</span><span style="color: #0000BB">$response</span><span style="color: #007700">;</span></span></code></td>
+            </tr>
+                    <tr>
+                <td class="excerpt-number" data-number="99"></td>
+                <td class="excerpt-line"><code><span style="color: #000000"><span style="color: #0000BB">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">}</span></span></code></td>
+            </tr>
+                    <tr>
+                <td class="excerpt-number" data-number="100"></td>
+                <td class="excerpt-line"><code><span style="color: #000000"><span style="color: #0000BB"></span></span></code></td>
+            </tr>
+                </tbody></table>
+
+        <div id="stack-args-3" style="display: none;">
+            <pre>object(DebugKit\Controller\RequestsController) {
+	name =&gt; 'Requests'
+	helpers =&gt; []
+	request =&gt; object(Cake\Network\Request) {
+		params =&gt; [
+			[maximum depth reached]
+		]
+		data =&gt; [[maximum depth reached]]
+		query =&gt; [[maximum depth reached]]
+		cookies =&gt; [
+			[maximum depth reached]
+		]
+		url =&gt; 'debug_kit/toolbar/7591f1f8-87fa-4b60-b9d9-3d436efe44d3'
+		base =&gt; ''
+		webroot =&gt; '/'
+		here =&gt; '/debug_kit/toolbar/7591f1f8-87fa-4b60-b9d9-3d436efe44d3'
+		trustProxy =&gt; false
+		[protected] _environment =&gt; [
+			[maximum depth reached]
+		]
+		[protected] _detectors =&gt; [
+			[maximum depth reached]
+		]
+		[protected] _detectorCache =&gt; [
+			[maximum depth reached]
+		]
+		[protected] _input =&gt; ''
+		[protected] _session =&gt; object(Cake\Network\Session) {}
+	}
+	response =&gt; object(Cake\Network\Response) {
+		[protected] _statusCodes =&gt; [
+			[maximum depth reached]
+		]
+		[protected] _mimeTypes =&gt; [
+			[maximum depth reached]
+		]
+		[protected] _protocol =&gt; 'HTTP/1.1'
+		[protected] _status =&gt; (int) 200
+		[protected] _contentType =&gt; 'text/html'
+		[protected] _headers =&gt; [
+			[maximum depth reached]
+		]
+		[protected] _body =&gt; null
+		[protected] _file =&gt; null
+		[protected] _fileRange =&gt; [[maximum depth reached]]
+		[protected] _charset =&gt; 'UTF-8'
+		[protected] _cacheDirectives =&gt; [[maximum depth reached]]
+		[protected] _cookies =&gt; [[maximum depth reached]]
+	}
+	paginate =&gt; []
+	autoRender =&gt; false
+	components =&gt; []
+	View =&gt; object(DebugKit\View\AjaxView) {
+		Blocks =&gt; object(Cake\View\ViewBlock) {}
+		plugin =&gt; 'DebugKit'
+		name =&gt; 'Requests'
+		passedArgs =&gt; [
+			[maximum depth reached]
+		]
+		helpers =&gt; [[maximum depth reached]]
+		templatePath =&gt; 'Requests'
+		template =&gt; 'view'
+		layout =&gt; 'DebugKit.toolbar'
+		layoutPath =&gt; null
+		autoLayout =&gt; true
+		subDir =&gt; null
+		theme =&gt; null
+		hasRendered =&gt; false
+		uuids =&gt; [[maximum depth reached]]
+		request =&gt; object(Cake\Network\Request) {}
+		response =&gt; object(Cake\Network\Response) {}
+		elementCache =&gt; 'default'
+		viewClass =&gt; null
+		viewVars =&gt; [
+			[maximum depth reached]
+		]
+		[protected] _helpers =&gt; object(Cake\View\HelperRegistry) {}
+		[protected] _ext =&gt; '.ctp'
+		[protected] _passedVars =&gt; [
+			[maximum depth reached]
+		]
+		[protected] _paths =&gt; [[maximum depth reached]]
+		[protected] _pathsForPlugin =&gt; [
+			[maximum depth reached]
+		]
+		[protected] _parents =&gt; [[maximum depth reached]]
+		[protected] _current =&gt; null
+		[protected] _currentType =&gt; ''
+		[protected] _stack =&gt; [[maximum depth reached]]
+		[protected] _eventManager =&gt; object(Cake\Event\EventManager) {}
+		[protected] _eventClass =&gt; '\Cake\Event\Event'
+		[protected] _viewBuilder =&gt; null
+	}
+	plugin =&gt; 'DebugKit'
+	passedArgs =&gt; [
+		(int) 0 =&gt; '7591f1f8-87fa-4b60-b9d9-3d436efe44d3'
+	]
+	modelClass =&gt; 'DebugKit.Requests'
+	viewClass =&gt; null
+	viewVars =&gt; [
+		'toolbar' =&gt; object(DebugKit\Model\Entity\Request) {}
+	]
+	Requests =&gt; object(DebugKit\Model\Table\RequestsTable) {
+
+		'registryAlias' =&gt; 'DebugKit.Requests',
+		'table' =&gt; 'requests',
+		'alias' =&gt; 'Requests',
+		'entityClass' =&gt; 'DebugKit\Model\Entity\Request',
+		'associations' =&gt; [
+			[maximum depth reached]
+		],
+		'behaviors' =&gt; [
+			[maximum depth reached]
+		],
+		'defaultConnection' =&gt; 'debug_kit',
+		'connectionName' =&gt; 'debug_kit'
+	
+	}
+	[protected] _responseClass =&gt; 'Cake\Network\Response'
+	[protected] _components =&gt; null
+	[protected] _validViewOptions =&gt; [
+		(int) 0 =&gt; 'passedArgs'
+	]
+	[protected] _eventManager =&gt; object(Cake\Event\EventManager) {
+
+		'_listeners' =&gt; [
+			[maximum depth reached]
+		],
+		'_isGlobal' =&gt; false,
+		'_eventList' =&gt; null,
+		'_trackEvents' =&gt; false,
+		'_generalManager' =&gt; '(object) EventManager'
+	
+	}
+	[protected] _eventClass =&gt; '\Cake\Event\Event'
+	[protected] _tableLocator =&gt; object(Cake\ORM\Locator\TableLocator) {
+		[protected] _config =&gt; [[maximum depth reached]]
+		[protected] _instances =&gt; [
+			[maximum depth reached]
+		]
+		[protected] _fallbacked =&gt; [[maximum depth reached]]
+		[protected] _options =&gt; [
+			[maximum depth reached]
+		]
+	}
+	[protected] _modelFactories =&gt; [
+		'Table' =&gt; [
+			(int) 0 =&gt; object(Cake\ORM\Locator\TableLocator) {},
+			(int) 1 =&gt; 'get'
+		]
+	]
+	[protected] _modelType =&gt; 'Table'
+	[protected] _viewBuilder =&gt; object(Cake\View\ViewBuilder) {
+		[protected] _templatePath =&gt; 'Requests'
+		[protected] _template =&gt; 'view'
+		[protected] _plugin =&gt; 'DebugKit'
+		[protected] _theme =&gt; null
+		[protected] _layout =&gt; 'DebugKit.toolbar'
+		[protected] _autoLayout =&gt; null
+		[protected] _layoutPath =&gt; null
+		[protected] _name =&gt; 'Requests'
+		[protected] _className =&gt; 'DebugKit.Ajax'
+		[protected] _options =&gt; [
+			[maximum depth reached]
+		]
+		[protected] _helpers =&gt; [[maximum depth reached]]
+	}
+}</pre>
+        </div>
+    </div>
+    <div id="stack-frame-4" style="display:none;" class="stack-details">
+        <span class="stack-frame-file">/Applications/MAMP/htdocs/rtorres/vendor/cakephp/cakephp/src/Routing/Dispatcher.php</span>
+        <a href="http://rtorres:8888/debug_kit/toolbar/7591f1f8-87fa-4b60-b9d9-3d436efe44d3#" class="toggle-link stack-frame-args" data-target="stack-args-4">toggle arguments</a>
+
+        <table class="code-excerpt" cellspacing="0" cellpadding="0">
+                            <tbody><tr>
+                <td class="excerpt-number" data-number="56"></td>
+                <td class="excerpt-line"><code><span style="color: #000000"><span style="color: #0000BB">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">*/</span></span></code></td>
+            </tr>
+                    <tr>
+                <td class="excerpt-number" data-number="57"></td>
+                <td class="excerpt-line"><code><span style="color: #000000"><span style="color: #0000BB">&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">public&nbsp;function&nbsp;</span><span style="color: #0000BB">dispatch</span><span style="color: #007700">(</span><span style="color: #0000BB">Request&nbsp;$request</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">Response&nbsp;$response</span><span style="color: #007700">)</span></span></code></td>
+            </tr>
+                    <tr>
+                <td class="excerpt-number" data-number="58"></td>
+                <td class="excerpt-line"><code><span style="color: #000000"><span style="color: #0000BB">&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">{</span></span></code></td>
+            </tr>
+                    <tr>
+                <td class="excerpt-number" data-number="59"></td>
+                <td class="excerpt-line"><code><span style="color: #000000"><span style="color: #0000BB">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;$actionDispatcher&nbsp;</span><span style="color: #007700">=&nbsp;new&nbsp;</span><span style="color: #0000BB">ActionDispatcher</span><span style="color: #007700">(</span><span style="color: #0000BB">null</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">$this</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">eventManager</span><span style="color: #007700">(),&nbsp;</span><span style="color: #0000BB">$this</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">_filters</span><span style="color: #007700">);</span></span></code></td>
+            </tr>
+                    <tr>
+                <td class="excerpt-number" data-number="60"></td>
+                <td class="excerpt-line"><span class="code-highlight"><code><span style="color: #000000"><span style="color: #0000BB">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;$response&nbsp;</span><span style="color: #007700">=&nbsp;</span><span style="color: #0000BB">$actionDispatcher</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">dispatch</span><span style="color: #007700">(</span><span style="color: #0000BB">$request</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">$response</span><span style="color: #007700">);</span></span></code></span></td>
+            </tr>
+                    <tr>
+                <td class="excerpt-number" data-number="61"></td>
+                <td class="excerpt-line"><code><span style="color: #000000"><span style="color: #0000BB">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">if&nbsp;(isset(</span><span style="color: #0000BB">$request</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">params</span><span style="color: #007700">[</span><span style="color: #DD0000">'return'</span><span style="color: #007700">]))&nbsp;{</span></span></code></td>
+            </tr>
+                    <tr>
+                <td class="excerpt-number" data-number="62"></td>
+                <td class="excerpt-line"><code><span style="color: #000000"><span style="color: #0000BB">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">return&nbsp;</span><span style="color: #0000BB">$response</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">body</span><span style="color: #007700">();</span></span></code></td>
+            </tr>
+                    <tr>
+                <td class="excerpt-number" data-number="63"></td>
+                <td class="excerpt-line"><code><span style="color: #000000"><span style="color: #0000BB">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">}</span></span></code></td>
+            </tr>
+                    <tr>
+                <td class="excerpt-number" data-number="64"></td>
+                <td class="excerpt-line"><code><span style="color: #000000"><span style="color: #0000BB"></span></span></code></td>
+            </tr>
+                </tbody></table>
+
+        <div id="stack-args-4" style="display: none;">
+            <pre>object(Cake\Network\Request) {
+	params =&gt; [
+		'plugin' =&gt; 'DebugKit',
+		'controller' =&gt; 'Requests',
+		'action' =&gt; 'view',
+		'_ext' =&gt; null,
+		'pass' =&gt; [
+			(int) 0 =&gt; '7591f1f8-87fa-4b60-b9d9-3d436efe44d3'
+		],
+		'_matchedRoute' =&gt; '/debug_kit/toolbar/*',
+		'isAjax' =&gt; false
+	]
+	data =&gt; []
+	query =&gt; []
+	cookies =&gt; [
+		'csrfToken' =&gt; '5d1d6c384a9e78ebd525feb1f366edda345be848c02bf8db8c1b5a494382f33d49be11c09fb3314f394e1d6ba70a0d50fe61c114c143ef1ad3cf97b78593c6fb',
+		'usermgmt_user_activity' =&gt; 'Q2FrZQ==.OWQ4ZDhmYmM3NGE4OTgxZTQ0MWExMDgxNTgxYTZiZmNjZjk1NDIwNjZhY2I4YWU1NDIxODY4M2Q1ZTk4MjY4NqFkiN9VYkeJaYLTbbxWurB3ahMc06pe5+gF9brGaOVi5+xrna2B0K77nx63CxJcLsLSWNQ8nu8d5I9K4+t9lEuZ04Liq8y3U1jB8iXYDPnBKS9+aDx6UCgpy66oVP4sYw==',
+		'_ga' =&gt; 'GA1.1.242843331.1501516943',
+		'CAKEPHP' =&gt; 'eafc0219eedf49e9630216f553542167'
+	]
+	url =&gt; 'debug_kit/toolbar/7591f1f8-87fa-4b60-b9d9-3d436efe44d3'
+	base =&gt; ''
+	webroot =&gt; '/'
+	here =&gt; '/debug_kit/toolbar/7591f1f8-87fa-4b60-b9d9-3d436efe44d3'
+	trustProxy =&gt; false
+	[protected] _environment =&gt; [
+		'PHP_FCGI_CHILDREN' =&gt; '4',
+		'PWD' =&gt; '/Applications/MAMP/fcgi-bin',
+		'SHLVL' =&gt; '0',
+		'PHP_FCGI_MAX_REQUESTS' =&gt; '200',
+		'__CF_USER_TEXT_ENCODING' =&gt; '0x1F5:0x0:0x8',
+		'ORIG_SCRIPT_NAME' =&gt; '/fcgi-bin/php5.5.26.fcgi',
+		'ORIG_PATH_TRANSLATED' =&gt; '/Applications/MAMP/htdocs/rtorres/webroot/index.php',
+		'ORIG_PATH_INFO' =&gt; '/index.php',
+		'ORIG_SCRIPT_FILENAME' =&gt; '/Applications/MAMP/fcgi-bin/php5.5.26.fcgi',
+		'SCRIPT_NAME' =&gt; '/index.php',
+		'REQUEST_URI' =&gt; '/debug_kit/toolbar/7591f1f8-87fa-4b60-b9d9-3d436efe44d3',
+		'QUERY_STRING' =&gt; '',
+		'REQUEST_METHOD' =&gt; 'GET',
+		'SERVER_PROTOCOL' =&gt; 'HTTP/1.1',
+		'GATEWAY_INTERFACE' =&gt; 'CGI/1.1',
+		'REDIRECT_URL' =&gt; '/index.php',
+		'REMOTE_PORT' =&gt; '57692',
+		'SCRIPT_FILENAME' =&gt; '/Applications/MAMP/htdocs/rtorres/webroot/index.php',
+		'SERVER_ADMIN' =&gt; 'you@example.com',
+		'DOCUMENT_ROOT' =&gt; '/Applications/MAMP/htdocs/rtorres/webroot/',
+		'REMOTE_ADDR' =&gt; '::1',
+		'SERVER_PORT' =&gt; '8888',
+		'SERVER_ADDR' =&gt; '::1',
+		'SERVER_NAME' =&gt; 'rtorres',
+		'SERVER_SOFTWARE' =&gt; 'Apache',
+		'SERVER_SIGNATURE' =&gt; '',
+		'PATH' =&gt; '/usr/bin:/bin:/usr/sbin:/sbin',
+		'HTTP_COOKIE' =&gt; 'csrfToken=5d1d6c384a9e78ebd525feb1f366edda345be848c02bf8db8c1b5a494382f33d49be11c09fb3314f394e1d6ba70a0d50fe61c114c143ef1ad3cf97b78593c6fb; usermgmt_user_activity=Q2FrZQ%3D%3D.OWQ4ZDhmYmM3NGE4OTgxZTQ0MWExMDgxNTgxYTZiZmNjZjk1NDIwNjZhY2I4YWU1NDIxODY4M2Q1ZTk4MjY4NqFkiN9VYkeJaYLTbbxWurB3ahMc06pe5%2BgF9brGaOVi5%2Bxrna2B0K77nx63CxJcLsLSWNQ8nu8d5I9K4%2Bt9lEuZ04Liq8y3U1jB8iXYDPnBKS9%2BaDx6UCgpy66oVP4sYw%3D%3D; _ga=GA1.1.242843331.1501516943; CAKEPHP=eafc0219eedf49e9630216f553542167',
+		'HTTP_ACCEPT_LANGUAGE' =&gt; 'es-ES,es;q=0.8,en;q=0.6,gl;q=0.4',
+		'HTTP_ACCEPT_ENCODING' =&gt; 'gzip, deflate',
+		'HTTP_REFERER' =&gt; 'http://rtorres:8888/sc/sillas-y-bancos?sort=precio+ASC',
+		'HTTP_ACCEPT' =&gt; 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+		'HTTP_USER_AGENT' =&gt; 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+		'HTTP_UPGRADE_INSECURE_REQUESTS' =&gt; '1',
+		'HTTP_CONNECTION' =&gt; 'keep-alive',
+		'HTTP_HOST' =&gt; 'rtorres:8888',
+		'REDIRECT_STATUS' =&gt; '200',
+		'REDIRECT_HANDLER' =&gt; 'php-fastcgi',
+		'REDIRECT_REDIRECT_STATUS' =&gt; '200',
+		'FCGI_ROLE' =&gt; 'RESPONDER',
+		'PHP_SELF' =&gt; '/index.php',
+		'REQUEST_TIME_FLOAT' =&gt; (float) 1501876855.02,
+		'REQUEST_TIME' =&gt; (int) 1501876855,
+		'argv' =&gt; [],
+		'argc' =&gt; (int) 0,
+		'HTTP_X_HTTP_METHOD_OVERRIDE' =&gt; null,
+		'ORIGINAL_REQUEST_METHOD' =&gt; 'GET',
+		'HTTPS' =&gt; false,
+		'HTTP_X_REQUESTED_WITH' =&gt; null,
+		'HTTP_IF_NONE_MATCH' =&gt; null,
+		'HTTP_IF_MODIFIED_SINCE' =&gt; null
+	]
+	[protected] _detectors =&gt; [
+		'get' =&gt; [
+			'env' =&gt; 'REQUEST_METHOD',
+			'value' =&gt; 'GET'
+		],
+		'post' =&gt; [
+			'env' =&gt; 'REQUEST_METHOD',
+			'value' =&gt; 'POST'
+		],
+		'put' =&gt; [
+			'env' =&gt; 'REQUEST_METHOD',
+			'value' =&gt; 'PUT'
+		],
+		'patch' =&gt; [
+			'env' =&gt; 'REQUEST_METHOD',
+			'value' =&gt; 'PATCH'
+		],
+		'delete' =&gt; [
+			'env' =&gt; 'REQUEST_METHOD',
+			'value' =&gt; 'DELETE'
+		],
+		'head' =&gt; [
+			'env' =&gt; 'REQUEST_METHOD',
+			'value' =&gt; 'HEAD'
+		],
+		'options' =&gt; [
+			'env' =&gt; 'REQUEST_METHOD',
+			'value' =&gt; 'OPTIONS'
+		],
+		'ssl' =&gt; [
+			'env' =&gt; 'HTTPS',
+			'options' =&gt; [
+				[maximum depth reached]
+			]
+		],
+		'ajax' =&gt; [
+			'env' =&gt; 'HTTP_X_REQUESTED_WITH',
+			'value' =&gt; 'XMLHttpRequest'
+		],
+		'flash' =&gt; [
+			'env' =&gt; 'HTTP_USER_AGENT',
+			'pattern' =&gt; '/^(Shockwave|Adobe) Flash/'
+		],
+		'requested' =&gt; [
+			'param' =&gt; 'requested',
+			'value' =&gt; (int) 1
+		],
+		'json' =&gt; [
+			'accept' =&gt; [
+				[maximum depth reached]
+			],
+			'param' =&gt; '_ext',
+			'value' =&gt; 'json'
+		],
+		'xml' =&gt; [
+			'accept' =&gt; [
+				[maximum depth reached]
+			],
+			'param' =&gt; '_ext',
+			'value' =&gt; 'xml'
+		],
+		'mobile' =&gt; object(Closure) {},
+		'tablet' =&gt; object(Closure) {}
+	]
+	[protected] _detectorCache =&gt; [
+		'ajax' =&gt; false,
+		'get' =&gt; true,
+		'head' =&gt; false,
+		'options' =&gt; false
+	]
+	[protected] _input =&gt; ''
+	[protected] _session =&gt; object(Cake\Network\Session) {
+		[protected] _engine =&gt; null
+		[protected] _started =&gt; null
+		[protected] _lifetime =&gt; '1440'
+		[protected] _isCLI =&gt; false
+	}
+}
+object(Cake\Network\Response) {
+	[protected] _statusCodes =&gt; [
+		(int) 100 =&gt; 'Continue',
+		(int) 101 =&gt; 'Switching Protocols',
+		(int) 102 =&gt; 'Processing',
+		(int) 200 =&gt; 'OK',
+		(int) 201 =&gt; 'Created',
+		(int) 202 =&gt; 'Accepted',
+		(int) 203 =&gt; 'Non-Authoritative Information',
+		(int) 204 =&gt; 'No Content',
+		(int) 205 =&gt; 'Reset Content',
+		(int) 206 =&gt; 'Partial Content',
+		(int) 207 =&gt; 'Multi-status',
+		(int) 208 =&gt; 'Already Reported',
+		(int) 226 =&gt; 'IM used',
+		(int) 300 =&gt; 'Multiple Choices',
+		(int) 301 =&gt; 'Moved Permanently',
+		(int) 302 =&gt; 'Found',
+		(int) 303 =&gt; 'See Other',
+		(int) 304 =&gt; 'Not Modified',
+		(int) 305 =&gt; 'Use Proxy',
+		(int) 306 =&gt; 'Switch Proxy',
+		(int) 307 =&gt; 'Temporary Redirect',
+		(int) 308 =&gt; 'Permanent Redirect',
+		(int) 400 =&gt; 'Bad Request',
+		(int) 401 =&gt; 'Unauthorized',
+		(int) 402 =&gt; 'Payment Required',
+		(int) 403 =&gt; 'Forbidden',
+		(int) 404 =&gt; 'Not Found',
+		(int) 405 =&gt; 'Method Not Allowed',
+		(int) 406 =&gt; 'Not Acceptable',
+		(int) 407 =&gt; 'Proxy Authentication Required',
+		(int) 408 =&gt; 'Request Timeout',
+		(int) 409 =&gt; 'Conflict',
+		(int) 410 =&gt; 'Gone',
+		(int) 411 =&gt; 'Length Required',
+		(int) 412 =&gt; 'Precondition Failed',
+		(int) 413 =&gt; 'Request Entity Too Large',
+		(int) 414 =&gt; 'Request-URI Too Large',
+		(int) 415 =&gt; 'Unsupported Media Type',
+		(int) 416 =&gt; 'Requested range not satisfiable',
+		(int) 417 =&gt; 'Expectation Failed',
+		(int) 418 =&gt; 'I'm a teapot',
+		(int) 421 =&gt; 'Misdirected Request',
+		(int) 422 =&gt; 'Unprocessable Entity',
+		(int) 423 =&gt; 'Locked',
+		(int) 424 =&gt; 'Failed Dependency',
+		(int) 425 =&gt; 'Unordered Collection',
+		(int) 426 =&gt; 'Upgrade Required',
+		(int) 428 =&gt; 'Precondition Required',
+		(int) 429 =&gt; 'Too Many Requests',
+		(int) 431 =&gt; 'Request Header Fields Too Large',
+		(int) 444 =&gt; 'Connection Closed Without Response',
+		(int) 451 =&gt; 'Unavailable For Legal Reasons',
+		(int) 499 =&gt; 'Client Closed Request',
+		(int) 500 =&gt; 'Internal Server Error',
+		(int) 501 =&gt; 'Not Implemented',
+		(int) 502 =&gt; 'Bad Gateway',
+		(int) 503 =&gt; 'Service Unavailable',
+		(int) 504 =&gt; 'Gateway Timeout',
+		(int) 505 =&gt; 'Unsupported Version',
+		(int) 506 =&gt; 'Variant Also Negotiates',
+		(int) 507 =&gt; 'Insufficient Storage',
+		(int) 508 =&gt; 'Loop Detected',
+		(int) 510 =&gt; 'Not Extended',
+		(int) 511 =&gt; 'Network Authentication Required',
+		(int) 599 =&gt; 'Network Connect Timeout Error'
+	]
+	[protected] _mimeTypes =&gt; [
+		'html' =&gt; [
+			(int) 0 =&gt; 'text/html',
+			(int) 1 =&gt; '*/*'
+		],
+		'json' =&gt; 'application/json',
+		'xml' =&gt; [
+			(int) 0 =&gt; 'application/xml',
+			(int) 1 =&gt; 'text/xml'
+		],
+		'xhtml' =&gt; [
+			(int) 0 =&gt; 'application/xhtml+xml',
+			(int) 1 =&gt; 'application/xhtml',
+			(int) 2 =&gt; 'text/xhtml'
+		],
+		'webp' =&gt; 'image/webp',
+		'rss' =&gt; 'application/rss+xml',
+		'ai' =&gt; 'application/postscript',
+		'bcpio' =&gt; 'application/x-bcpio',
+		'bin' =&gt; 'application/octet-stream',
+		'ccad' =&gt; 'application/clariscad',
+		'cdf' =&gt; 'application/x-netcdf',
+		'class' =&gt; 'application/octet-stream',
+		'cpio' =&gt; 'application/x-cpio',
+		'cpt' =&gt; 'application/mac-compactpro',
+		'csh' =&gt; 'application/x-csh',
+		'csv' =&gt; [
+			(int) 0 =&gt; 'text/csv',
+			(int) 1 =&gt; 'application/vnd.ms-excel'
+		],
+		'dcr' =&gt; 'application/x-director',
+		'dir' =&gt; 'application/x-director',
+		'dms' =&gt; 'application/octet-stream',
+		'doc' =&gt; 'application/msword',
+		'docx' =&gt; 'application/vnd.openxmlformats-officedocument.wordprocessingml.document',
+		'drw' =&gt; 'application/drafting',
+		'dvi' =&gt; 'application/x-dvi',
+		'dwg' =&gt; 'application/acad',
+		'dxf' =&gt; 'application/dxf',
+		'dxr' =&gt; 'application/x-director',
+		'eot' =&gt; 'application/vnd.ms-fontobject',
+		'eps' =&gt; 'application/postscript',
+		'exe' =&gt; 'application/octet-stream',
+		'ez' =&gt; 'application/andrew-inset',
+		'flv' =&gt; 'video/x-flv',
+		'gtar' =&gt; 'application/x-gtar',
+		'gz' =&gt; 'application/x-gzip',
+		'bz2' =&gt; 'application/x-bzip',
+		'7z' =&gt; 'application/x-7z-compressed',
+		'hdf' =&gt; 'application/x-hdf',
+		'hqx' =&gt; 'application/mac-binhex40',
+		'ico' =&gt; 'image/x-icon',
+		'ips' =&gt; 'application/x-ipscript',
+		'ipx' =&gt; 'application/x-ipix',
+		'js' =&gt; 'application/javascript',
+		'jsonapi' =&gt; 'application/vnd.api+json',
+		'latex' =&gt; 'application/x-latex',
+		'lha' =&gt; 'application/octet-stream',
+		'lsp' =&gt; 'application/x-lisp',
+		'lzh' =&gt; 'application/octet-stream',
+		'man' =&gt; 'application/x-troff-man',
+		'me' =&gt; 'application/x-troff-me',
+		'mif' =&gt; 'application/vnd.mif',
+		'ms' =&gt; 'application/x-troff-ms',
+		'nc' =&gt; 'application/x-netcdf',
+		'oda' =&gt; 'application/oda',
+		'otf' =&gt; 'font/otf',
+		'pdf' =&gt; 'application/pdf',
+		'pgn' =&gt; 'application/x-chess-pgn',
+		'pot' =&gt; 'application/vnd.ms-powerpoint',
+		'pps' =&gt; 'application/vnd.ms-powerpoint',
+		'ppt' =&gt; 'application/vnd.ms-powerpoint',
+		'pptx' =&gt; 'application/vnd.openxmlformats-officedocument.presentationml.presentation',
+		'ppz' =&gt; 'application/vnd.ms-powerpoint',
+		'pre' =&gt; 'application/x-freelance',
+		'prt' =&gt; 'application/pro_eng',
+		'ps' =&gt; 'application/postscript',
+		'roff' =&gt; 'application/x-troff',
+		'scm' =&gt; 'application/x-lotusscreencam',
+		'set' =&gt; 'application/set',
+		'sh' =&gt; 'application/x-sh',
+		'shar' =&gt; 'application/x-shar',
+		'sit' =&gt; 'application/x-stuffit',
+		'skd' =&gt; 'application/x-koan',
+		'skm' =&gt; 'application/x-koan',
+		'skp' =&gt; 'application/x-koan',
+		'skt' =&gt; 'application/x-koan',
+		'smi' =&gt; 'application/smil',
+		'smil' =&gt; 'application/smil',
+		'sol' =&gt; 'application/solids',
+		'spl' =&gt; 'application/x-futuresplash',
+		'src' =&gt; 'application/x-wais-source',
+		'step' =&gt; 'application/STEP',
+		'stl' =&gt; 'application/SLA',
+		'stp' =&gt; 'application/STEP',
+		'sv4cpio' =&gt; 'application/x-sv4cpio',
+		'sv4crc' =&gt; 'application/x-sv4crc',
+		'svg' =&gt; 'image/svg+xml',
+		'svgz' =&gt; 'image/svg+xml',
+		'swf' =&gt; 'application/x-shockwave-flash',
+		't' =&gt; 'application/x-troff',
+		'tar' =&gt; 'application/x-tar',
+		'tcl' =&gt; 'application/x-tcl',
+		'tex' =&gt; 'application/x-tex',
+		'texi' =&gt; 'application/x-texinfo',
+		'texinfo' =&gt; 'application/x-texinfo',
+		'tr' =&gt; 'application/x-troff',
+		'tsp' =&gt; 'application/dsptype',
+		'ttc' =&gt; 'font/ttf',
+		'ttf' =&gt; 'font/ttf',
+		'unv' =&gt; 'application/i-deas',
+		'ustar' =&gt; 'application/x-ustar',
+		'vcd' =&gt; 'application/x-cdlink',
+		'vda' =&gt; 'application/vda',
+		'xlc' =&gt; 'application/vnd.ms-excel',
+		'xll' =&gt; 'application/vnd.ms-excel',
+		'xlm' =&gt; 'application/vnd.ms-excel',
+		'xls' =&gt; 'application/vnd.ms-excel',
+		'xlsx' =&gt; 'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet',
+		'xlw' =&gt; 'application/vnd.ms-excel',
+		'zip' =&gt; 'application/zip',
+		'aif' =&gt; 'audio/x-aiff',
+		'aifc' =&gt; 'audio/x-aiff',
+		'aiff' =&gt; 'audio/x-aiff',
+		'au' =&gt; 'audio/basic',
+		'kar' =&gt; 'audio/midi',
+		'mid' =&gt; 'audio/midi',
+		'midi' =&gt; 'audio/midi',
+		'mp2' =&gt; 'audio/mpeg',
+		'mp3' =&gt; 'audio/mpeg',
+		'mpga' =&gt; 'audio/mpeg',
+		'ogg' =&gt; 'audio/ogg',
+		'oga' =&gt; 'audio/ogg',
+		'spx' =&gt; 'audio/ogg',
+		'ra' =&gt; 'audio/x-realaudio',
+		'ram' =&gt; 'audio/x-pn-realaudio',
+		'rm' =&gt; 'audio/x-pn-realaudio',
+		'rpm' =&gt; 'audio/x-pn-realaudio-plugin',
+		'snd' =&gt; 'audio/basic',
+		'tsi' =&gt; 'audio/TSP-audio',
+		'wav' =&gt; 'audio/x-wav',
+		'aac' =&gt; 'audio/aac',
+		'asc' =&gt; 'text/plain',
+		'c' =&gt; 'text/plain',
+		'cc' =&gt; 'text/plain',
+		'css' =&gt; 'text/css',
+		'etx' =&gt; 'text/x-setext',
+		'f' =&gt; 'text/plain',
+		'f90' =&gt; 'text/plain',
+		'h' =&gt; 'text/plain',
+		'hh' =&gt; 'text/plain',
+		'htm' =&gt; [
+			(int) 0 =&gt; 'text/html',
+			(int) 1 =&gt; '*/*'
+		],
+		'ics' =&gt; 'text/calendar',
+		'm' =&gt; 'text/plain',
+		'rtf' =&gt; 'text/rtf',
+		'rtx' =&gt; 'text/richtext',
+		'sgm' =&gt; 'text/sgml',
+		'sgml' =&gt; 'text/sgml',
+		'tsv' =&gt; 'text/tab-separated-values',
+		'tpl' =&gt; 'text/template',
+		'txt' =&gt; 'text/plain',
+		'text' =&gt; 'text/plain',
+		'avi' =&gt; 'video/x-msvideo',
+		'fli' =&gt; 'video/x-fli',
+		'mov' =&gt; 'video/quicktime',
+		'movie' =&gt; 'video/x-sgi-movie',
+		'mpe' =&gt; 'video/mpeg',
+		'mpeg' =&gt; 'video/mpeg',
+		'mpg' =&gt; 'video/mpeg',
+		'qt' =&gt; 'video/quicktime',
+		'viv' =&gt; 'video/vnd.vivo',
+		'vivo' =&gt; 'video/vnd.vivo',
+		'ogv' =&gt; 'video/ogg',
+		'webm' =&gt; 'video/webm',
+		'mp4' =&gt; 'video/mp4',
+		'm4v' =&gt; 'video/mp4',
+		'f4v' =&gt; 'video/mp4',
+		'f4p' =&gt; 'video/mp4',
+		'm4a' =&gt; 'audio/mp4',
+		'f4a' =&gt; 'audio/mp4',
+		'f4b' =&gt; 'audio/mp4',
+		'gif' =&gt; 'image/gif',
+		'ief' =&gt; 'image/ief',
+		'jpg' =&gt; 'image/jpeg',
+		'jpeg' =&gt; 'image/jpeg',
+		'jpe' =&gt; 'image/jpeg',
+		'pbm' =&gt; 'image/x-portable-bitmap',
+		'pgm' =&gt; 'image/x-portable-graymap',
+		'png' =&gt; 'image/png',
+		'pnm' =&gt; 'image/x-portable-anymap',
+		'ppm' =&gt; 'image/x-portable-pixmap',
+		'ras' =&gt; 'image/cmu-raster',
+		'rgb' =&gt; 'image/x-rgb',
+		'tif' =&gt; 'image/tiff',
+		'tiff' =&gt; 'image/tiff',
+		'xbm' =&gt; 'image/x-xbitmap',
+		'xpm' =&gt; 'image/x-xpixmap',
+		'xwd' =&gt; 'image/x-xwindowdump',
+		'psd' =&gt; [
+			(int) 0 =&gt; 'application/photoshop',
+			(int) 1 =&gt; 'application/psd',
+			(int) 2 =&gt; 'image/psd',
+			(int) 3 =&gt; 'image/x-photoshop',
+			(int) 4 =&gt; 'image/photoshop',
+			(int) 5 =&gt; 'zz-application/zz-winassoc-psd'
+		],
+		'ice' =&gt; 'x-conference/x-cooltalk',
+		'iges' =&gt; 'model/iges',
+		'igs' =&gt; 'model/iges',
+		'mesh' =&gt; 'model/mesh',
+		'msh' =&gt; 'model/mesh',
+		'silo' =&gt; 'model/mesh',
+		'vrml' =&gt; 'model/vrml',
+		'wrl' =&gt; 'model/vrml',
+		'mime' =&gt; 'www/mime',
+		'pdb' =&gt; 'chemical/x-pdb',
+		'xyz' =&gt; 'chemical/x-pdb',
+		'javascript' =&gt; 'application/javascript',
+		'form' =&gt; 'application/x-www-form-urlencoded',
+		'file' =&gt; 'multipart/form-data',
+		'xhtml-mobile' =&gt; 'application/vnd.wap.xhtml+xml',
+		'atom' =&gt; 'application/atom+xml',
+		'amf' =&gt; 'application/x-amf',
+		'wap' =&gt; [
+			(int) 0 =&gt; 'text/vnd.wap.wml',
+			(int) 1 =&gt; 'text/vnd.wap.wmlscript',
+			(int) 2 =&gt; 'image/vnd.wap.wbmp'
+		],
+		'wml' =&gt; 'text/vnd.wap.wml',
+		'wmlscript' =&gt; 'text/vnd.wap.wmlscript',
+		'wbmp' =&gt; 'image/vnd.wap.wbmp',
+		'woff' =&gt; 'application/x-font-woff',
+		'appcache' =&gt; 'text/cache-manifest',
+		'manifest' =&gt; 'text/cache-manifest',
+		'htc' =&gt; 'text/x-component',
+		'rdf' =&gt; 'application/xml',
+		'crx' =&gt; 'application/x-chrome-extension',
+		'oex' =&gt; 'application/x-opera-extension',
+		'xpi' =&gt; 'application/x-xpinstall',
+		'safariextz' =&gt; 'application/octet-stream',
+		'webapp' =&gt; 'application/x-web-app-manifest+json',
+		'vcf' =&gt; 'text/x-vcard',
+		'vtt' =&gt; 'text/vtt',
+		'mkv' =&gt; 'video/x-matroska',
+		'pkpass' =&gt; 'application/vnd.apple.pkpass',
+		'ajax' =&gt; 'text/html'
+	]
+	[protected] _protocol =&gt; 'HTTP/1.1'
+	[protected] _status =&gt; (int) 200
+	[protected] _contentType =&gt; 'text/html'
+	[protected] _headers =&gt; [
+		'Content-Security-Policy' =&gt; ''
+	]
+	[protected] _body =&gt; null
+	[protected] _file =&gt; null
+	[protected] _fileRange =&gt; []
+	[protected] _charset =&gt; 'UTF-8'
+	[protected] _cacheDirectives =&gt; []
+	[protected] _cookies =&gt; []
+}</pre>
+        </div>
+    </div>
+    <div id="stack-frame-5" style="display:none;" class="stack-details">
+        <span class="stack-frame-file">/Applications/MAMP/htdocs/rtorres/webroot/index.php</span>
+        <a href="http://rtorres:8888/debug_kit/toolbar/7591f1f8-87fa-4b60-b9d9-3d436efe44d3#" class="toggle-link stack-frame-args" data-target="stack-args-5">toggle arguments</a>
+
+        <table class="code-excerpt" cellspacing="0" cellpadding="0">
+                            <tbody><tr>
+                <td class="excerpt-number" data-number="33"></td>
+                <td class="excerpt-line"><code><span style="color: #000000"><span style="color: #0000BB">$dispatcher&nbsp;</span><span style="color: #007700">=&nbsp;</span><span style="color: #0000BB">DispatcherFactory</span><span style="color: #007700">::</span><span style="color: #0000BB">create</span><span style="color: #007700">();</span></span></code></td>
+            </tr>
+                    <tr>
+                <td class="excerpt-number" data-number="34"></td>
+                <td class="excerpt-line"><code><span style="color: #000000"><span style="color: #0000BB">$dispatcher</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">dispatch</span><span style="color: #007700">(</span></span></code></td>
+            </tr>
+                    <tr>
+                <td class="excerpt-number" data-number="35"></td>
+                <td class="excerpt-line"><code><span style="color: #000000"><span style="color: #0000BB">&nbsp;&nbsp;&nbsp;&nbsp;Request</span><span style="color: #007700">::</span><span style="color: #0000BB">createFromGlobals</span><span style="color: #007700">(),</span></span></code></td>
+            </tr>
+                    <tr>
+                <td class="excerpt-number" data-number="36"></td>
+                <td class="excerpt-line"><code><span style="color: #000000"><span style="color: #0000BB">&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">new&nbsp;</span><span style="color: #0000BB">Response</span><span style="color: #007700">()</span></span></code></td>
+            </tr>
+                    <tr>
+                <td class="excerpt-number" data-number="37"></td>
+                <td class="excerpt-line"><span class="code-highlight"><code><span style="color: #000000"><span style="color: #0000BB"></span><span style="color: #007700">);</span></span></code></span></td>
+            </tr>
+                    <tr>
+                <td class="excerpt-number" data-number="38"></td>
+                <td class="excerpt-line"><code><span style="color: #000000"><span style="color: #0000BB"></span></span></code></td>
+            </tr>
+                </tbody></table>
+
+        <div id="stack-args-5" style="display: none;">
+            <pre>object(Cake\Network\Request) {
+	params =&gt; [
+		'plugin' =&gt; 'DebugKit',
+		'controller' =&gt; 'Requests',
+		'action' =&gt; 'view',
+		'_ext' =&gt; null,
+		'pass' =&gt; [
+			(int) 0 =&gt; '7591f1f8-87fa-4b60-b9d9-3d436efe44d3'
+		],
+		'_matchedRoute' =&gt; '/debug_kit/toolbar/*',
+		'isAjax' =&gt; false
+	]
+	data =&gt; []
+	query =&gt; []
+	cookies =&gt; [
+		'csrfToken' =&gt; '5d1d6c384a9e78ebd525feb1f366edda345be848c02bf8db8c1b5a494382f33d49be11c09fb3314f394e1d6ba70a0d50fe61c114c143ef1ad3cf97b78593c6fb',
+		'usermgmt_user_activity' =&gt; 'Q2FrZQ==.OWQ4ZDhmYmM3NGE4OTgxZTQ0MWExMDgxNTgxYTZiZmNjZjk1NDIwNjZhY2I4YWU1NDIxODY4M2Q1ZTk4MjY4NqFkiN9VYkeJaYLTbbxWurB3ahMc06pe5+gF9brGaOVi5+xrna2B0K77nx63CxJcLsLSWNQ8nu8d5I9K4+t9lEuZ04Liq8y3U1jB8iXYDPnBKS9+aDx6UCgpy66oVP4sYw==',
+		'_ga' =&gt; 'GA1.1.242843331.1501516943',
+		'CAKEPHP' =&gt; 'eafc0219eedf49e9630216f553542167'
+	]
+	url =&gt; 'debug_kit/toolbar/7591f1f8-87fa-4b60-b9d9-3d436efe44d3'
+	base =&gt; ''
+	webroot =&gt; '/'
+	here =&gt; '/debug_kit/toolbar/7591f1f8-87fa-4b60-b9d9-3d436efe44d3'
+	trustProxy =&gt; false
+	[protected] _environment =&gt; [
+		'PHP_FCGI_CHILDREN' =&gt; '4',
+		'PWD' =&gt; '/Applications/MAMP/fcgi-bin',
+		'SHLVL' =&gt; '0',
+		'PHP_FCGI_MAX_REQUESTS' =&gt; '200',
+		'__CF_USER_TEXT_ENCODING' =&gt; '0x1F5:0x0:0x8',
+		'ORIG_SCRIPT_NAME' =&gt; '/fcgi-bin/php5.5.26.fcgi',
+		'ORIG_PATH_TRANSLATED' =&gt; '/Applications/MAMP/htdocs/rtorres/webroot/index.php',
+		'ORIG_PATH_INFO' =&gt; '/index.php',
+		'ORIG_SCRIPT_FILENAME' =&gt; '/Applications/MAMP/fcgi-bin/php5.5.26.fcgi',
+		'SCRIPT_NAME' =&gt; '/index.php',
+		'REQUEST_URI' =&gt; '/debug_kit/toolbar/7591f1f8-87fa-4b60-b9d9-3d436efe44d3',
+		'QUERY_STRING' =&gt; '',
+		'REQUEST_METHOD' =&gt; 'GET',
+		'SERVER_PROTOCOL' =&gt; 'HTTP/1.1',
+		'GATEWAY_INTERFACE' =&gt; 'CGI/1.1',
+		'REDIRECT_URL' =&gt; '/index.php',
+		'REMOTE_PORT' =&gt; '57692',
+		'SCRIPT_FILENAME' =&gt; '/Applications/MAMP/htdocs/rtorres/webroot/index.php',
+		'SERVER_ADMIN' =&gt; 'you@example.com',
+		'DOCUMENT_ROOT' =&gt; '/Applications/MAMP/htdocs/rtorres/webroot/',
+		'REMOTE_ADDR' =&gt; '::1',
+		'SERVER_PORT' =&gt; '8888',
+		'SERVER_ADDR' =&gt; '::1',
+		'SERVER_NAME' =&gt; 'rtorres',
+		'SERVER_SOFTWARE' =&gt; 'Apache',
+		'SERVER_SIGNATURE' =&gt; '',
+		'PATH' =&gt; '/usr/bin:/bin:/usr/sbin:/sbin',
+		'HTTP_COOKIE' =&gt; 'csrfToken=5d1d6c384a9e78ebd525feb1f366edda345be848c02bf8db8c1b5a494382f33d49be11c09fb3314f394e1d6ba70a0d50fe61c114c143ef1ad3cf97b78593c6fb; usermgmt_user_activity=Q2FrZQ%3D%3D.OWQ4ZDhmYmM3NGE4OTgxZTQ0MWExMDgxNTgxYTZiZmNjZjk1NDIwNjZhY2I4YWU1NDIxODY4M2Q1ZTk4MjY4NqFkiN9VYkeJaYLTbbxWurB3ahMc06pe5%2BgF9brGaOVi5%2Bxrna2B0K77nx63CxJcLsLSWNQ8nu8d5I9K4%2Bt9lEuZ04Liq8y3U1jB8iXYDPnBKS9%2BaDx6UCgpy66oVP4sYw%3D%3D; _ga=GA1.1.242843331.1501516943; CAKEPHP=eafc0219eedf49e9630216f553542167',
+		'HTTP_ACCEPT_LANGUAGE' =&gt; 'es-ES,es;q=0.8,en;q=0.6,gl;q=0.4',
+		'HTTP_ACCEPT_ENCODING' =&gt; 'gzip, deflate',
+		'HTTP_REFERER' =&gt; 'http://rtorres:8888/sc/sillas-y-bancos?sort=precio+ASC',
+		'HTTP_ACCEPT' =&gt; 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+		'HTTP_USER_AGENT' =&gt; 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+		'HTTP_UPGRADE_INSECURE_REQUESTS' =&gt; '1',
+		'HTTP_CONNECTION' =&gt; 'keep-alive',
+		'HTTP_HOST' =&gt; 'rtorres:8888',
+		'REDIRECT_STATUS' =&gt; '200',
+		'REDIRECT_HANDLER' =&gt; 'php-fastcgi',
+		'REDIRECT_REDIRECT_STATUS' =&gt; '200',
+		'FCGI_ROLE' =&gt; 'RESPONDER',
+		'PHP_SELF' =&gt; '/index.php',
+		'REQUEST_TIME_FLOAT' =&gt; (float) 1501876855.02,
+		'REQUEST_TIME' =&gt; (int) 1501876855,
+		'argv' =&gt; [],
+		'argc' =&gt; (int) 0,
+		'HTTP_X_HTTP_METHOD_OVERRIDE' =&gt; null,
+		'ORIGINAL_REQUEST_METHOD' =&gt; 'GET',
+		'HTTPS' =&gt; false,
+		'HTTP_X_REQUESTED_WITH' =&gt; null,
+		'HTTP_IF_NONE_MATCH' =&gt; null,
+		'HTTP_IF_MODIFIED_SINCE' =&gt; null
+	]
+	[protected] _detectors =&gt; [
+		'get' =&gt; [
+			'env' =&gt; 'REQUEST_METHOD',
+			'value' =&gt; 'GET'
+		],
+		'post' =&gt; [
+			'env' =&gt; 'REQUEST_METHOD',
+			'value' =&gt; 'POST'
+		],
+		'put' =&gt; [
+			'env' =&gt; 'REQUEST_METHOD',
+			'value' =&gt; 'PUT'
+		],
+		'patch' =&gt; [
+			'env' =&gt; 'REQUEST_METHOD',
+			'value' =&gt; 'PATCH'
+		],
+		'delete' =&gt; [
+			'env' =&gt; 'REQUEST_METHOD',
+			'value' =&gt; 'DELETE'
+		],
+		'head' =&gt; [
+			'env' =&gt; 'REQUEST_METHOD',
+			'value' =&gt; 'HEAD'
+		],
+		'options' =&gt; [
+			'env' =&gt; 'REQUEST_METHOD',
+			'value' =&gt; 'OPTIONS'
+		],
+		'ssl' =&gt; [
+			'env' =&gt; 'HTTPS',
+			'options' =&gt; [
+				[maximum depth reached]
+			]
+		],
+		'ajax' =&gt; [
+			'env' =&gt; 'HTTP_X_REQUESTED_WITH',
+			'value' =&gt; 'XMLHttpRequest'
+		],
+		'flash' =&gt; [
+			'env' =&gt; 'HTTP_USER_AGENT',
+			'pattern' =&gt; '/^(Shockwave|Adobe) Flash/'
+		],
+		'requested' =&gt; [
+			'param' =&gt; 'requested',
+			'value' =&gt; (int) 1
+		],
+		'json' =&gt; [
+			'accept' =&gt; [
+				[maximum depth reached]
+			],
+			'param' =&gt; '_ext',
+			'value' =&gt; 'json'
+		],
+		'xml' =&gt; [
+			'accept' =&gt; [
+				[maximum depth reached]
+			],
+			'param' =&gt; '_ext',
+			'value' =&gt; 'xml'
+		],
+		'mobile' =&gt; object(Closure) {},
+		'tablet' =&gt; object(Closure) {}
+	]
+	[protected] _detectorCache =&gt; [
+		'ajax' =&gt; false,
+		'get' =&gt; true,
+		'head' =&gt; false,
+		'options' =&gt; false
+	]
+	[protected] _input =&gt; ''
+	[protected] _session =&gt; object(Cake\Network\Session) {
+		[protected] _engine =&gt; null
+		[protected] _started =&gt; null
+		[protected] _lifetime =&gt; '1440'
+		[protected] _isCLI =&gt; false
+	}
+}
+object(Cake\Network\Response) {
+	[protected] _statusCodes =&gt; [
+		(int) 100 =&gt; 'Continue',
+		(int) 101 =&gt; 'Switching Protocols',
+		(int) 102 =&gt; 'Processing',
+		(int) 200 =&gt; 'OK',
+		(int) 201 =&gt; 'Created',
+		(int) 202 =&gt; 'Accepted',
+		(int) 203 =&gt; 'Non-Authoritative Information',
+		(int) 204 =&gt; 'No Content',
+		(int) 205 =&gt; 'Reset Content',
+		(int) 206 =&gt; 'Partial Content',
+		(int) 207 =&gt; 'Multi-status',
+		(int) 208 =&gt; 'Already Reported',
+		(int) 226 =&gt; 'IM used',
+		(int) 300 =&gt; 'Multiple Choices',
+		(int) 301 =&gt; 'Moved Permanently',
+		(int) 302 =&gt; 'Found',
+		(int) 303 =&gt; 'See Other',
+		(int) 304 =&gt; 'Not Modified',
+		(int) 305 =&gt; 'Use Proxy',
+		(int) 306 =&gt; 'Switch Proxy',
+		(int) 307 =&gt; 'Temporary Redirect',
+		(int) 308 =&gt; 'Permanent Redirect',
+		(int) 400 =&gt; 'Bad Request',
+		(int) 401 =&gt; 'Unauthorized',
+		(int) 402 =&gt; 'Payment Required',
+		(int) 403 =&gt; 'Forbidden',
+		(int) 404 =&gt; 'Not Found',
+		(int) 405 =&gt; 'Method Not Allowed',
+		(int) 406 =&gt; 'Not Acceptable',
+		(int) 407 =&gt; 'Proxy Authentication Required',
+		(int) 408 =&gt; 'Request Timeout',
+		(int) 409 =&gt; 'Conflict',
+		(int) 410 =&gt; 'Gone',
+		(int) 411 =&gt; 'Length Required',
+		(int) 412 =&gt; 'Precondition Failed',
+		(int) 413 =&gt; 'Request Entity Too Large',
+		(int) 414 =&gt; 'Request-URI Too Large',
+		(int) 415 =&gt; 'Unsupported Media Type',
+		(int) 416 =&gt; 'Requested range not satisfiable',
+		(int) 417 =&gt; 'Expectation Failed',
+		(int) 418 =&gt; 'I'm a teapot',
+		(int) 421 =&gt; 'Misdirected Request',
+		(int) 422 =&gt; 'Unprocessable Entity',
+		(int) 423 =&gt; 'Locked',
+		(int) 424 =&gt; 'Failed Dependency',
+		(int) 425 =&gt; 'Unordered Collection',
+		(int) 426 =&gt; 'Upgrade Required',
+		(int) 428 =&gt; 'Precondition Required',
+		(int) 429 =&gt; 'Too Many Requests',
+		(int) 431 =&gt; 'Request Header Fields Too Large',
+		(int) 444 =&gt; 'Connection Closed Without Response',
+		(int) 451 =&gt; 'Unavailable For Legal Reasons',
+		(int) 499 =&gt; 'Client Closed Request',
+		(int) 500 =&gt; 'Internal Server Error',
+		(int) 501 =&gt; 'Not Implemented',
+		(int) 502 =&gt; 'Bad Gateway',
+		(int) 503 =&gt; 'Service Unavailable',
+		(int) 504 =&gt; 'Gateway Timeout',
+		(int) 505 =&gt; 'Unsupported Version',
+		(int) 506 =&gt; 'Variant Also Negotiates',
+		(int) 507 =&gt; 'Insufficient Storage',
+		(int) 508 =&gt; 'Loop Detected',
+		(int) 510 =&gt; 'Not Extended',
+		(int) 511 =&gt; 'Network Authentication Required',
+		(int) 599 =&gt; 'Network Connect Timeout Error'
+	]
+	[protected] _mimeTypes =&gt; [
+		'html' =&gt; [
+			(int) 0 =&gt; 'text/html',
+			(int) 1 =&gt; '*/*'
+		],
+		'json' =&gt; 'application/json',
+		'xml' =&gt; [
+			(int) 0 =&gt; 'application/xml',
+			(int) 1 =&gt; 'text/xml'
+		],
+		'xhtml' =&gt; [
+			(int) 0 =&gt; 'application/xhtml+xml',
+			(int) 1 =&gt; 'application/xhtml',
+			(int) 2 =&gt; 'text/xhtml'
+		],
+		'webp' =&gt; 'image/webp',
+		'rss' =&gt; 'application/rss+xml',
+		'ai' =&gt; 'application/postscript',
+		'bcpio' =&gt; 'application/x-bcpio',
+		'bin' =&gt; 'application/octet-stream',
+		'ccad' =&gt; 'application/clariscad',
+		'cdf' =&gt; 'application/x-netcdf',
+		'class' =&gt; 'application/octet-stream',
+		'cpio' =&gt; 'application/x-cpio',
+		'cpt' =&gt; 'application/mac-compactpro',
+		'csh' =&gt; 'application/x-csh',
+		'csv' =&gt; [
+			(int) 0 =&gt; 'text/csv',
+			(int) 1 =&gt; 'application/vnd.ms-excel'
+		],
+		'dcr' =&gt; 'application/x-director',
+		'dir' =&gt; 'application/x-director',
+		'dms' =&gt; 'application/octet-stream',
+		'doc' =&gt; 'application/msword',
+		'docx' =&gt; 'application/vnd.openxmlformats-officedocument.wordprocessingml.document',
+		'drw' =&gt; 'application/drafting',
+		'dvi' =&gt; 'application/x-dvi',
+		'dwg' =&gt; 'application/acad',
+		'dxf' =&gt; 'application/dxf',
+		'dxr' =&gt; 'application/x-director',
+		'eot' =&gt; 'application/vnd.ms-fontobject',
+		'eps' =&gt; 'application/postscript',
+		'exe' =&gt; 'application/octet-stream',
+		'ez' =&gt; 'application/andrew-inset',
+		'flv' =&gt; 'video/x-flv',
+		'gtar' =&gt; 'application/x-gtar',
+		'gz' =&gt; 'application/x-gzip',
+		'bz2' =&gt; 'application/x-bzip',
+		'7z' =&gt; 'application/x-7z-compressed',
+		'hdf' =&gt; 'application/x-hdf',
+		'hqx' =&gt; 'application/mac-binhex40',
+		'ico' =&gt; 'image/x-icon',
+		'ips' =&gt; 'application/x-ipscript',
+		'ipx' =&gt; 'application/x-ipix',
+		'js' =&gt; 'application/javascript',
+		'jsonapi' =&gt; 'application/vnd.api+json',
+		'latex' =&gt; 'application/x-latex',
+		'lha' =&gt; 'application/octet-stream',
+		'lsp' =&gt; 'application/x-lisp',
+		'lzh' =&gt; 'application/octet-stream',
+		'man' =&gt; 'application/x-troff-man',
+		'me' =&gt; 'application/x-troff-me',
+		'mif' =&gt; 'application/vnd.mif',
+		'ms' =&gt; 'application/x-troff-ms',
+		'nc' =&gt; 'application/x-netcdf',
+		'oda' =&gt; 'application/oda',
+		'otf' =&gt; 'font/otf',
+		'pdf' =&gt; 'application/pdf',
+		'pgn' =&gt; 'application/x-chess-pgn',
+		'pot' =&gt; 'application/vnd.ms-powerpoint',
+		'pps' =&gt; 'application/vnd.ms-powerpoint',
+		'ppt' =&gt; 'application/vnd.ms-powerpoint',
+		'pptx' =&gt; 'application/vnd.openxmlformats-officedocument.presentationml.presentation',
+		'ppz' =&gt; 'application/vnd.ms-powerpoint',
+		'pre' =&gt; 'application/x-freelance',
+		'prt' =&gt; 'application/pro_eng',
+		'ps' =&gt; 'application/postscript',
+		'roff' =&gt; 'application/x-troff',
+		'scm' =&gt; 'application/x-lotusscreencam',
+		'set' =&gt; 'application/set',
+		'sh' =&gt; 'application/x-sh',
+		'shar' =&gt; 'application/x-shar',
+		'sit' =&gt; 'application/x-stuffit',
+		'skd' =&gt; 'application/x-koan',
+		'skm' =&gt; 'application/x-koan',
+		'skp' =&gt; 'application/x-koan',
+		'skt' =&gt; 'application/x-koan',
+		'smi' =&gt; 'application/smil',
+		'smil' =&gt; 'application/smil',
+		'sol' =&gt; 'application/solids',
+		'spl' =&gt; 'application/x-futuresplash',
+		'src' =&gt; 'application/x-wais-source',
+		'step' =&gt; 'application/STEP',
+		'stl' =&gt; 'application/SLA',
+		'stp' =&gt; 'application/STEP',
+		'sv4cpio' =&gt; 'application/x-sv4cpio',
+		'sv4crc' =&gt; 'application/x-sv4crc',
+		'svg' =&gt; 'image/svg+xml',
+		'svgz' =&gt; 'image/svg+xml',
+		'swf' =&gt; 'application/x-shockwave-flash',
+		't' =&gt; 'application/x-troff',
+		'tar' =&gt; 'application/x-tar',
+		'tcl' =&gt; 'application/x-tcl',
+		'tex' =&gt; 'application/x-tex',
+		'texi' =&gt; 'application/x-texinfo',
+		'texinfo' =&gt; 'application/x-texinfo',
+		'tr' =&gt; 'application/x-troff',
+		'tsp' =&gt; 'application/dsptype',
+		'ttc' =&gt; 'font/ttf',
+		'ttf' =&gt; 'font/ttf',
+		'unv' =&gt; 'application/i-deas',
+		'ustar' =&gt; 'application/x-ustar',
+		'vcd' =&gt; 'application/x-cdlink',
+		'vda' =&gt; 'application/vda',
+		'xlc' =&gt; 'application/vnd.ms-excel',
+		'xll' =&gt; 'application/vnd.ms-excel',
+		'xlm' =&gt; 'application/vnd.ms-excel',
+		'xls' =&gt; 'application/vnd.ms-excel',
+		'xlsx' =&gt; 'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet',
+		'xlw' =&gt; 'application/vnd.ms-excel',
+		'zip' =&gt; 'application/zip',
+		'aif' =&gt; 'audio/x-aiff',
+		'aifc' =&gt; 'audio/x-aiff',
+		'aiff' =&gt; 'audio/x-aiff',
+		'au' =&gt; 'audio/basic',
+		'kar' =&gt; 'audio/midi',
+		'mid' =&gt; 'audio/midi',
+		'midi' =&gt; 'audio/midi',
+		'mp2' =&gt; 'audio/mpeg',
+		'mp3' =&gt; 'audio/mpeg',
+		'mpga' =&gt; 'audio/mpeg',
+		'ogg' =&gt; 'audio/ogg',
+		'oga' =&gt; 'audio/ogg',
+		'spx' =&gt; 'audio/ogg',
+		'ra' =&gt; 'audio/x-realaudio',
+		'ram' =&gt; 'audio/x-pn-realaudio',
+		'rm' =&gt; 'audio/x-pn-realaudio',
+		'rpm' =&gt; 'audio/x-pn-realaudio-plugin',
+		'snd' =&gt; 'audio/basic',
+		'tsi' =&gt; 'audio/TSP-audio',
+		'wav' =&gt; 'audio/x-wav',
+		'aac' =&gt; 'audio/aac',
+		'asc' =&gt; 'text/plain',
+		'c' =&gt; 'text/plain',
+		'cc' =&gt; 'text/plain',
+		'css' =&gt; 'text/css',
+		'etx' =&gt; 'text/x-setext',
+		'f' =&gt; 'text/plain',
+		'f90' =&gt; 'text/plain',
+		'h' =&gt; 'text/plain',
+		'hh' =&gt; 'text/plain',
+		'htm' =&gt; [
+			(int) 0 =&gt; 'text/html',
+			(int) 1 =&gt; '*/*'
+		],
+		'ics' =&gt; 'text/calendar',
+		'm' =&gt; 'text/plain',
+		'rtf' =&gt; 'text/rtf',
+		'rtx' =&gt; 'text/richtext',
+		'sgm' =&gt; 'text/sgml',
+		'sgml' =&gt; 'text/sgml',
+		'tsv' =&gt; 'text/tab-separated-values',
+		'tpl' =&gt; 'text/template',
+		'txt' =&gt; 'text/plain',
+		'text' =&gt; 'text/plain',
+		'avi' =&gt; 'video/x-msvideo',
+		'fli' =&gt; 'video/x-fli',
+		'mov' =&gt; 'video/quicktime',
+		'movie' =&gt; 'video/x-sgi-movie',
+		'mpe' =&gt; 'video/mpeg',
+		'mpeg' =&gt; 'video/mpeg',
+		'mpg' =&gt; 'video/mpeg',
+		'qt' =&gt; 'video/quicktime',
+		'viv' =&gt; 'video/vnd.vivo',
+		'vivo' =&gt; 'video/vnd.vivo',
+		'ogv' =&gt; 'video/ogg',
+		'webm' =&gt; 'video/webm',
+		'mp4' =&gt; 'video/mp4',
+		'm4v' =&gt; 'video/mp4',
+		'f4v' =&gt; 'video/mp4',
+		'f4p' =&gt; 'video/mp4',
+		'm4a' =&gt; 'audio/mp4',
+		'f4a' =&gt; 'audio/mp4',
+		'f4b' =&gt; 'audio/mp4',
+		'gif' =&gt; 'image/gif',
+		'ief' =&gt; 'image/ief',
+		'jpg' =&gt; 'image/jpeg',
+		'jpeg' =&gt; 'image/jpeg',
+		'jpe' =&gt; 'image/jpeg',
+		'pbm' =&gt; 'image/x-portable-bitmap',
+		'pgm' =&gt; 'image/x-portable-graymap',
+		'png' =&gt; 'image/png',
+		'pnm' =&gt; 'image/x-portable-anymap',
+		'ppm' =&gt; 'image/x-portable-pixmap',
+		'ras' =&gt; 'image/cmu-raster',
+		'rgb' =&gt; 'image/x-rgb',
+		'tif' =&gt; 'image/tiff',
+		'tiff' =&gt; 'image/tiff',
+		'xbm' =&gt; 'image/x-xbitmap',
+		'xpm' =&gt; 'image/x-xpixmap',
+		'xwd' =&gt; 'image/x-xwindowdump',
+		'psd' =&gt; [
+			(int) 0 =&gt; 'application/photoshop',
+			(int) 1 =&gt; 'application/psd',
+			(int) 2 =&gt; 'image/psd',
+			(int) 3 =&gt; 'image/x-photoshop',
+			(int) 4 =&gt; 'image/photoshop',
+			(int) 5 =&gt; 'zz-application/zz-winassoc-psd'
+		],
+		'ice' =&gt; 'x-conference/x-cooltalk',
+		'iges' =&gt; 'model/iges',
+		'igs' =&gt; 'model/iges',
+		'mesh' =&gt; 'model/mesh',
+		'msh' =&gt; 'model/mesh',
+		'silo' =&gt; 'model/mesh',
+		'vrml' =&gt; 'model/vrml',
+		'wrl' =&gt; 'model/vrml',
+		'mime' =&gt; 'www/mime',
+		'pdb' =&gt; 'chemical/x-pdb',
+		'xyz' =&gt; 'chemical/x-pdb',
+		'javascript' =&gt; 'application/javascript',
+		'form' =&gt; 'application/x-www-form-urlencoded',
+		'file' =&gt; 'multipart/form-data',
+		'xhtml-mobile' =&gt; 'application/vnd.wap.xhtml+xml',
+		'atom' =&gt; 'application/atom+xml',
+		'amf' =&gt; 'application/x-amf',
+		'wap' =&gt; [
+			(int) 0 =&gt; 'text/vnd.wap.wml',
+			(int) 1 =&gt; 'text/vnd.wap.wmlscript',
+			(int) 2 =&gt; 'image/vnd.wap.wbmp'
+		],
+		'wml' =&gt; 'text/vnd.wap.wml',
+		'wmlscript' =&gt; 'text/vnd.wap.wmlscript',
+		'wbmp' =&gt; 'image/vnd.wap.wbmp',
+		'woff' =&gt; 'application/x-font-woff',
+		'appcache' =&gt; 'text/cache-manifest',
+		'manifest' =&gt; 'text/cache-manifest',
+		'htc' =&gt; 'text/x-component',
+		'rdf' =&gt; 'application/xml',
+		'crx' =&gt; 'application/x-chrome-extension',
+		'oex' =&gt; 'application/x-opera-extension',
+		'xpi' =&gt; 'application/x-xpinstall',
+		'safariextz' =&gt; 'application/octet-stream',
+		'webapp' =&gt; 'application/x-web-app-manifest+json',
+		'vcf' =&gt; 'text/x-vcard',
+		'vtt' =&gt; 'text/vtt',
+		'mkv' =&gt; 'video/x-matroska',
+		'pkpass' =&gt; 'application/vnd.apple.pkpass',
+		'ajax' =&gt; 'text/html'
+	]
+	[protected] _protocol =&gt; 'HTTP/1.1'
+	[protected] _status =&gt; (int) 200
+	[protected] _contentType =&gt; 'text/html'
+	[protected] _headers =&gt; [
+		'Content-Security-Policy' =&gt; ''
+	]
+	[protected] _body =&gt; null
+	[protected] _file =&gt; null
+	[protected] _fileRange =&gt; []
+	[protected] _charset =&gt; 'UTF-8'
+	[protected] _cacheDirectives =&gt; []
+	[protected] _cookies =&gt; []
+}</pre>
+        </div>
+    </div>
+
+        <div class="error-suggestion">
+            <p>
+    Confirm you have created the file: "Requests/view.ctp"    in one of the following paths:
+</p>
+<ul>
+<li>/Applications/MAMP/htdocs/rtorres/src/Template/Plugin/DebugKit/Requests/view.ctp</li><li>/Applications/MAMP/htdocs/rtorres/vendor/cakephp/debug_kit/src/Template/Requests/view.ctp</li><li>/Applications/MAMP/htdocs/rtorres/src/Template/Requests/view.ctp</li></ul>
+        </div>
+
+                <p class="customize">
+            If you want to customize this error message, create
+            <em>src/Template/Error/missing_template.ctp</em>
+        </p>
+            </div>
+
+    <div class="error-nav">
+        <a href="http://rtorres:8888/debug_kit/toolbar/7591f1f8-87fa-4b60-b9d9-3d436efe44d3#" class="toggle-link toggle-vendor-frames">toggle vendor stack frames</a>
+
+<ul class="stack-trace">
+        <li class="stack-frame vendor-frame">
+            <a href="http://rtorres:8888/debug_kit/toolbar/7591f1f8-87fa-4b60-b9d9-3d436efe44d3#" data-target="stack-frame-0">
+                            <span class="stack-function">⟩ Cake\View\View-&gt;_getViewFileName</span>
+                        <span class="stack-file">
+                            CORE/src/View/View.php, line 591                        </span>
+        </a>
+        </li>
+        <li class="stack-frame vendor-frame">
+            <a href="http://rtorres:8888/debug_kit/toolbar/7591f1f8-87fa-4b60-b9d9-3d436efe44d3#" data-target="stack-frame-1">
+                            <span class="stack-function">⟩ Cake\View\View-&gt;render</span>
+                        <span class="stack-file">
+                            CORE/src/Controller/Controller.php, line 617                        </span>
+        </a>
+        </li>
+        <li class="stack-frame vendor-frame">
+            <a href="http://rtorres:8888/debug_kit/toolbar/7591f1f8-87fa-4b60-b9d9-3d436efe44d3#" data-target="stack-frame-2">
+                            <span class="stack-function">⟩ Cake\Controller\Controller-&gt;render</span>
+                        <span class="stack-file">
+                            CORE/src/Http/ActionDispatcher.php, line 128                        </span>
+        </a>
+        </li>
+        <li class="stack-frame vendor-frame">
+            <a href="http://rtorres:8888/debug_kit/toolbar/7591f1f8-87fa-4b60-b9d9-3d436efe44d3#" data-target="stack-frame-3">
+                            <span class="stack-function">⟩ Cake\Http\ActionDispatcher-&gt;_invoke</span>
+                        <span class="stack-file">
+                            CORE/src/Http/ActionDispatcher.php, line 96                        </span>
+        </a>
+        </li>
+        <li class="stack-frame vendor-frame">
+            <a href="http://rtorres:8888/debug_kit/toolbar/7591f1f8-87fa-4b60-b9d9-3d436efe44d3#" data-target="stack-frame-4">
+                            <span class="stack-function">⟩ Cake\Http\ActionDispatcher-&gt;dispatch</span>
+                        <span class="stack-file">
+                            CORE/src/Routing/Dispatcher.php, line 60                        </span>
+        </a>
+        </li>
+        <li class="stack-frame vendor-frame">
+            <a href="http://rtorres:8888/debug_kit/toolbar/7591f1f8-87fa-4b60-b9d9-3d436efe44d3#" data-target="stack-frame-5">
+                            <span class="stack-function">⟩ Cake\Routing\Dispatcher-&gt;dispatch</span>
+                        <span class="stack-file">
+                            ROOT/webroot/index.php, line 37                        </span>
+        </a>
+        </li>
+</ul>
+    </div>
+
+<script type="text/javascript">
+function bindEvent(selector, eventName, listener) {
+    var els = document.querySelectorAll(selector);
+    for (var i = 0, len = els.length; i < len; i++) {
+        els[i].addEventListener(eventName, listener, false);
+    }
+}
+
+function toggleElement(el) {
+    if (el.style.display === 'none') {
+        el.style.display = 'block';
+    } else {
+        el.style.display = 'none';
+    }
+}
+
+function each(els, cb) {
+    var i, len;
+    for (i = 0, len = els.length; i < len; i++) {
+        cb(els[i], i);
+    }
+}
+
+window.addEventListener('load', function() {
+    bindEvent('.stack-frame-args', 'click', function(event) {
+        var target = this.dataset['target'];
+        var el = document.getElementById(target);
+        toggleElement(el);
+        event.preventDefault();
+    });
+
+    var details = document.querySelectorAll('.stack-details');
+    var frames = document.querySelectorAll('.stack-frame');
+    bindEvent('.stack-frame a', 'click', function(event) {
+        each(frames, function(el) {
+            el.classList.remove('active');
+        });
+        this.parentNode.classList.add('active');
+
+        each(details, function(el) {
+            el.style.display = 'none';
+        });
+
+        var target = document.getElementById(this.dataset['target']);
+        toggleElement(target);
+        event.preventDefault();
+    });
+
+    bindEvent('.toggle-vendor-frames', 'click', function(event) {
+        each(frames, function(el) {
+            if (el.classList.contains('vendor-frame')) {
+                toggleElement(el);
+            }
+        });
+        event.preventDefault();
+    });
+});
+</script>
+
+
+</body></html>

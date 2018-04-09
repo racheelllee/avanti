@@ -1,0 +1,6 @@
+composer.lock
+vendor
+/vendor/
+app/vendor/
+app/vendor/*	
+app/src/Vendor/*

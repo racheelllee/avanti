@@ -1,0 +1,179 @@
+
+@charset "utf-8";
+/* CSS Document */
+
+
+@media (max-width: 1200px) {
+	
+#content .socialbox a { margin:0 10px; }	
+#header .rightbox .blk_2 { margin-right:20px; }
+#footer .block_1 ul li { font-size:13px; }
+
+#category_1 .banner_1 .caption { left:40px; top:40px; }
+#category_1 .threebox .block_2 .caption,#category_1 .threebox .block_3 .caption { font-size:32px; }
+#category_1 .threebox .block_1 ul li, #category_1 .threebox .block_1 ul li a { font-size:14px; line-height:19px; }
+#category_1 .threebox .block_2 ul li, #category_1 .threebox .block_2 ul li a { font-size:14px; line-height:19px; }
+#category_1 .threebox .block_3 ul li, #category_1 .threebox .block_3 ul li a { font-size:14px; line-height:19px; }
+
+#sidebar ul ul { padding-left:20px; }
+#sidebar ul ul ul { padding-left:10px; }
+
+#listado_1 .blkbox .block_1 .blk_1 { font-size:12px; }
+#listado_1 .blkbox .block_1 .blk_1 a span { font-size:12px; padding:0 5px; }
+#prod_details .soc_box ul li { margin-right:7px;}
+
+#pedidos .steps .col_1 { margin:0 4.5%;}
+#pedidos .steps .col_2 { margin-left:0;}
+#pedidos .steps .col_3 { margin-right:0;}
+
+}
+
+@media (max-width: 992px) {
+#nav .navbar-collapse > ul > li > a {
+    font-size: 13px;
+}
+
+#content .pay_met img { margin-left:13px; }
+
+#content .brands .item { padding:0 5px; }
+#content .brands .item img { max-width:100%; }
+
+#content .socialbox a { margin:0 3px; }
+#content .p_box_1 a span.caption_1 { top:10px; }
+
+#content .p_box_2 a span.caption_1 { top:5px; }
+#content .p_box_2 a span.caption_1 b.one { font-size:40px; line-height:42px; }
+#content .p_box_2 a span.caption_1 b.two { font-size:35px; line-height:35px; }
+#content .p_box_2 a span.caption_1 b.three { font-size:30px; line-height:30px; }
+
+
+#category_1 .threebox .block_1 { margin-bottom:30px; }
+#content .fourblk .block_1 { margin-bottom:30px; }
+#category_1 .banner_1 .caption { left:20px; top:20px; }
+#category_1 .banner_1 .caption h3 { font-size:40px; line-height:40px; }
+
+#listado_1 .banner_1 .caption { font-size:30px; line-height:25px; top:10px; right:15px; } 
+#listado_1 .banner_1 .caption span { font-size:20px; line-height:24px; }
+#content .socialbox a { margin-bottom:5px; }
+#listado_1 h2 { font-size:26px; }
+
+#prod_details .main_img { padding-left:70px; }
+#prod_details .img_box .small_imgs { left:-70px; }
+#prod_details .img_box .img_top { font-size:14px; }
+#prod_details .soc_box { float:none; }
+#prod_details .soc_box ul li { margin-right:10px; }
+#prod_details .rating_box { float:none; margin-top:10px; }
+#prod_details .prod_slider .carousel_inn { padding:0 35px; }
+
+#pedidos .steps .col_1 { margin:0 1%;}
+#pedidos .steps .col_2 { margin-left:0;}
+#pedidos .steps .col_3 { margin-right:0;}
+
+	
+}
+
+
+@media (min-width: 768px) {
+}
+
+@media (max-width: 767px) {
+    #nav .navbar-collapse > ul {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    border-top: solid 1px #023561;
+}
+#nav {
+    background: #01559C;
+}
+.dropdown-menu{
+    display: none !important;
+}
+
+#header { float:none; text-align:center; }
+
+
+
+#nav { text-align:center; }
+#nav .navbar-collapse > ul > li {
+    float: left;
+    padding: 0;
+    text-align: center;
+    border-top: 1px solid #046fca;
+    border-bottom: solid 1px #024A88;
+    width: 100%;
+    background-color: #005eae;
+}
+}
+.navbar-collapse { padding:0 0px; } 
+
+#navout.sticky #nav_2 { display:inline-block; float:none; margin:20px 15px 0 0;}
+
+#content .pay_met span { display:block; }
+#content .socialbox a img{ max-width:50px; }
+
+#footer .topline { text-align:center; }
+#footer .topline h3 { float:none; padding-right:0; line-height:normal; padding-bottom:10px; }
+
+#content .p_box_1 a span.caption_1 { top:15px; }
+
+
+#content .p_box_2 a span.caption_1 b.one { font-size:35px; line-height:37px; }
+#content .p_box_2 a span.caption_1 b.two { font-size:30px; line-height:32px; }
+#content .p_box_2 a span.caption_1 b.three { font-size:25px; line-height:25px; }
+
+#content .tipbox img { margin-bottom:15px; }
+
+#category_1 .banner_1 .caption h3 { font-size:30px; line-height:30px; }
+
+#listado_1 .blkbox .block_1 .image_1 { width:140px; margin-right:10px; }
+#listado_1 .blkbox .block_1 .detail_1 { float:none; overflow:hidden; }  
+#listado_1 .blkbox .block_1 .blk_1 { font-size:14px; }
+#listado_1 .blkbox .block_1 .blk_1 a span { font-size:14px;  }
+
+#prod_details .right_detail { }
+#prod_details .main_img { padding-left:0; }
+#prod_details .img_box .small_imgs { position:relative; bottom:auto; left:auto; overflow:hidden; padding:0; padding:10px 0; }
+#prod_details .img_box .small_imgs .smallimg { float:left; margin:0; padding:0 20px 0 0; }
+#prod_details .soc_box ul li { margin:0 5px 5px 0; }
+#pedidos .steps { width:100%; margin:15px auto 0;}
+
+	
+}
+
+@media (max-width: 480px) {
+
+	
+#content .socialbox a { margin-bottom:10px; }	
+
+#footer { text-align:center; }
+#footer .col-xs-6 { width:100%; }
+#footer .block_1 ul { overflow:hidden; }
+#footer .block_1 ul li { padding:0px 5px; display:inline-block; vertical-align:top; }
+#footer .block_4 ul {  }
+#footer .block_4 ul li { display:block; padding:0 0 5px 0; }
+
+#header .rightbox .blk_3 { width:50px; height:55px; background-size:50px auto; }
+#header .rightbox .blk_3 span { font-size:25px; }
+
+#header .midbox .lastbox .col_1 { float:none; padding:0; width:100%; }
+#content .pay_met img { margin:0 10px 5px 10px; }
+
+#content .p_box_1 a span.caption_1 { display:none; }
+#content .p_box_2 a span.caption_1 { display:none; }
+
+#category_1 .threebox .block_2 { margin-bottom:30px; }
+
+#category_1 .banner_1 .caption { left:10px; top:10px; }
+#category_1 .banner_1 .caption h3 { font-size:20px; line-height:20px; }
+
+#listado_1 .blkbox .block_1 .image_1 { width:110px; }
+#listado_1 .banner_1 .caption { display:none; }
+
+#prod_details .comt_box .comt_box_bot { text-align:center; }
+#prod_details .comt_box .comt_box_bot .ratings { float:none; text-align:center; font-size:0; margin:0; display:block; }
+#prod_details .comt_box .comt_box_bot .ratings ul li { display:inline-block; vertical-align:top; margin:0 1px; padding:0 ; float:none; }
+#prod_details .comt_box .comt_box_bot .add_comt_btn { float:none; margin:15px auto 0; }
+
+}
+

@@ -1,0 +1,57 @@
+.nav_s, .nav_s ul, .nav_s li {
+    
+}
+
+.nav_s ul {
+    
+}
+
+.nav_s {
+    
+}
+
+.nav_s > li {
+   
+}
+
+.nav_s > li li {
+    
+}
+
+.nav_s a {
+    
+}
+
+.nav_s li > a > span {
+    float: right;
+    font-size: 19px;
+    font-weight: bolder;
+}
+
+.nav_s li > a:hover > span {
+    
+}
+
+.nav_s li > a > span:after {
+    content: '\25be';
+}
+.nav_s li.open > a > span:after {
+    content: '\25b4';
+}
+
+.nav_s a:hover, .nav_s li.active > a {
+    
+   
+}
+
+.nav_s > li.active > a  {
+   
+}
+
+.nav_s li a {
+    
+}
+
+.nav_s > li > a {
+    
+}

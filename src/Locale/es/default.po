@@ -1,0 +1,2988 @@
+# LANGUAGE translation of CakePHP Application
+# Copyright YEAR NAME <EMAIL@ADDRESS>
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"POT-Creation-Date: 2015-12-29 16:50-0600\n"
+"PO-Revision-Date: 2015-12-29 16:52-0600\n"
+"Language-Team: EMAIL@ADDRESS\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 1.8.6\n"
+"Last-Translator: \n"
+"Language: es\n"
+
+#: Auth/PermissionAuthenticate.php:66
+msgid "You need to be signed in to perform this action"
+msgstr "Es necesario estar firmado en el sistema para realizar este acción"
+
+#: Auth/PermissionAuthenticate.php:69
+msgid "You need to be signed in to view that page."
+msgstr "Es necesario estar firmado en el sistema para ver esta página"
+
+#: Auth/PermissionAuthorize.php:58
+msgid "You are not allowed to view that page."
+msgstr "No estas autorizado para ver esta página"
+
+#: Controller/CronJobsController.php:108
+msgid "{0} Scheduled Emails and {1} recipients processed"
+msgstr "{0} Email programados y {1} destinatarios procesados"
+
+#: Controller/ScheduledEmailsController.php:151
+msgid "The scheduled email has been updated successfully"
+msgstr "La programación del envio de email fue actualizada "
+
+#: Controller/ScheduledEmailsController.php:154
+msgid "Unable to update scheduled email, please try again."
+msgstr "Imposible actualizar programación de correo, intente otra vez"
+
+#: Controller/ScheduledEmailsController.php:165;199
+msgid "Invalid Scheduled Email Id"
+msgstr "Id inconrrecto"
+
+#: Controller/ScheduledEmailsController.php:169;203
+msgid "Missing Scheduled Email Id"
+msgstr "Falta el id de email"
+
+#: Controller/ScheduledEmailsController.php:232
+msgid "Only few recipients have been deleted successfully"
+msgstr "Solo algunos destinatarios fueron borrados "
+
+#: Controller/ScheduledEmailsController.php:235
+msgid "Scheduled Email and recipients have been deleted successfully"
+msgstr "Programación de email y destinatarios han sido borrados"
+
+#: Controller/ScheduledEmailsController.php:238
+msgid ""
+"All emails have been sent already so this scheduled email cannot be deleted"
+msgstr "Todos los emails fueron enviados, por lo que esta programación de envio no puede ser borrada"
+
+#: Controller/ScheduledEmailsController.php:241
+#: Controller/UserEmailsController.php:502
+msgid "Invalid User Email Id"
+msgstr "Id de usuario de correo invalido"
+
+#: Controller/ScheduledEmailsController.php:244
+#: Controller/UserEmailsController.php:506
+msgid "Missing User Email Id"
+msgstr "Falta el id usuario de correo"
+
+#: Controller/ScheduledEmailsController.php:272
+msgid "Selected recipient has been deleted successfully"
+msgstr "Los destinatarios  seleccionados fueron borrados"
+
+#: Controller/ScheduledEmailsController.php:274
+msgid "Selected Recipient cannot be deleted"
+msgstr "Los destinatarios seleccionados no pueden ser borrados"
+
+#: Controller/ScheduledEmailsController.php:277
+msgid "Invalid Request"
+msgstr "Petición invalida"
+
+#: Controller/ScheduledEmailsController.php:280
+msgid "Invalid Scheduled Email Recipient Id"
+msgstr "Id de destinatario no valido"
+
+#: Controller/ScheduledEmailsController.php:283
+msgid "Missing Scheduled Email Recipient Id"
+msgstr "Falta el id de destinatario"
+
+#: Controller/SettingOptionsController.php:113
+msgid "The Setting Option has been added successfully"
+msgstr "La configuración se creo correctamente"
+
+#: Controller/SettingOptionsController.php:116;152
+msgid "Unable to save Setting Option, please try again"
+msgstr "Imposible guardar la configuración, intenta de nuevo"
+
+#: Controller/SettingOptionsController.php:149
+msgid "The Setting Option has been updated successfully"
+msgstr "La configuración fue actualizada correctamente"
+
+#: Controller/SettingOptionsController.php:158
+msgid "Invalid Setting Option id"
+msgstr "Id de opción no valida"
+
+#: Controller/SettingOptionsController.php:162
+msgid "Missing Setting Option id"
+msgstr "Falta el id de opción"
+
+#: Controller/SettingOptionsController.php:183
+msgid "Selected setting option is deleted successfully"
+msgstr "Las opciones seleccionadas fueron borradas "
+
+#: Controller/SettingOptionsController.php:185
+msgid "Unable to delete setting option, please try again"
+msgstr "No fue posible borrar esta configuración, intenta de nuevo"
+
+#: Controller/SettingOptionsController.php:188
+msgid "This setting option exists in other tables so cannot be deleted"
+msgstr "Esta opcion ya existe en otras tablas, no puede sesr borrada"
+
+#: Controller/SettingOptionsController.php:192
+msgid "Invalid Setting Option Id"
+msgstr "Id de opción no valido"
+
+#: Controller/SettingOptionsController.php:195
+msgid "Missing Setting Option Id"
+msgstr "Falta el Id de opción"
+
+#: Controller/StaticPagesController.php:119
+msgid "The static page is successfully added"
+msgstr "La página estatica fue agregada"
+
+#: Controller/StaticPagesController.php:122
+msgid "Unable to add page, please try again"
+msgstr "Imposible agregar página, intente de nuevo"
+
+#: Controller/StaticPagesController.php:155
+msgid "The static page has been updated successfully"
+msgstr "La página estática fue actualizada"
+
+#: Controller/StaticPagesController.php:158
+msgid "Unable to save static page, please try again"
+msgstr "Imposible guardar página estática, intente de nuevo"
+
+#: Controller/StaticPagesController.php:165;187;214
+msgid "Invalid Static Page Id"
+msgstr "Id de página es invalida"
+
+#: Controller/StaticPagesController.php:169;191;218
+msgid "Missing Static Page Id"
+msgstr "Falta id de página"
+
+#: Controller/StaticPagesController.php:209
+msgid "Selected static page has been deleted successfully"
+msgstr "Las páginas estáticas seleccionadas fueron borradas"
+
+#: Controller/StaticPagesController.php:211
+msgid "Selected static page can not be deleted, please try again"
+msgstr "Las páginas estáticas seleccionadas no pueden ser borradas"
+
+#: Controller/UserContactsController.php:130
+msgid "Thank you for contacting us. we will be in touch with you very soon"
+msgstr "Gracias por contactarnos. Nos pondremos en contacto con usted a lo mas pronto posible"
+
+#: Controller/UserContactsController.php:150
+msgid "Contact Enquiry Received"
+msgstr "Contacto recibido"
+
+#: Controller/UserContactsController.php:152
+msgid ""
+"Hi Admin, <br/><br/>A contact enquiry has been saved. Here are the details - "
+"<br/><br/>Name- {0} <br/>Email - {1} <br/>Contact No - {2} <br/>Requirement "
+"- {3} <br/><br/>Thanks"
+msgstr "Hola Administrador <br/><br/>Un nuevo contacto a sido agregado. Estos son los detalles - "
+"<br/><br/>Nombre- {0} <br/>Email - {1} <br/>Número de contacto  - {2} <br/>Asunto "
+"- {3} <br/><br/>Gracias"
+
+#: Controller/UserContactsController.php:250
+msgid "Contact Reply has been sent successfully"
+msgstr "La respuesta al contacto fue enviada"
+
+#: Controller/UserContactsController.php:253
+msgid "We could not send Reply Email"
+msgstr "No fue posible enviar el email"
+
+#: Controller/UserContactsController.php:279
+msgid "Invalid Contact Id"
+msgstr "Id de contacto no valido"
+
+#: Controller/UserContactsController.php:283
+msgid "Missing Contact Id"
+msgstr "Falta el Id de contacto"
+
+#: Controller/UserEmailSignaturesController.php:122
+msgid "The email signature has been added successfully"
+msgstr "La firma fue agregada"
+
+#: Controller/UserEmailSignaturesController.php:125;162
+msgid "Unable to save email signature, please try again"
+msgstr "Imposible agregar firma al email"
+
+#: Controller/UserEmailSignaturesController.php:159
+msgid "The email signature has been updated successfully"
+msgstr "La firma de email, fue actualizada"
+
+#: Controller/UserEmailSignaturesController.php:169;197
+msgid "Invalid email signature id"
+msgstr "Id de firma de email invalida"
+
+#: Controller/UserEmailSignaturesController.php:173;201
+msgid "Missing email signature id"
+msgstr "Falta el id de firma de email"
+
+#: Controller/UserEmailSignaturesController.php:192
+msgid "Selected email signature has been deleted successfully"
+msgstr "Firmas de email seleccionadas fueron borradas"
+
+#: Controller/UserEmailSignaturesController.php:194
+msgid "Unable to delete selected email signature, please try again"
+msgstr "Imposible borrar las firmas de email"
+
+#: Controller/UserEmailTemplatesController.php:122
+msgid "The email template has been added successfully"
+msgstr "La plantilla de email fue agregada"
+
+#: Controller/UserEmailTemplatesController.php:125
+msgid "Unable to add email template, please try again"
+msgstr "Imposible agregar plantilla de email"
+
+#: Controller/UserEmailTemplatesController.php:159
+msgid "The email template has been updated successfully"
+msgstr "La plantilla de correo fue actualizada"
+
+#: Controller/UserEmailTemplatesController.php:162
+msgid "Unable to update email template, please try again"
+msgstr "Imposible actualzar la plantilla de email"
+
+#: Controller/UserEmailTemplatesController.php:169;197
+msgid "Invalid email template id"
+msgstr "Id de plantilla de email invalida"
+
+#: Controller/UserEmailTemplatesController.php:173;201
+msgid "Missing email template id"
+msgstr "Falta el id de plantilla de correo"
+
+#: Controller/UserEmailTemplatesController.php:192
+msgid "Selected email template has been deleted successfully"
+msgstr "Las plantillas de email seleccionadas fueron borradas"
+
+#: Controller/UserEmailTemplatesController.php:194
+msgid "Unable to delete selected email template, please try again"
+msgstr "Imposible borrar las plantillas de email seleccionadas"
+
+#: Controller/UserEmailsController.php:255
+msgid "No users found in selected group"
+msgstr "No se encontraron usuarios en el grupo seleccionado"
+
+#: Controller/UserEmailsController.php:370
+#: Controller/UsersController.php:414;443;472;545;571;1343;1347;1380
+msgid "Invalid User Id"
+msgstr "Id de usuario no valido"
+
+#: Controller/UserEmailsController.php:374
+#: Controller/UsersController.php:417;446;475;504;549;574
+msgid "Missing User Id"
+msgstr "Falta del id de usuario"
+
+#: Controller/UserEmailsController.php:434
+msgid "All Emails have been sent successfully"
+msgstr "Todos los emails fueron enviados"
+
+#: Controller/UserEmailsController.php:436
+msgid "Out of {0) Emails only {1} Emails have been sent successfully"
+msgstr "De los {} correos de salientes solo {1} fueron enviados"
+
+#: Controller/UserEmailsController.php:440
+msgid "There is problem in sending emails, please try again"
+msgstr "Hay un problema con el envio de emails,intente nuevamente"
+
+#: Controller/UserEmailsController.php:444;472
+msgid "These is some problem in saving data, please try again"
+msgstr "Hay un problema con el guardado de los datos, intente nuevamente"
+
+#: Controller/UserEmailsController.php:469
+msgid "Email has been scheduled successfully"
+msgstr "Email fue programado correctamente"
+
+#: Controller/UserGroupPermissionsController.php:390
+msgid "Permissions deleted successfully"
+msgstr "Los permisos se borraron correctamente"
+
+#: Controller/UserGroupsController.php:124
+msgid "The group has been added successfully"
+msgstr "Se agrego un grupo"
+
+#: Controller/UserGroupsController.php:127
+msgid "Unable to add group, please try again"
+msgstr "No se agrego un grupo, vuelta a intentar"
+
+#: Controller/UserGroupsController.php:161
+msgid "The group has been updated successfully"
+msgstr "Se actualizado un grupo"
+
+#: Controller/UserGroupsController.php:164
+msgid "Unable to update group, please try again."
+msgstr "No se actualizo un grupo"
+
+#: Controller/UserGroupsController.php:172
+msgid "Invalid group id"
+msgstr "Id de grupo no valido"
+
+#: Controller/UserGroupsController.php:176
+msgid "Missing group id"
+msgstr "Falta el id de grupo"
+
+#: Controller/UserGroupsController.php:195
+msgid ""
+"Sorry some users are associated with this group, You cannot delete this group"
+msgstr "No se puede borrar este grupo, aun hay usuarios asociados"
+
+#: Controller/UserGroupsController.php:199
+msgid "Selected group has been deleted successfully"
+msgstr "Grupo seleccionado fue borrado"
+
+#: Controller/UserGroupsController.php:201
+msgid "Selected group could not be deleted, please try again"
+msgstr "Grupo seleccionado no puede ser borrado"
+
+#: Controller/UserGroupsController.php:204
+msgid "Sorry sub group(s) exist for this group, You cannot delete this group"
+msgstr "Existen subgrupos asignados a este grupo, Imposible borrar este grupo"
+
+#: Controller/UserGroupsController.php:209
+msgid "Invalid User Group Id"
+msgstr "Id de grupo de usuario no valido"
+
+#: Controller/UserGroupsController.php:212
+msgid "Missing User Group Id"
+msgstr "Falta el id de grupo de usuario"
+
+#: Controller/UserSettingsController.php:141
+msgid "New setting has been added successfully, please add value for it"
+msgstr "Nueva varible de sistema fue agregada, por favor agrege un valor "
+
+#: Controller/UserSettingsController.php:145;235
+msgid "Unable to update setting, please try again"
+msgstr "Imposible actualzar la variable de sistema, intente nuevamente"
+
+#: Controller/UserSettingsController.php:232
+msgid "Selected setting has been updated successfully"
+msgstr "Las variables de sistema selecciondas fueron actualizadas"
+
+#: Controller/UserSettingsController.php:248
+msgid "Invalid setting id"
+msgstr "Id de variable de sistema invalido"
+
+#: Controller/UserSettingsController.php:252
+msgid "Missing setting id"
+msgstr "Falta el id de variable de sistema"
+
+#: Controller/UserSettingsController.php:288
+msgid "{0} has been modified successfully"
+msgstr "{0} fue actualizado"
+
+#: Controller/UserSettingsController.php:309
+msgid "{0} has been copied to {1}"
+msgstr "{0} fue copiado a {1}"
+
+#: Controller/UserSettingsController.php:311
+msgid "{0} file could not be copied"
+msgstr "{0} no puede ser copiado"
+
+#: Controller/UserSettingsController.php:314;340;365
+msgid "{0} file does not exist"
+msgstr "{0} no existe"
+
+#: Controller/UserSettingsController.php:317;343;368
+msgid "Missing Filename"
+msgstr "Falta el nombre de archivo"
+
+#: Controller/UserSettingsController.php:335
+msgid "{0} has been deleted successfully"
+msgstr "{0} fue borrado"
+
+#: Controller/UserSettingsController.php:337
+msgid "{0} file could not be deleted"
+msgstr "{0} no puede ser borrado"
+
+#: Controller/UserSettingsController.php:363
+msgid "{0} has been emptied"
+msgstr "{0} esta vacío"
+
+#: Controller/UsermgmtAppController.php:52
+msgid "The request has been black-holed"
+msgstr "La solicitud no pudo ser procesada"
+
+#: Controller/UsersController.php:265
+msgid "The user has been added successfully"
+msgstr "Se agrego un nuevo usuario"
+
+#: Controller/UsersController.php:268;338
+msgid "Unable to save user, please try again"
+msgstr "No se pudo agregar el usuario"
+
+#: Controller/UsersController.php:335
+msgid "The user has been updated successfully"
+msgstr "El usuario se actualizo"
+
+#: Controller/UsersController.php:351;379
+msgid "Invalid user id"
+msgstr "Id de usuario no valido"
+
+#: Controller/UsersController.php:355;383
+msgid "Missing user id"
+msgstr "Falta el id de usuario "
+
+#: Controller/UsersController.php:408
+msgid "Selected user is deleted successfully"
+msgstr "El usuario seleccionado fue borrado"
+
+#: Controller/UsersController.php:410
+msgid "Unable to delete user, please try again"
+msgstr "Imposible borrar usuario, intente nuevamente"
+
+#: Controller/UsersController.php:440
+msgid "Selected user is activated successfully"
+msgstr "El usuario seleccionado fue activado"
+
+#: Controller/UsersController.php:469
+msgid "Selected user is de-activated successfully"
+msgstr "El usuario seleccionado fue desactivado"
+
+#: Controller/UsersController.php:496
+msgid "Email of selected user is verified successfully"
+msgstr "El correo del usuario seleccionado fue verificado"
+
+#: Controller/UsersController.php:500
+msgid "Invaid User Id"
+msgstr "Id de usuario no valido"
+
+#: Controller/UsersController.php:538
+msgid "Password for {0} changed successfully"
+msgstr "Contraseña para {0} fue actualiza"
+
+#: Controller/UsersController.php:568
+msgid "User is successfully signed out"
+msgstr "El usuario fue deslogeado correctamente"
+
+#: Controller/UsersController.php:634
+msgid "Please upload CSV file only"
+msgstr "Solo se pueden subir archivos CSV"
+
+#: Controller/UsersController.php:637
+msgid "Please upload CSV file"
+msgstr "Subir archivo CSV"
+
+#: Controller/UsersController.php:718
+msgid "All users information have been saved"
+msgstr "Todos los usuarios fueron agregados"
+
+#: Controller/UsersController.php:722
+msgid "Please select at least one user to add"
+msgstr "Selecciona al menos un usuario para agregar"
+
+#: Controller/UsersController.php:772
+msgid "Invalid or empty data in CSV file, please try again"
+msgstr "Archivo CSV invalido o vacío, intente nuevamente"
+
+#: Controller/UsersController.php:781
+msgid "CSV file was not uploaded or does not exist, please try again"
+msgstr "Archivo CSV no se subio o no existe, intente nuevamente"
+
+#: Controller/UsersController.php:850
+msgid ""
+"Your email has not been confirmed please verify your email or contact to "
+"admin"
+msgstr "Tu email no ha sido confirmado, verificar tu email o contacte al administrador del sistema"
+
+#: Controller/UsersController.php:853;960
+msgid "Sorry your account is not active, please contact to admin"
+msgstr "Lamentamos que tu cuenta no este activa"
+
+#: Controller/UsersController.php:857
+msgid "Incorrect Email/Username or Password"
+msgstr "Email o contraseña incorrectos"
+
+#: Controller/UsersController.php:940;1250
+msgid "Sorry new registration is currently disabled, please try again later"
+msgstr "El registro de usuarios esta actualmente desactivado, intente mas tarde"
+
+#: Controller/UsersController.php:1139
+msgid "You are successfully signed out"
+msgstr "Acabas de salir del sistema"
+
+#: Controller/UsersController.php:1239
+msgid "We have sent an email to you, please confirm your registration"
+msgstr "Te hemos enviado un email, por favor confirme su registro "
+
+#: Controller/UsersController.php:1243
+msgid "Unable to register user, please try again"
+msgstr "Imposible registrar el usuario, intente de nuevo"
+
+#: Controller/UsersController.php:1268
+msgid "Profile details not found"
+msgstr "Perfil no encontrado"
+
+#: Controller/UsersController.php:1331
+msgid "Your profile has been successfully updated"
+msgstr "Tu perfil fue actualizado"
+
+#: Controller/UsersController.php:1374
+msgid "Password changed successfully"
+msgstr "La contraseña fue cambiada"
+
+#: Controller/UsersController.php:1403
+msgid "Your account is successfully deleted"
+msgstr "Tu cuenta a sido borrada"
+
+#: Controller/UsersController.php:1407
+msgid "You are not allowed to delete account"
+msgstr "No estas autorizado para borrar tu cuenta"
+
+#: Controller/UsersController.php:1432
+msgid ""
+"We have sent an email to you, please click on the link in your email to "
+"reset your password"
+msgstr "Te hemos enviado un email, por favor da click en la liga para reiniciar tu contraseña"
+
+#: Controller/UsersController.php:1434
+msgid ""
+"Your registration has not been confirmed yet please verify your email "
+"address before reset password"
+msgstr "Tu registro no ha sido confirmado aun, por favor verifica tu email antes de reiniciar tu contraseña"
+
+#: Controller/UsersController.php:1438;1506
+msgid "Incorrect Email/Username"
+msgstr "Email incorrecto"
+
+#: Controller/UsersController.php:1466
+msgid "Your password has been reset successfully"
+msgstr "Tu contraseña fue reiniciada"
+
+#: Controller/UsersController.php:1469
+msgid "Something went wrong, please send password reset link again"
+msgstr "Algo no esta nada bien, por favor intente nuevamente"
+
+#: Controller/UsersController.php:1472;1477
+msgid "Something went wrong, please click again on the link in email"
+msgstr "Algo no anda bien, por favor vuelve a dar click en la liga del correo"
+
+#: Controller/UsersController.php:1500
+msgid "We have sent an email to you, please confirm your email address"
+msgstr "Te hemos enviado un email, por favor confirma tu dirreción de email "
+
+#: Controller/UsersController.php:1502
+msgid "Your email is already verified"
+msgstr "Tu email esta verificado"
+
+#: Controller/UsersController.php:1531
+msgid "Thank you, your email has been verified successfully"
+msgstr "Muchas Gracias, tu email fue verificado satisfactoriamente"
+
+#: Controller/UsersController.php:1534
+msgid "Thank you, your email is already verified"
+msgstr "Muchas Gracias, tu email esta verificado"
+
+#: Controller/UsersController.php:1537;1540
+msgid "Sorry something went wrong, please click on the link again"
+msgstr "Lamentamos algo esta mal, por favor dar click en la liga para volverlo a intentar"
+
+#: Controller/UsersController.php:1587
+msgid "Cache has been deleted successfully"
+msgstr "El cache fue borrado satisfactoriamente "
+
+#: Controller/UsersController.php:1590
+msgid "Cache was not deleted, please delete it manually."
+msgstr "El cache no pudo ser borrar, por favor borrelo manualmente"
+
+#: Controller/Component/SearchComponent.php:71
+msgid "Search model not found: {0}"
+msgstr "Busqueda del modelo no encontrada: {0}"
+
+#: Controller/Component/SearchComponent.php:171
+msgid ""
+"Selector method {0} not found in model-table {1} for field {2}! and make "
+"sure you passed model-table name (if model-table belongs to any plugin then "
+"pass plugin-name-model-table) in search fields variable of respective "
+"controller"
+msgstr ""
+"Selector method {0} not found in model-table {1} for field {2}! and make "
+"sure you passed model-table name (if model-table belongs to any plugin then "
+"pass plugin-name-model-table) in search fields variable of respective "
+"controller"
+
+#: Controller/Component/UserAuthComponent.php:81
+msgid "Cakephp Auth component not loaded, please load in AppController."
+msgstr "El componente Auth de cakephp no esta agregado al AppController"
+
+#: Controller/Component/UserAuthComponent.php:172
+msgid "Your account is currently logged in on another computer."
+msgstr "Tu cuenta actualmente esta logueada en otra computadora"
+
+#: Model/Table/ScheduledEmailsTable.php:39 Model/Table/UserEmailsTable.php:38
+msgid "Please enter to email"
+msgstr "Por favor ingresa un email de destino"
+
+#: Model/Table/ScheduledEmailsTable.php:40 Model/Table/UserEmailsTable.php:39
+msgid "Please enter from name"
+msgstr "Por favor ingresa un nombre"
+
+#: Model/Table/ScheduledEmailsTable.php:41 Model/Table/UserEmailsTable.php:40
+msgid "Please enter from email"
+msgstr "Por favor ingresa un email"
+
+#: Model/Table/ScheduledEmailsTable.php:42 Model/Table/UserEmailsTable.php:41
+msgid "Please enter email subject"
+msgstr "Por favor ingresa un asunto al email"
+
+#: Model/Table/ScheduledEmailsTable.php:43 Model/Table/UserEmailsTable.php:42
+msgid "Please enter email message"
+msgstr "Por ingresa un mensaje "
+
+#: Model/Table/ScheduledEmailsTable.php:44
+msgid "Please enter schedule date"
+msgstr "Por favor ingresa una fecha programada"
+
+#: Model/Table/ScheduledEmailsTable.php:48;55
+#: Model/Table/UserContactsTable.php:41 Model/Table/UserEmailsTable.php:50;57
+#: Model/Table/UsersTable.php:132;235;329;424;620
+msgid "Please enter valid email"
+msgstr "Por favor ingresa un email valido"
+
+#: Model/Table/ScheduledEmailsTable.php:64
+#: Model/Table/UserEmailsTable.php:65;74
+msgid "Please enter valid email(s)"
+msgstr "Por favor ingresa un email valido"
+
+#: Model/Table/ScheduledEmailsTable.php:72 Model/Table/UserEmailsTable.php:82
+msgid "Please enter future date"
+msgstr "Por favor ingresa una fecha futura"
+
+#: Model/Table/SettingOptionsTable.php:36
+msgid "Please enter title"
+msgstr "Por favor ingresa un título"
+
+#: Model/Table/SettingOptionsTable.php:41
+msgid "This title already exist"
+msgstr "Este título ya existe"
+
+#: Model/Table/SettingOptionsTable.php:55
+#: Model/Table/UserGroupsTable.php:237;267;308
+#: Model/Table/UserSettingOptionsTable.php:45
+#: Template/UserSettings/edit_setting.ctp:207
+msgid "Select"
+msgstr "Selecciona"
+
+#: Model/Table/StaticPagesTable.php:36
+msgid "Please enter page name"
+msgstr "Por favor ingresa un nombre para la página"
+
+#: Model/Table/StaticPagesTable.php:37
+msgid "Please enter page url"
+msgstr "Por favor ingresa una url para la página"
+
+#: Model/Table/StaticPagesTable.php:42
+msgid "This url name already exist"
+msgstr "Esta url ya existe"
+
+#: Model/Table/StaticPagesTable.php:45
+msgid "Please enter page content"
+msgstr "Por favor ingresa el contenido de la página"
+
+#: Model/Table/UserContactsTable.php:36
+msgid "Please enter your name"
+msgstr "Por favor ingresa un nombre"
+
+#: Model/Table/UserContactsTable.php:37
+msgid "Please enter your email"
+msgstr "Por favor ingresa un email"
+
+#: Model/Table/UserContactsTable.php:45
+msgid "Please enter requirement"
+msgstr ""
+
+#: Model/Table/UserContactsTable.php:46
+#: Model/Table/UsersTable.php:50;69;501;534
+msgid "Please select I'm not a robot"
+msgstr "Por favor selecciona No soy un robot"
+
+#: Model/Table/UserContactsTable.php:51
+#: Model/Table/UsersTable.php:55;159;506;539
+msgid "Prove you are not a robot"
+msgstr "Prueba que no eres un robot"
+
+#: Model/Table/UserEmailSignaturesTable.php:36
+msgid "Please enter signature name"
+msgstr "Por favor ingresa un nombre de firma"
+
+#: Model/Table/UserEmailSignaturesTable.php:41
+msgid "This signature name already exist"
+msgstr "Esta nombre de firma ya existe"
+
+#: Model/Table/UserEmailSignaturesTable.php:56
+msgid "No Signature"
+msgstr "Ninguna firma"
+
+#: Model/Table/UserEmailTemplatesTable.php:36
+msgid "Please enter template name"
+msgstr "Por favor ingresa un nombre de plantilla"
+
+#: Model/Table/UserEmailTemplatesTable.php:41
+msgid "This template name already exist"
+msgstr "Este nombre de plantilla ya existe"
+
+#: Model/Table/UserEmailTemplatesTable.php:56
+msgid "No Template"
+msgstr "Ninguna plantilla"
+
+#: Model/Table/UserEmailsTable.php:43
+msgid "Please select user(s)"
+msgstr "Por favor selecciona un usuario(s)"
+
+#: Model/Table/UserEmailsTable.php:44
+msgid "Please select group(s)"
+msgstr "Por favor selecciona un grupo(s)"
+
+#: Model/Table/UserEmailsTable.php:45
+msgid "Please enter email(s)"
+msgstr "Por favor ingresa un email(s)"
+
+#: Model/Table/UserGroupsTable.php:39
+msgid "Please enter user group name"
+msgstr "Por favor ingresa un nombre de grupo"
+
+#: Model/Table/UserGroupsTable.php:44;50 Model/Table/UserSettingsTable.php:47
+msgid "Please enter a valid name"
+msgstr "Por favor ingresa un nombre valido"
+
+#: Model/Table/UserGroupsTable.php:56 Model/Table/UserSettingsTable.php:53
+msgid "This name already exist"
+msgstr "Este nombre ya existe"
+
+#: Model/Table/UserGroupsTable.php:336
+msgid "No Group"
+msgstr "Ningun Grupo"
+
+#: Model/Table/UserSettingsTable.php:38
+msgid "Please select category type"
+msgstr "Por favor selecciona un tipo de categoría"
+
+#: Model/Table/UserSettingsTable.php:39
+msgid "Please select category"
+msgstr "Por favor selecciona una categoría"
+
+#: Model/Table/UserSettingsTable.php:40
+msgid "Please enter new category"
+msgstr "Por favor ingresa una nueva categoría"
+
+#: Model/Table/UserSettingsTable.php:41
+msgid "Please select input type"
+msgstr "Selecciona un tipo de entrada"
+
+#: Model/Table/UserSettingsTable.php:42
+msgid "Please enter setting name"
+msgstr "Ingresa un nombre para la variable de sistema"
+
+#: Model/Table/UserSettingsTable.php:56
+msgid "Please enter setting display name"
+msgstr "Ingresa un Nombre para mostrar"
+
+#: Model/Table/UserSettingsTable.php:96
+msgid "Select Category"
+msgstr "Selecciona una categoría"
+
+#: Model/Table/UserSettingsTable.php:112
+msgid "Select Input Type"
+msgstr ""
+
+#: Model/Table/UserSettingsTable.php:112
+msgid "Text Input"
+msgstr ""
+
+#: Model/Table/UserSettingsTable.php:112
+msgid "Checkbox Input"
+msgstr ""
+
+#: Model/Table/UserSettingsTable.php:112
+msgid "Dropdown Input"
+msgstr ""
+
+#: Model/Table/UserSettingsTable.php:112
+msgid "Radio Input"
+msgstr ""
+
+#: Model/Table/UserSettingsTable.php:112
+msgid "Textarea Input"
+msgstr ""
+
+#: Model/Table/UserSettingsTable.php:112
+msgid "Tinymce Editor"
+msgstr "Editor Tinymce"
+
+#: Model/Table/UserSettingsTable.php:112
+msgid "CK Editor"
+msgstr "Editor CK"
+
+#: Model/Table/UsersTable.php:48;500;533
+msgid "Please enter email or username"
+msgstr "Por favor ingrese un email"
+
+#: Model/Table/UsersTable.php:49;67;68;171;172;452;453;480;481;513;514;551
+msgid "Please enter password"
+msgstr "Por favor ingrese una contraseña"
+
+#: Model/Table/UsersTable.php:62;166;262;356;546
+msgid "Please select group"
+msgstr "Por favor seleccione un grupo"
+
+#: Model/Table/UsersTable.php:63;167;263;357;547
+msgid "Please enter username"
+msgstr "Por favor ingrese un username"
+
+#: Model/Table/UsersTable.php:64;168;264;358;548
+msgid "Please enter first name"
+msgstr "Por favor ingrese un nombre"
+
+#: Model/Table/UsersTable.php:66;170;266;360;550
+msgid "Please enter email"
+msgstr "Por favor ingrese un email"
+
+#: Model/Table/UsersTable.php:74;80;177;183;271;277;366;372;556;562
+msgid "Please enter a valid username"
+msgstr "Por favor ingrese un username valido "
+
+#: Model/Table/UsersTable.php:86;189;283;378;568
+msgid "This username already exist"
+msgstr "Este username ya existe"
+
+#: Model/Table/UsersTable.php:91;194;288;383;579
+msgid "Username must be greater than 3 characters"
+msgstr "El username debe ser mayor a 3 caracteres" 
+
+#: Model/Table/UsersTable.php:97;200;294;389;585
+msgid "This Username is not available"
+msgstr "Este username no esta disponible"
+
+#: Model/Table/UsersTable.php:105;111;208;214;302;308;397;403;593;599
+msgid "Please enter a valid first name"
+msgstr "Por favor ingresa un nombre valido"
+
+#: Model/Table/UsersTable.php:119;125;222;228;316;322;411;417;607;613
+msgid "Please enter a valid last name"
+msgstr "Por favor ingrese un apellido valido"
+
+msgid "Please enter father last name"
+msgstr "Por favor ingrese un apellido paterno"
+
+msgid "Please enter mother last name"
+msgstr "Por favor ingrese un apellido materno"
+
+msgid "Please enter birth date"
+msgstr "Por favor ingrese una fecha de nacimiento"
+
+msgid "Please enter entry date"
+msgstr "Por favor ingrese una fecha de ingreso"
+
+msgid "Please enter position"
+msgstr "Por favor ingrese un puesto"
+
+msgid "Please enter phone"
+msgstr "Por favor ingrese un teléfono"
+
+msgid "Please enter gender"
+msgstr "Por favor ingrese un genero"
+
+#: Model/Table/UsersTable.php:138;241;335;430;626
+msgid "This email already exist"
+msgstr "Este email ya existe"
+
+#: Model/Table/UsersTable.php:144;247;465;485;518;638
+msgid "Password must be greater than 5 characters"
+msgstr "La contraseña deberia ser mayor a 5 caracteres"
+
+#: Model/Table/UsersTable.php:152;255;473;493;526
+msgid "Both password must match"
+msgstr "Ambas contraseñas deberia coincidir"
+
+#: Model/Table/UsersTable.php:342;437
+msgid "Please upload a valid image"
+msgstr "Por favor sube una imagen valida"
+
+#: Model/Table/UsersTable.php:349;444
+msgid "Please select valid date"
+msgstr "Por favor selecciona una fecha valida"
+
+#: Model/Table/UsersTable.php:361
+msgid "Please select gender"
+msgstr "Por favor selecciona un genero"
+
+#: Model/Table/UsersTable.php:451
+msgid "Please enter old password"
+msgstr "Ingresar la contraseña anterior"
+
+#: Model/Table/UsersTable.php:458
+msgid "Please enter correct old password"
+msgstr "Por favor ingresa correctamente tu anterior contraseña"
+
+#: Model/Table/UsersTable.php:574;631
+msgid "Duplicate in this list"
+msgstr "Duplicado en esta lista"
+
+#: Model/Table/UsersTable.php:933
+msgid "Select Gender"
+msgstr "Selecciona un genero"
+
+#: Model/Table/UsersTable.php:935
+msgid "Male"
+msgstr "Hombre"
+
+#: Model/Table/UsersTable.php:936
+msgid "Female"
+msgstr "Mujer"
+
+#: Model/Table/UsersTable.php:1002
+msgid "Registration is Complete"
+msgstr "Registro completado"
+
+#: Model/Table/UsersTable.php:1003
+msgid ""
+"Welcome {0},<br/><br/>Thank you for your registration on {1}.<br/><br/"
+">Thanks,<br/>{2}"
+msgstr "Bienvenido(a) {0},<br/><br/>Gracias por registrarte en {1}.<br/><br/"
+">Gracias,<br/>{2}"
+
+#: Model/Table/UsersTable.php:1004
+msgid "Hi {0}."
+msgstr "Hola {0}."
+
+#: Model/Table/UsersTable.php:1005
+msgid ""
+"Starting this moment you can access to {0}"
+msgstr "A partir de este momento ya puedes acceder a {0}"
+
+#: Model/Table/UsersTable.php:1008
+msgid "geting in the"
+msgstr "ingresando los"
+
+#: Model/Table/UsersTable.php:1009
+msgid "following data:"
+msgstr "siguientes datos:"
+
+
+#: Model/Table/UsersTable.php:1006
+msgid ""
+"In the face of anywhere problem access, you have question about account or the<br>privileges assigned, please contact the support area."
+msgstr "Frente a cualquier problema de acceso, dudas respecto de su cuenta o los<br>privilegios asignados, por favor contacte al área de soporte."
+
+#: Model/Table/UsersTable.php:1007
+msgid "Your Sincerely<br>{0}"
+msgstr "Atentamente<br>{0}"
+
+#: Model/Table/UsersTable.php:1025
+msgid "Contact Email Confirmation"
+msgstr "Confirmación de email de contacto"
+
+#: Model/Table/UsersTable.php:1028
+msgid ""
+"Hey {0}, <br/><br/>You recently entered a contact email address. To confirm "
+"your contact email, follow the link below: <br/><br/>{1}<br/><br/>If "
+"clicking on the link doesn't work, try copying and pasting it into your "
+"browser.<br/><br/>Thanks,<br/>{2}"
+msgstr ""
+"Hola {0}, <br/><br/> Agregaste un email de contacto. solo para confirmar"
+"tu email, da click en el siguiente enlace <br/><br/>{1}<br/><br/>Si "
+"no funciona al darle click, trata copiando y pegando la url en tu navegador.<br/><br/>Gracias!!,<br/>{2}"
+
+#: Model/Table/UsersTable.php:1050
+msgid "Request to Reset Your Password"
+msgstr "Petición de reiniciar tu contraseña"
+
+#: Model/Table/UsersTable.php:1053
+msgid ""
+"Welcome {0},<br/><br/>You have requested to have your password reset on {1}. "
+"Please click the link below to reset your password now: <br/><br/>{2}<br/"
+"><br/>If clicking on the link doesn't work, try copying and pasting it into "
+"your browser.<br/><br/>Thanks,<br/>{3}"
+msgstr "Bienvenido(a) {0},<br/><br/>Haz solicitado reiniciar tu contraseña en {1}. "
+"Por favor da click en la liga debajo para reiniciar tu contraseña ahora: <br/><br/>{2}<br/"
+"><br/>Si la liga no funciona al darle click, intenta copiando y pegando la liga en tu navegador.
+"<br/><br/>Gracias,<br/>{3}"
+
+#: Model/Table/UsersTable.php:1076
+msgid "Change Password Confirmation"
+msgstr "Confirmación de cambio de contraseña"
+
+#: Model/Table/UsersTable.php:1078
+msgid ""
+"Hey {0},<br/><br/>You recently changed your password on {1}.<br/><br/>As a "
+"security precaution, this notification has been sent to your email addresse "
+"associated with your account.<br/><br/>Thanks,<br/>{2}"
+msgstr "Hola {0},<br/><br/>Recientemente cambiaste tu contraseña en {1}.<br/><br/> "
+"por razones de seguridad, esta notificación a sido enviada al email   "
+"asociado con tu cuenta.<br/><br/>Gracias,<br/>{2}"
+
+#: Template/Element/all_contacts.ctp:30
+#: Template/Element/all_email_signatures.ctp:30
+#: Template/Element/all_email_templates.ctp:30
+#: Template/Element/all_emails.ctp:30
+#: Template/Element/all_scheduled_emails.ctp:30
+#: Template/Element/all_setting_options.ctp:30
+#: Template/Element/all_settings.ctp:30
+#: Template/Element/all_static_pages.ctp:30
+#: Template/Element/all_user_groups.ctp:30 Template/Element/all_users.ctp:30
+#: Template/Element/online_users.ctp:30
+#: Template/UserEmails/send_confirm.ctp:123
+#: Template/UserSettings/cakelog.ctp:34
+#: Template/Users/view_user_permissions.ctp:39
+msgid "#"
+msgstr "#"
+
+#: Template/Element/all_contacts.ctp:31
+msgid "User ID"
+msgstr "Id de usuario"
+
+#: Template/Element/all_contacts.ctp:32 Template/Element/all_user_groups.ctp:32
+#: Template/Element/all_users.ctp:32 Template/Element/contact_us.ctp:27
+#: Template/Element/online_users.ctp:31 Template/ScheduledEmails/view.ctp:123
+#: Template/UserEmails/send_confirm.ctp:125 Template/UserEmails/view.ctp:84
+msgid "Name"
+msgstr "Nombre"
+
+#: Template/Element/all_contacts.ctp:33 Template/Element/all_users.ctp:34
+#: Template/Element/contact_us.ctp:28 Template/Element/online_users.ctp:32
+#: Template/ScheduledEmails/view.ctp:124
+#: Template/UserEmails/send_confirm.ctp:126 Template/UserEmails/view.ctp:85
+#: Template/Users/add_multiple_users.ctp:74 Template/Users/add_user.ctp:64
+#: Template/Users/edit_profile.ctp:53 Template/Users/edit_user.ctp:64
+#: Template/Users/login.ctp:35 Template/Users/myprofile.ctp:51
+#: Template/Users/register.ctp:63 Template/Users/view_user.ctp:56
+msgid "Email"
+msgstr "Correo electrónico"
+
+#: Template/Element/all_contacts.ctp:34
+msgid "Contact Number"
+msgstr "Número de contacto"
+
+#: Template/Element/all_contacts.ctp:35 Template/Element/contact_us.ctp:30
+msgid "Requirement"
+msgstr "Asunto"
+
+#: Template/Element/all_contacts.ctp:36
+msgid "Reply Message"
+msgstr "Responder"
+
+#: Template/Element/all_contacts.ctp:37
+msgid "Date"
+msgstr "Fecha"
+
+#: Template/Element/all_contacts.ctp:38;63
+#: Template/Element/all_email_signatures.ctp:34;51
+#: Template/Element/all_email_templates.ctp:35;53
+#: Template/Element/all_emails.ctp:39;81
+#: Template/Element/all_scheduled_emails.ctp:40;85
+#: Template/Element/all_setting_options.ctp:33;49
+#: Template/Element/all_settings.ctp:35;67
+#: Template/Element/all_static_pages.ctp:36;57
+#: Template/Element/all_user_groups.ctp:37;67
+#: Template/Element/all_users.ctp:39;73 Template/Element/online_users.ctp:37;58
+#: Template/ScheduledEmails/view.ctp:126
+#: Template/UserGroupPermissions/permission_group_matrix.ctp:164
+#: Template/UserGroupPermissions/permission_sub_group_matrix.ctp:162
+#: Template/UserGroupPermissions/print_permission_changes.ctp:61;115
+#: Template/UserSettings/cakelog.ctp:38
+#: Template/Users/view_user_permissions.ctp:42
+msgid "Action"
+msgstr "Acciones"
+
+#: Template/Element/all_contacts.ctp:65
+#: Template/UserContacts/send_reply_confirm.ctp:72
+msgid "Send Reply"
+msgstr "Enviar Respuesta"
+
+#: Template/Element/all_contacts.ctp:72
+#: Template/Element/all_email_signatures.ctp:62
+#: Template/Element/all_email_templates.ctp:64
+#: Template/Element/all_emails.ctp:90
+#: Template/Element/all_scheduled_emails.ctp:101
+#: Template/Element/all_setting_options.ctp:60
+#: Template/Element/all_settings.ctp:76
+#: Template/Element/all_static_pages.ctp:70
+#: Template/Element/all_user_groups.ctp:79 Template/Element/all_users.ctp:97
+#: Template/Element/online_users.ctp:69 Template/ScheduledEmails/view.ctp:151
+#: Template/UserEmails/view.ctp:106 Template/Users/view_user_permissions.ctp:60
+msgid "No Records Available"
+msgstr "No hay registros disponibles"
+
+#: Template/Element/all_contacts.ctp:77
+msgid "Number of Enquiries"
+msgstr "Numero de registros"
+
+#: Template/Element/all_email_signatures.ctp:31
+#: Template/UserEmailSignatures/add.ctp:37
+#: Template/UserEmailSignatures/edit.ctp:38
+msgid "Signature Name"
+msgstr "Nombre de la firma"
+
+#: Template/Element/all_email_signatures.ctp:32
+msgid "Signature"
+msgstr "Firma"
+
+#: Template/Element/all_email_signatures.ctp:33
+#: Template/Element/all_email_templates.ctp:34
+#: Template/Element/all_scheduled_emails.ctp:39
+#: Template/Element/all_setting_options.ctp:32
+#: Template/Element/all_static_pages.ctp:35
+#: Template/Element/all_user_groups.ctp:36 Template/Element/all_users.ctp:38
+#: Template/ScheduledEmails/view.ctp:107 Template/StaticPages/view.ctp:61
+msgid "Created"
+msgstr "Creado"
+
+#: Template/Element/all_email_signatures.ctp:53
+#: Template/UserEmailSignatures/edit.ctp:27
+msgid "Edit Signature"
+msgstr "Editar firma"
+
+#: Template/Element/all_email_signatures.ctp:55
+msgid "Delete Signature"
+msgstr "Borrar firma"
+
+#: Template/Element/all_email_signatures.ctp:55
+msgid "Are you sure you want to delete this signature?"
+msgstr "¿Estas seguro de querer borrar esta firma?"
+
+#: Template/Element/all_email_signatures.ctp:67
+msgid "Number of Signatures"
+msgstr "Número de firmas"
+
+#: Template/Element/all_email_templates.ctp:31
+#: Template/UserEmailTemplates/add.ctp:37
+#: Template/UserEmailTemplates/edit.ctp:38
+msgid "Template Name"
+msgstr "Nombre de plantilla"
+
+#: Template/Element/all_email_templates.ctp:32
+msgid "Header"
+msgstr "Encabezado"
+
+#: Template/Element/all_email_templates.ctp:33
+msgid "Footer"
+msgstr "Footer"
+
+#: Template/Element/all_email_templates.ctp:55
+#: Template/UserEmailTemplates/edit.ctp:27
+msgid "Edit Template"
+msgstr "Editar Plantilla"
+
+#: Template/Element/all_email_templates.ctp:57
+msgid "Delete Template"
+msgstr "Borrar Plantilla"
+
+#: Template/Element/all_email_templates.ctp:57
+msgid "Are you sure you want to delete this template?"
+msgstr "¿Estas seguro de querer borrar esta plantilla?"
+
+#: Template/Element/all_email_templates.ctp:69
+msgid "Number of Email Templates"
+msgstr "Número de plantillas de correo"
+
+#: Template/Element/all_emails.ctp:31
+#: Template/Element/all_scheduled_emails.ctp:31
+#: Template/ScheduledEmails/edit.ctp:38 Template/UserEmails/send.ctp:89
+msgid "Type"
+msgstr "Tipo"
+
+#: Template/Element/all_emails.ctp:32
+#: Template/Element/all_scheduled_emails.ctp:32
+#: Template/Element/all_users.ctp:35
+msgid "Groups(s)"
+msgstr "Grupos"
+
+#: Template/Element/all_emails.ctp:33
+#: Template/Element/all_scheduled_emails.ctp:33
+#: Template/ScheduledEmails/edit.ctp:71 Template/ScheduledEmails/view.ctp:89
+#: Template/UserContacts/send_reply.ctp:51
+#: Template/UserContacts/send_reply_confirm.ctp:54
+#: Template/UserEmails/send.ctp:121 Template/UserEmails/send_confirm.ctp:95
+#: Template/UserEmails/send_to_user.ctp:51
+#: Template/UserEmails/send_to_user_confirm.ctp:54
+#: Template/UserEmails/view.ctp:53
+msgid "From Name"
+msgstr "de"
+
+#: Template/Element/all_emails.ctp:34
+#: Template/Element/all_scheduled_emails.ctp:34
+#: Template/ScheduledEmails/edit.ctp:77 Template/ScheduledEmails/view.ctp:90
+#: Template/UserContacts/send_reply.ctp:57
+#: Template/UserContacts/send_reply_confirm.ctp:58
+#: Template/UserEmails/send.ctp:127 Template/UserEmails/send_confirm.ctp:99
+#: Template/UserEmails/send_to_user.ctp:57
+#: Template/UserEmails/send_to_user_confirm.ctp:58
+#: Template/UserEmails/view.ctp:54
+msgid "From Email"
+msgstr "De"
+
+#: Template/Element/all_emails.ctp:35
+#: Template/Element/all_scheduled_emails.ctp:35
+#: Template/ScheduledEmails/edit.ctp:83 Template/UserContacts/send_reply.ctp:75
+#: Template/UserEmails/send.ctp:133 Template/UserEmails/send_to_user.ctp:63
+msgid "Subject"
+msgstr "Asunto"
+
+#: Template/Element/all_emails.ctp:36 Template/UserEmails/view.ctp:57
+msgid "Sent By"
+msgstr "Enviado por"
+
+#: Template/Element/all_emails.ctp:37 Template/ScheduledEmails/view.ctp:125
+#: Template/UserEmails/view.ctp:59;86
+msgid "Sent?"
+msgstr "Enviado?"
+
+#: Template/Element/all_emails.ctp:38 Template/UserEmails/view.ctp:68
+msgid "Date Sent"
+msgstr "Fecha de envio"
+
+#: Template/Element/all_emails.ctp:53
+#: Template/Element/all_scheduled_emails.ctp:54
+#: Template/ScheduledEmails/edit.ctp:41 Template/ScheduledEmails/view.ctp:77
+#: Template/UserEmails/send_confirm.ctp:70 Template/UserEmails/view.ctp:41
+msgid "Selected Users"
+msgstr "Usuarios seleccionados"
+
+#: Template/Element/all_emails.ctp:55
+#: Template/Element/all_scheduled_emails.ctp:56
+#: Template/ScheduledEmails/edit.ctp:43 Template/ScheduledEmails/view.ctp:79
+#: Template/UserEmails/send_confirm.ctp:72 Template/UserEmails/view.ctp:43
+msgid "Group Users"
+msgstr "Grupo de usuarios"
+
+#: Template/Element/all_emails.ctp:57
+#: Template/Element/all_scheduled_emails.ctp:58
+#: Template/ScheduledEmails/edit.ctp:45 Template/ScheduledEmails/view.ctp:81
+#: Template/UserEmails/send_confirm.ctp:74 Template/UserEmails/view.ctp:45
+msgid "Manual Emails"
+msgstr "Emails Manuales"
+
+#: Template/Element/all_emails.ctp:64
+#: Template/Element/all_scheduled_emails.ctp:65
+msgid "N/A"
+msgstr "N/A"
+
+#: Template/Element/all_emails.ctp:73 Template/Element/all_settings.ctp:55
+#: Template/Element/all_user_groups.ctp:59 Template/Element/all_users.ctp:58
+#: Template/ScheduledEmails/view.ctp:138 Template/UserEmails/view.ctp:62;98
+#: Template/UserGroupPermissions/permission_group_matrix.ctp:78;189
+#: Template/UserGroupPermissions/permission_sub_group_matrix.ctp:76;188;194
+#: Template/Users/view_user.ctp:68
+msgid "Yes"
+msgstr "Si"
+
+#: Template/Element/all_emails.ctp:75 Template/Element/all_settings.ctp:57
+#: Template/Element/all_user_groups.ctp:61 Template/Element/all_users.ctp:60
+#: Template/ScheduledEmails/view.ctp:140 Template/UserEmails/view.ctp:64;100
+#: Template/UserGroupPermissions/permission_group_matrix.ctp:78;191
+#: Template/UserGroupPermissions/permission_sub_group_matrix.ctp:76;190;196
+#: Template/Users/view_user.ctp:68
+msgid "No"
+msgstr "No"
+
+#: Template/Element/all_emails.ctp:83
+#: Template/Element/all_scheduled_emails.ctp:87
+msgid "View Full Email & Recipients"
+msgstr "Ver correo"
+
+#: Template/Element/all_emails.ctp:95
+#: Template/Element/all_scheduled_emails.ctp:106
+msgid "Number of Emails"
+msgstr "Número de emails"
+
+#: Template/Element/all_scheduled_emails.ctp:36
+#: Template/ScheduledEmails/view.ctp:93
+msgid "Scheduled By"
+msgstr "Programado por"
+
+#: Template/Element/all_scheduled_emails.ctp:37
+#: Template/Element/all_users.ctp:37 Template/ScheduledEmails/view.ctp:95
+#: Template/Users/myprofile.ctp:59 Template/Users/view_user.ctp:63
+msgid "Status"
+msgstr "Estado"
+
+#: Template/Element/all_scheduled_emails.ctp:38
+#: Template/ScheduledEmails/view.ctp:106
+msgid "Scheduled Date"
+msgstr "Fecha programada"
+
+#: Template/Element/all_scheduled_emails.ctp:74
+#: Template/ScheduledEmails/view.ctp:98
+msgid "Sent"
+msgstr "Enviado"
+
+#: Template/Element/all_scheduled_emails.ctp:76
+#: Template/ScheduledEmails/view.ctp:100
+msgid "Sending"
+msgstr "Enviando"
+
+#: Template/Element/all_scheduled_emails.ctp:78
+#: Template/ScheduledEmails/view.ctp:102
+msgid "Not Sent"
+msgstr "No enviados"
+
+#: Template/Element/all_scheduled_emails.ctp:90
+msgid "Edit Email"
+msgstr "Editar Email"
+
+#: Template/Element/all_scheduled_emails.ctp:93
+msgid "Delete Email & Recipients"
+msgstr "Borrar Email y destinatarios"
+
+#: Template/Element/all_scheduled_emails.ctp:93
+msgid ""
+"Are you sure, you want to delete this scheduled email along with all "
+"recipients?"
+msgstr "¿Estas seguro de querer borrar este correo progrmado con todos estos "
+"destinatarios?"
+
+#: Template/Element/all_setting_options.ctp:31
+#: Template/SettingOptions/add.ctp:37 Template/SettingOptions/edit.ctp:37
+msgid "Title"
+msgstr "Título"
+
+#: Template/Element/all_setting_options.ctp:51 Template/StaticPages/view.ctp:34
+#: Template/UserContacts/send_reply_confirm.ctp:38
+#: Template/UserEmails/send_confirm.ctp:59
+#: Template/UserEmails/send_to_user_confirm.ctp:38
+#: Template/Users/myprofile.ctp:30 Template/Users/view_user.ctp:34
+msgid "Edit"
+msgstr "Editar"
+
+#: Template/Element/all_setting_options.ctp:53
+#: Template/ScheduledEmails/view.ctp:145 Template/UserSettings/cakelog.ctp:63
+msgid "Delete"
+msgstr "Borrar"
+
+#: Template/Element/all_setting_options.ctp:53
+msgid "Are you sure you want to delete this option?"
+msgstr "¿Estas seguro de querer borrar esta opción?"
+
+#: Template/Element/all_setting_options.ctp:65
+msgid "Number of Options"
+msgstr "Número de opciones"
+
+#: Template/Element/all_settings.ctp:31
+#: Template/UserSettings/add_setting.ctp:55;61
+#: Template/UserSettings/edit_setting.ctp:169;175
+msgid "Category"
+msgstr "categoría"
+
+#: Template/Element/all_settings.ctp:32
+#: Template/UserSettings/add_setting.ctp:73
+#: Template/UserSettings/edit_setting.ctp:187
+msgid "Name/Key"
+msgstr "Nombre"
+
+#: Template/Element/all_settings.ctp:33
+msgid "Setting Name"
+msgstr "Nombre de variable de sistema"
+
+#: Template/Element/all_settings.ctp:34
+msgid "Setting Value"
+msgstr "Valor"
+
+#: Template/Element/all_settings.ctp:69
+#: Template/UserSettings/edit_setting.ctp:151
+msgid "Edit Setting"
+msgstr "Editar variable"
+
+#: Template/Element/all_settings.ctp:81
+msgid "Number of Settings"
+msgstr "Numero de variables de sistema"
+
+#: Template/Element/all_static_pages.ctp:31 Template/StaticPages/add.ctp:37
+#: Template/StaticPages/edit.ctp:38 Template/StaticPages/view.ctp:41
+msgid "Page Name"
+msgstr "Nombre de la página"
+
+#: Template/Element/all_static_pages.ctp:32 Template/StaticPages/add.ctp:44
+#: Template/StaticPages/edit.ctp:45 Template/StaticPages/view.ctp:45
+msgid "Url Name"
+msgstr "Url"
+
+#: Template/Element/all_static_pages.ctp:33 Template/StaticPages/add.ctp:51
+#: Template/StaticPages/edit.ctp:52 Template/StaticPages/view.ctp:53
+msgid "Page Title"
+msgstr "Título"
+
+#: Template/Element/all_static_pages.ctp:34 Template/StaticPages/view.ctp:49
+msgid "Page Link"
+msgstr "Liga de la página"
+
+#: Template/Element/all_static_pages.ctp:59
+msgid "View Page"
+msgstr "Ver Página"
+
+#: Template/Element/all_static_pages.ctp:61
+msgid "Edit Page"
+msgstr "Editar Página"
+
+#: Template/Element/all_static_pages.ctp:63
+msgid "Delete Page"
+msgstr "Borrar Página"
+
+#: Template/Element/all_static_pages.ctp:63
+msgid "Are you sure you want to delete this page?"
+msgstr "¿Estas seguro de querer borrar esta página?"
+
+#: Template/Element/all_static_pages.ctp:75
+msgid "Number of Pages"
+msgstr "Número de Páginas"
+
+#: Template/Element/all_user_groups.ctp:31
+msgid "Group Id"
+msgstr "Id de Grupo"
+
+#: Template/Element/all_user_groups.ctp:33 Template/UserGroups/add.ctp:44
+#: Template/UserGroups/edit.ctp:45
+msgid "Parent Group"
+msgstr "Grupo padre"
+
+#: Template/Element/all_user_groups.ctp:34 Template/UserGroups/add.ctp:50
+#: Template/UserGroups/edit.ctp:51
+msgid "Description"
+msgstr "Descripción"
+
+#: Template/Element/all_user_groups.ctp:35 Template/UserGroups/add.ctp:56
+#: Template/UserGroups/edit.ctp:57
+msgid "Allow Registration"
+msgstr "Permitir registro de usuario"
+
+#: Template/Element/all_user_groups.ctp:69 Template/UserGroups/edit.ctp:27
+msgid "Edit Group"
+msgstr "Editar grupo"
+
+#: Template/Element/all_user_groups.ctp:71
+msgid "Delete Group"
+msgstr "Borrar grupo"
+
+#: Template/Element/all_user_groups.ctp:71
+msgid "Are you sure you want to delete this group? Delete it your own risk"
+msgstr "¿Estas seguro de querer borrar este grupo? "
+
+#: Template/Element/all_user_groups.ctp:84
+msgid "Number of Groups"
+msgstr "Cantidad de grupos"
+
+#: Template/Element/all_users.ctp:31
+msgid "User Id"
+msgstr "Id Usuario"
+
+#: Template/Element/all_users.ctp:36 Template/Users/view_user.ctp:67
+msgid "Email Verified"
+msgstr "Email verificado"
+
+#: Template/Element/all_users.ctp:65 Template/Users/myprofile.ctp:60
+#: Template/Users/view_user.ctp:64
+msgid "Active"
+msgstr "Activo"
+
+#: Template/Element/all_users.ctp:67 Template/Users/myprofile.ctp:60
+#: Template/Users/view_user.ctp:64
+msgid "Inactive"
+msgstr "Inactivo"
+
+#: Template/Element/all_users.ctp:75
+msgid "View User"
+msgstr "Ver Usuario"
+
+#: Template/Element/all_users.ctp:76 Template/Users/edit_user.ctp:34;80
+msgid "Edit User"
+msgstr "Editar Usuario"
+
+#: Template/Element/all_users.ctp:77 Template/Users/change_password.ctp:27;53
+#: Template/Users/change_user_password.ctp:50
+msgid "Change Password"
+msgstr "Cambiar contraseña"
+
+#: Template/Element/all_users.ctp:80 Template/Element/online_users.ctp:61
+msgid "Inactivate"
+msgstr "Desactivar"
+
+#: Template/Element/all_users.ctp:80
+msgid "Are you sure you want to inactivate this user?"
+msgstr "¿Estas seguro de querer desactivar este usuario?"
+
+#: Template/Element/all_users.ctp:82
+msgid "Activate"
+msgstr "Activar"
+
+#: Template/Element/all_users.ctp:82
+msgid "Are you sure you want to activate this user?"
+msgstr "¿Estas seguro de quere activar este usuario?"
+
+#: Template/Element/all_users.ctp:85
+msgid "Verify Email"
+msgstr "Verificar email"
+
+#: Template/Element/all_users.ctp:85
+msgid "Are you sure you want to verify email of this user?"
+msgstr "¿Estas seguro de querer verificar el email a este usuario?"
+
+#: Template/Element/all_users.ctp:87
+msgid "Delete User"
+msgstr "Borrar usuario"
+
+#: Template/Element/all_users.ctp:87
+msgid "Are you sure you want to delete this user?"
+msgstr "¿Estas seguro de querer borrar este usuario?"
+
+#: Template/Element/all_users.ctp:89
+msgid "View Permissions"
+msgstr "Ver permisos"
+
+#: Template/Element/all_users.ctp:90 Template/UserEmails/send.ctp:67
+#: Template/UserEmails/send_to_user_confirm.ctp:72
+msgid "Send Mail"
+msgstr "Enviar email"
+
+#: Template/Element/all_users.ctp:102
+msgid "Number of Users"
+msgstr "Cantidad de usuarios"
+
+#: Template/Element/contact_us.ctp:29
+msgid "Contact No"
+msgstr "No. contacto"
+
+#: Template/Element/contact_us.ctp:42 View/Helper/FormHelper.php:1724
+msgid "Submit"
+msgstr "Enviar"
+
+#: Template/Element/dashboard.ctp:34 Template/Users/access_denied.ctp:31
+msgid "Dashboard"
+msgstr "Indicadores"
+
+#: Template/Element/online_users.ctp:33
+msgid "Last URL"
+msgstr "última URL"
+
+#: Template/Element/online_users.ctp:34
+msgid "Browser"
+msgstr "Navegador Web"
+
+#: Template/Element/online_users.ctp:35 Template/Users/view_user.ctp:71
+msgid "Ip Address"
+msgstr "Dirección IP"
+
+#: Template/Element/online_users.ctp:36
+msgid "Last Action"
+msgstr "última acción"
+
+#: Template/Element/online_users.ctp:60
+msgid "Sign Out"
+msgstr "Salir"
+
+#: Template/Element/online_users.ctp:60
+msgid "Are you sure you want to sign out this user?"
+msgstr "Estas seguro de querer sacar del sistema a este usuario"
+
+#: Template/Element/online_users.ctp:61
+msgid "This user will be signed out and will not be able to login again"
+msgstr "Este usuario será sacado del sistema y no podra volver a entrar de nuevo"
+
+#: Template/Element/online_users.ctp:74
+msgid "Number of Online Users"
+msgstr "Número de usuarios conectados"
+
+#: Template/Element/pagination.ctp:26
+msgid "Total Records"
+msgstr "Total de Registros"
+
+#: Template/Element/pagination.ctp:31;35
+msgid "First"
+msgstr "Primero"
+
+#: Template/Element/pagination.ctp:38;40
+msgid "Previous"
+msgstr "Anterior"
+
+#: Template/Element/pagination.ctp:44;46
+#: Template/UserContacts/send_reply.ctp:91 Template/UserEmails/send.ctp:168
+#: Template/UserEmails/send_to_user.ctp:91
+#: Template/UserSettings/add_setting.ctp:87
+msgid "Next"
+msgstr "Siguiente"
+
+#: Template/Element/pagination.ctp:48;52
+msgid "Last"
+msgstr "Último"
+
+#: Template/Element/pagination.ctp:54
+msgid "Page"
+msgstr "Página"
+
+#: Template/Element/pagination.ctp:54
+msgid "of"
+msgstr "de"
+
+#: Template/Element/provider.ctp:26
+msgid "Sign in using your account with"
+msgstr "Registrarse utilizando tu cuenta de"
+
+#: Template/Element/provider.ctp:29
+msgid "Facebook Connect"
+msgstr "Facebook"
+
+#: Template/Element/provider.ctp:31
+msgid "Twitter Connect"
+msgstr "Twitter"
+
+#: Template/Element/provider.ctp:33
+msgid "Gmail Connect"
+msgstr "Gmail"
+
+#: Template/Element/provider.ctp:35
+msgid "Yahoo Connect"
+msgstr "Yahoo"
+
+#: Template/Element/provider.ctp:37
+msgid "Linkedin Connect"
+msgstr "Linkedin"
+
+#: Template/Element/provider.ctp:39
+msgid "Foursquare Connect"
+msgstr "Foursquare"
+
+#: Template/Element/search_form.ctp:167
+msgid "Search"
+msgstr "Buscar"
+
+#: Template/Element/search_form.ctp:169
+msgid "Clear"
+msgstr "Limpiar"
+
+#: Template/ScheduledEmails/edit.ctp:27
+msgid "Edit Scheduled Email"
+msgstr "Editar"
+
+#: Template/ScheduledEmails/edit.ctp:31 Template/ScheduledEmails/view.ctp:67
+#: Template/SettingOptions/add.ctp:30 Template/SettingOptions/edit.ctp:30
+#: Template/StaticPages/add.ctp:30 Template/StaticPages/edit.ctp:31
+#: Template/StaticPages/view.ctp:31 Template/UserContacts/send_reply.ctp:31
+#: Template/UserEmailSignatures/add.ctp:30
+#: Template/UserEmailSignatures/edit.ctp:31
+#: Template/UserEmailTemplates/add.ctp:30
+#: Template/UserEmailTemplates/edit.ctp:31 Template/UserEmails/send.ctp:70
+#: Template/UserEmails/send_to_user.ctp:31 Template/UserEmails/view.ctp:31
+#: Template/UserGroups/add.ctp:30 Template/UserGroups/edit.ctp:31
+#: Template/UserSettings/add_setting.ctp:42
+#: Template/UserSettings/edit_setting.ctp:155
+#: Template/Users/add_multiple_users.ctp:59 Template/Users/add_user.ctp:37
+#: Template/Users/change_user_password.ctp:31
+#: Template/Users/edit_profile.ctp:30 Template/Users/edit_user.ctp:38
+#: Template/Users/upload_csv.ctp:35 Template/Users/view_user.ctp:31
+#: Template/Users/view_user_permissions.ctp:31
+msgid "Back"
+msgstr "Regresar"
+
+#: Template/ScheduledEmails/edit.ctp:51 Template/ScheduledEmails/view.ctp:86
+#: Template/UserEmails/send_confirm.ctp:80 Template/UserEmails/view.ctp:50
+#: Template/Users/myprofile.ctp:46 Template/Users/view_user.ctp:51
+#: Template/Users/view_user_permissions.ctp:43
+msgid "Group(s)"
+msgstr "Grupos"
+
+#: Template/ScheduledEmails/edit.ctp:64 Template/UserContacts/send_reply.ctp:44
+#: Template/UserContacts/send_reply_confirm.ctp:50
+#: Template/UserEmails/send.ctp:114 Template/UserEmails/send_to_user.ctp:44
+msgid "CC To"
+msgstr "CC To"
+
+#: Template/ScheduledEmails/edit.ctp:67 Template/UserContacts/send_reply.ctp:47
+#: Template/UserEmails/send.ctp:110;117 Template/UserEmails/send_to_user.ctp:47
+msgid "multiple emails comma separated"
+msgstr "Multiples emails separados por comas"
+
+#: Template/ScheduledEmails/edit.ctp:89 Template/UserEmails/send.ctp:151
+#: Template/UserEmails/send_confirm.ctp:107
+msgid "Schedule Date"
+msgstr "Fecha"
+
+#: Template/ScheduledEmails/edit.ctp:95 Template/UserContacts/send_reply.ctp:81
+#: Template/UserEmails/send.ctp:158 Template/UserEmails/send_to_user.ctp:81
+msgid "Message"
+msgstr "Mensaje"
+
+#: Template/ScheduledEmails/edit.ctp:105
+msgid "Update"
+msgstr "Actualizar"
+
+#: Template/ScheduledEmails/index.ctp:27 Template/UserEmails/index.ctp:33
+msgid "Scheduled Emails"
+msgstr "Emails programos"
+
+#: Template/ScheduledEmails/index.ctp:30
+#: Template/UserEmails/send_confirm.ctp:160
+msgid "Schedule Email"
+msgstr "Email programados"
+
+#: Template/ScheduledEmails/index.ctp:33
+msgid "Sent Emails"
+msgstr "Emails enviados"
+
+#: Template/ScheduledEmails/view.ctp:28
+msgid "Are you sure, you want to delete this recipient?"
+msgstr "¿Estas seguro de querer borrar estos destinatarios?"
+
+#: Template/ScheduledEmails/view.ctp:51
+msgid "Something went wrong.. Please Try Again"
+msgstr "Algo esta realmente mal... intente nuevamente"
+
+#: Template/ScheduledEmails/view.ctp:63
+msgid "Scheduled Email Details"
+msgstr "Detalles del email programado"
+
+#: Template/ScheduledEmails/view.ctp:74 Template/UserEmails/send_confirm.ctp:67
+#: Template/UserEmails/view.ctp:38
+msgid "Email Type"
+msgstr "Tipo de Email"
+
+#: Template/ScheduledEmails/view.ctp:88 Template/UserEmails/send_confirm.ctp:91
+#: Template/UserEmails/send_to_user_confirm.ctp:50
+#: Template/UserEmails/view.ctp:52
+msgid "CC Email(s)"
+msgstr "CC Email(s)"
+
+#: Template/ScheduledEmails/view.ctp:91
+#: Template/UserContacts/send_reply_confirm.ctp:62
+#: Template/UserEmails/send_confirm.ctp:103
+#: Template/UserEmails/send_to_user_confirm.ctp:62
+#: Template/UserEmails/view.ctp:55
+msgid "Email Subject"
+msgstr "Asunto"
+
+#: Template/ScheduledEmails/view.ctp:92
+#: Template/UserContacts/send_reply_confirm.ctp:66
+#: Template/UserEmails/send_confirm.ctp:115
+#: Template/UserEmails/send_to_user_confirm.ctp:66
+#: Template/UserEmails/view.ctp:56
+msgid "Email Message"
+msgstr "Mensaje"
+
+#: Template/ScheduledEmails/view.ctp:115
+msgid "Scheduled Email Recipients"
+msgstr "Destinatarios"
+
+#: Template/ScheduledEmails/view.ctp:122 Template/UserEmails/view.ctp:83
+msgid "Id"
+msgstr "Id"
+
+#: Template/SettingOptions/add.ctp:27
+msgid "Add Setting Option"
+msgstr "Agregar Opción"
+
+#: Template/SettingOptions/add.ctp:43 Template/SettingOptions/index.ctp:30
+#: Template/UserSettings/edit_setting.ctp:273
+msgid "Add Option"
+msgstr "Agregar Opción"
+
+#: Template/SettingOptions/edit.ctp:27
+msgid "Edit Setting Option"
+msgstr "Editar Opción"
+
+#: Template/SettingOptions/edit.ctp:43
+msgid "Update Option"
+msgstr "Actualizar Opción"
+
+#: Template/SettingOptions/index.ctp:27
+msgid "All Setting Options"
+msgstr "Todas las opciones"
+
+#: Template/StaticPages/add.ctp:27
+msgid "Add Static Page"
+msgstr "Agregar Página Estática"
+
+#: Template/StaticPages/add.ctp:40 Template/StaticPages/edit.ctp:41
+msgid "For ex. Contact Us, About Us"
+msgstr "Por ejemplo, Contacto, Acerca"
+
+#: Template/StaticPages/add.ctp:47 Template/StaticPages/edit.ctp:48
+msgid "For ex. contactus, contactus.html, aboutus, aboutus.html"
+msgstr "Por ejemplo, contacto, contacto.html, acerca,acerca.html"
+
+#: Template/StaticPages/add.ctp:54 Template/StaticPages/edit.ctp:55
+msgid "For ex. Your Contact Details"
+msgstr "Por ejemplo, Contacto"
+
+#: Template/StaticPages/add.ctp:58 Template/StaticPages/edit.ctp:59
+#: Template/StaticPages/view.ctp:57
+msgid "Page Content"
+msgstr "Contenido de la página"
+
+#: Template/StaticPages/add.ctp:68 Template/StaticPages/index.ctp:30
+msgid "Add Page"
+msgstr "Agregar Página"
+
+#: Template/StaticPages/edit.ctp:27
+msgid "Edit Static Page"
+msgstr "Editar Página Estática"
+
+#: Template/StaticPages/edit.ctp:69
+msgid "Save Page"
+msgstr "Guardar Página"
+
+#: Template/StaticPages/index.ctp:27
+msgid "All Static Pages"
+msgstr "Todas las Páginas Estáticas"
+
+#: Template/StaticPages/view.ctp:27
+msgid "Static Page Detail"
+msgstr "Detalles de la Página Estática "
+
+#: Template/StaticPages/view.ctp:65
+msgid "Modified"
+msgstr "Modificado"
+
+#: Template/UserContacts/contact_us.ctp:27
+msgid "Contact Us"
+msgstr "Contactanos"
+
+#: Template/UserContacts/index.ctp:27
+msgid "All Contact Enquiries"
+msgstr "Todos los contactos"
+
+#: Template/UserContacts/send_reply.ctp:27
+msgid "Send Reply to"
+msgstr "Enviar respuesta a"
+
+#: Template/UserContacts/send_reply.ctp:38
+#: Template/UserContacts/send_reply_confirm.ctp:46
+#: Template/UserEmails/send_to_user.ctp:38
+#: Template/UserEmails/send_to_user_confirm.ctp:46
+msgid "To"
+msgstr "A"
+
+#: Template/UserContacts/send_reply.ctp:63 Template/UserEmails/send.ctp:139
+#: Template/UserEmails/send_to_user.ctp:69
+msgid "Select Template"
+msgstr "Selecciona Plantilla"
+
+#: Template/UserContacts/send_reply.ctp:69 Template/UserEmails/send.ctp:145
+#: Template/UserEmails/send_to_user.ctp:75
+msgid "Select Signature"
+msgstr "Selecciona Firma"
+
+#: Template/UserContacts/send_reply_confirm.ctp:26
+#: Template/UserEmails/send_to_user_confirm.ctp:26
+msgid "Are you sure, you want to send this email?"
+msgstr "¿Estas seguro de querer enviar este email?"
+
+#: Template/UserContacts/send_reply_confirm.ctp:35
+msgid "Confirm Sending Reply to"
+msgstr "Cofirmación de envio de respuesta a"
+
+#: Template/UserEmailSignatures/add.ctp:27;53
+#: Template/UserEmailSignatures/index.ctp:30
+msgid "Add Signature"
+msgstr "Agregar Firma"
+
+#: Template/UserEmailSignatures/add.ctp:43
+#: Template/UserEmailSignatures/edit.ctp:44
+msgid "Email Signature"
+msgstr "Firma de Email"
+
+#: Template/UserEmailSignatures/edit.ctp:54
+msgid "Update Signature"
+msgstr "Actualizar Firma"
+
+#: Template/UserEmailSignatures/index.ctp:27
+msgid "All Email Signatures"
+msgstr "Todas las firmas"
+
+#: Template/UserEmailTemplates/add.ctp:27;63
+#: Template/UserEmailTemplates/index.ctp:30
+msgid "Add Template"
+msgstr "Agregar Plantilla"
+
+#: Template/UserEmailTemplates/add.ctp:43
+#: Template/UserEmailTemplates/edit.ctp:44
+msgid "Email Header"
+msgstr "Encabezado"
+
+#: Template/UserEmailTemplates/add.ctp:53
+#: Template/UserEmailTemplates/edit.ctp:54
+msgid "Email Footer"
+msgstr "Pie de página"
+
+#: Template/UserEmailTemplates/edit.ctp:64
+msgid "Update Template"
+msgstr "Actualizar Plantilla"
+
+#: Template/UserEmailTemplates/index.ctp:27
+msgid "All Email Templates"
+msgstr "Todas las Plantillas"
+
+#: Template/UserEmails/index.ctp:27
+msgid "All Sent Emails"
+msgstr "Todos los correos enviados"
+
+#: Template/UserEmails/index.ctp:30 Template/UserEmails/send_confirm.ctp:162
+#: Template/Users/email_verification.ctp:56
+#: Template/Users/forgot_password.ctp:56
+msgid "Send Email"
+msgstr "Enviar Email"
+
+#: Template/UserEmails/send.ctp:95
+msgid "Select User(s)"
+msgstr "Selecciona Usuarios"
+
+#: Template/UserEmails/send.ctp:101
+msgid "Select Groups(s)"
+msgstr "Selecciona grupo(os)"
+
+#: Template/UserEmails/send.ctp:107
+msgid "To Email(s)"
+msgstr "To Email(s)"
+
+#: Template/UserEmails/send.ctp:154
+msgid ""
+"If you enter schedule date, emails will not be send right now. You need to "
+"setup cron job to send scheduled emails. Please refer to documentation for "
+"cron job setup."
+msgstr ""
+"Si se ingresa una fecha, los emails no seran enviados ahora. Es necesario "
+"confirugar cron job para enviar emails programados. Favor de revisar la documentación de como configurar un "
+"cron job ."
+
+#: Template/UserEmails/send_confirm.ctp:36
+msgid "Please select atleast one user to send email"
+msgstr "Selecciona al menos un usuario para enviar un email"
+
+#: Template/UserEmails/send_confirm.ctp:40
+msgid "Are you sure, you want to continue sending emails?"
+msgstr "Estas seguro de querer continuar enviando emails"
+
+#: Template/UserEmails/send_confirm.ctp:56
+msgid "Confirm Sending Email"
+msgstr "Confirmas enviar email"
+
+#: Template/UserEmails/send_confirm.ctp:154
+msgid "No Users"
+msgstr "Seleccione usuarios"
+
+#: Template/UserEmails/send_to_user.ctp:27
+msgid "Send Mail to"
+msgstr "Enviar Email a"
+
+#: Template/UserEmails/send_to_user_confirm.ctp:35
+msgid "Confirm Sending Email to"
+msgstr "Cofirmacion de enviar email a"
+
+#: Template/UserEmails/view.ctp:27
+msgid "Email Details"
+msgstr "Detallas del Email"
+
+#: Template/UserEmails/view.ctp:76
+msgid "Email Recipients"
+msgstr "Destinatarios"
+
+#: Template/UserGroupPermissions/permission_group_matrix.ctp:46
+#: Template/UserGroupPermissions/permission_sub_group_matrix.ctp:46
+msgid "Please select atleast one controller to get permissions"
+msgstr "Selecciona por lo menos un controlador para obtener sus permisos"
+
+#: Template/UserGroupPermissions/permission_group_matrix.ctp:65
+msgid "Parent Group Permissions Matrix"
+msgstr "Matriz de permisos"
+
+#: Template/UserGroupPermissions/permission_group_matrix.ctp:71
+#: Template/UserGroupPermissions/permission_sub_group_matrix.ctp:71
+msgid "Please wait while page is loading..."
+msgstr "Por favor espera mientras la página es cargada"
+
+#: Template/UserGroupPermissions/permission_group_matrix.ctp:76
+msgid "Check Permission Changes"
+msgstr "Verificar cambios en permisos"
+
+#: Template/UserGroupPermissions/permission_group_matrix.ctp:78
+msgid "The group has permission of controller's action"
+msgstr "El grupo tiene permisos por ejecutar la acción del controller"
+
+#: Template/UserGroupPermissions/permission_group_matrix.ctp:78
+msgid "The group has not permission of controller's action"
+msgstr "El grupo no tiene permiso para ejecutar la acción del controller"
+
+#: Template/UserGroupPermissions/permission_group_matrix.ctp:93;161
+#: Template/UserGroupPermissions/permission_sub_group_matrix.ctp:91;159
+#: Template/UserGroupPermissions/print_permission_changes.ctp:35;58;85;112
+msgid "Prefix"
+msgstr "Prefijo"
+
+#: Template/UserGroupPermissions/permission_group_matrix.ctp:94;162
+#: Template/UserGroupPermissions/permission_sub_group_matrix.ctp:92;160
+#: Template/UserGroupPermissions/print_permission_changes.ctp:36;59;86;113
+#: Template/Users/view_user_permissions.ctp:40
+msgid "Plugin"
+msgstr "Extensión"
+
+#: Template/UserGroupPermissions/permission_group_matrix.ctp:95;163
+#: Template/UserGroupPermissions/permission_sub_group_matrix.ctp:93;161
+#: Template/UserGroupPermissions/print_permission_changes.ctp:37;60;87;114
+#: Template/Users/view_user_permissions.ctp:41
+msgid "Controller"
+msgstr "Controlador"
+
+#: Template/UserGroupPermissions/permission_group_matrix.ctp:130
+#: Template/Users/add_user.ctp:44 Template/Users/edit_user.ctp:45
+#: Template/Users/register.ctp:39
+msgid "Group"
+msgstr "Grupo"
+
+#: Template/UserGroupPermissions/permission_group_matrix.ctp:152
+#: Template/UserGroupPermissions/permission_sub_group_matrix.ctp:150
+msgid "Get Permissions"
+msgstr "Obtener Permisos"
+
+#: Template/UserGroupPermissions/permission_sub_group_matrix.ctp:65
+msgid "Sub Group Permissions Matrix"
+msgstr "Matriz de permisos del subgrupo"
+
+#: Template/UserGroupPermissions/permission_sub_group_matrix.ctp:76
+msgid "The sub group has permission of controller's action"
+msgstr "El subgrupo tiene permiso para ejecutar la acción del controller"
+
+#: Template/UserGroupPermissions/permission_sub_group_matrix.ctp:76
+msgid "The sub group has not permission of controller's action"
+msgstr "El subgrupo no tiene permiso para ejecutar la acción del controller"
+
+#: Template/UserGroupPermissions/permission_sub_group_matrix.ctp:76
+msgid "inherit"
+msgstr "Herencia"
+
+#: Template/UserGroupPermissions/permission_sub_group_matrix.ctp:76
+msgid "Permission inherited from parent group"
+msgstr "Permisos heredados del grupo padre"
+
+#: Template/UserGroupPermissions/permission_sub_group_matrix.ctp:128
+msgid "Sub Group"
+msgstr "Subgrupo"
+
+#: Template/UserGroupPermissions/print_permission_changes.ctp:27
+msgid "Permission Changes"
+msgstr "Permisos cambiados"
+
+#: Template/UserGroupPermissions/print_permission_changes.ctp:31
+msgid "Controllers Not Added in Permission"
+msgstr "Controlador no agregado a permisos"
+
+#: Template/UserGroupPermissions/print_permission_changes.ctp:54
+msgid "Actions Not Added in Permission"
+msgstr "Acciones no agregadas en los permisos"
+
+#: Template/UserGroupPermissions/print_permission_changes.ctp:81
+msgid "Extra Controllers Added in Permission Table"
+msgstr "Se agregaron controladores extras en la tabla de permisos"
+
+#: Template/UserGroupPermissions/print_permission_changes.ctp:101;131
+msgid "Remove"
+msgstr "Quitar"
+
+#: Template/UserGroupPermissions/print_permission_changes.ctp:101
+msgid ""
+"Are you sure, you want to delete permissions of this controller along with "
+"it's actions?"
+msgstr "Estas seguro de querer borrar los permisos del controlador"
+
+#: Template/UserGroupPermissions/print_permission_changes.ctp:108
+msgid "Extra Actions Added in Permission Table"
+msgstr "Permisos extras se agregaron a la tabla de permisos"
+
+#: Template/UserGroupPermissions/print_permission_changes.ctp:131
+msgid "Are you sure, you want to delete permissions of this action?"
+msgstr "Estas seguro, de borrar los permisos de esta acción"
+
+#: Template/UserGroups/add.ctp:27 Template/UserGroups/index.ctp:30
+msgid "Add Group"
+msgstr "Agregar Grupo"
+
+#: Template/UserGroups/add.ctp:37 Template/UserGroups/edit.ctp:38
+msgid "Group Name"
+msgstr "Nombre del grupo"
+
+#: Template/UserGroups/add.ctp:40 Template/UserGroups/edit.ctp:41
+msgid "for ex. Business User"
+msgstr "Por ej. Clientes"
+
+#: Template/UserGroups/add.ctp:62 Template/UserGroups/edit.ctp:63
+#: Template/UserSettings/cakelog.ctp:86
+msgid "Save"
+msgstr "Guardar"
+
+#: Template/UserGroups/add.ctp:66
+msgid ""
+"Note: If you add a new group then you should assign permissions to this "
+"newly created Group."
+msgstr "Nota: Si agregas un nuevo grupo, necesitas asignarle permisos"
+
+#: Template/UserGroups/index.ctp:27
+msgid "All Groups"
+msgstr "Todos los grupos"
+
+#: Template/UserSettings/add_setting.ctp:39 Template/UserSettings/index.ctp:30
+msgid "Add Setting"
+msgstr "Agregar variable de sistema"
+
+#: Template/UserSettings/add_setting.ctp:49
+#: Template/UserSettings/edit_setting.ctp:163
+msgid "Category Type"
+msgstr "Categoria"
+
+#: Template/UserSettings/add_setting.ctp:67
+#: Template/UserSettings/edit_setting.ctp:181
+msgid "Input Type"
+msgstr "Tipo"
+
+#: Template/UserSettings/add_setting.ctp:76
+#: Template/UserSettings/edit_setting.ctp:190
+msgid "for ex. site_name (no space, only small letters, underscore)"
+msgstr "Por ejemplo site_name (no espacios, solo letra minúscula, y guion bajo )"
+
+#: Template/UserSettings/add_setting.ctp:80
+#: Template/UserSettings/edit_setting.ctp:194
+msgid "Display Name"
+msgstr "Mostrar nombre"
+
+#: Template/UserSettings/add_setting.ctp:83
+#: Template/UserSettings/edit_setting.ctp:197
+msgid "for ex. Enter Your Full Site Name"
+msgstr "Por ejemplo, El nombre completo de sitio"
+
+#: Template/UserSettings/cakelog.ctp:27
+msgid "Cake Logs"
+msgstr "Registros de Cake"
+
+#: Template/UserSettings/cakelog.ctp:35
+msgid "Log File"
+msgstr "Registro"
+
+#: Template/UserSettings/cakelog.ctp:36
+msgid "File Size"
+msgstr "Tamaño de archivo"
+
+#: Template/UserSettings/cakelog.ctp:37
+msgid "Last Modified"
+msgstr "última modificación"
+
+#: Template/UserSettings/cakelog.ctp:59
+msgid "View/Edit"
+msgstr "Ver/Editar"
+
+#: Template/UserSettings/cakelog.ctp:61
+msgid "Create Backup Copy"
+msgstr "Crear copia de respaldo"
+
+#: Template/UserSettings/cakelog.ctp:61
+msgid "Are you sure, you want to create a copy of "
+msgstr "Estas seguro, de crear una copia de"
+
+#: Template/UserSettings/cakelog.ctp:63
+msgid "Are you sure, you want to delete the log file "
+msgstr "Estas seguro, de borrar el registro"
+
+#: Template/UserSettings/cakelog.ctp:65
+msgid "Empty File"
+msgstr "Archivo vacío"
+
+#: Template/UserSettings/cakelog.ctp:65
+msgid "Are you sure, you want to make empty the log file "
+msgstr "Estas seguro, de crear un archivo de registro vacio"
+
+#: Template/UserSettings/cakelog.ctp:65
+msgid "You should create a backup before making empty this file."
+msgstr "Deberias crear un respaldo antes de crear un archivo vacío"
+
+#: Template/UserSettings/cakelog.ctp:72
+msgid ""
+"I recommend you to take a backup of log files then make empty them weekly or "
+"monthly. It can improve site performance."
+msgstr ""
+
+#: Template/UserSettings/cakelog.ctp:79
+msgid "Close"
+msgstr "Cerrar"
+
+#: Template/UserSettings/cakelog.ctp:81
+msgid " details"
+msgstr " detalles"
+
+#: Template/UserSettings/edit_setting.ctp:201
+msgid "Value"
+msgstr "Valor"
+
+#: Template/UserSettings/edit_setting.ctp:217
+msgid "Add/Remove Options"
+msgstr "Agregar/Quitar Opciones"
+
+#: Template/UserSettings/edit_setting.ctp:228
+msgid "Update Setting"
+msgstr "Actualizar variable"
+
+#: Template/UserSettings/edit_setting.ctp:238
+msgid "Selected Options"
+msgstr "Opción seleccionada"
+
+#: Template/UserSettings/edit_setting.ctp:253
+msgid "Available Options"
+msgstr "Opciones disponibles"
+
+#: Template/UserSettings/edit_setting.ctp:270
+msgid "Add New Option"
+msgstr "Agregar nueva opción"
+
+#: Template/UserSettings/edit_setting.ctp:277
+msgid "Done"
+msgstr "Hecho"
+
+#: Template/UserSettings/index.ctp:27
+msgid "All Settings"
+msgstr "Todas las variables"
+
+#: Template/UserSettings/index.ctp:33
+msgid "Setting Options"
+msgstr "Opciones de variable"
+
+#: Template/Users/access_denied.ctp:27
+msgid "Access Denied"
+msgstr "Acceso denegado"
+
+#: Template/Users/access_denied.ctp:31
+msgid "Sorry, You don't have permission to view that page. go to"
+msgstr "Lamento, que no tengas permisos para ver esa página, ve a"
+
+#: Template/Users/activate_password.ctp:29
+msgid "Reset Password"
+msgstr "Reiniciar contraseña"
+
+#: Template/Users/activate_password.ctp:35
+#: Template/Users/change_password.ctp:41
+#: Template/Users/change_user_password.ctp:38
+msgid "New Password"
+msgstr "Nueva contraseña"
+
+#: Template/Users/activate_password.ctp:41 Template/Users/add_user.ctp:76
+#: Template/Users/change_password.ctp:47
+#: Template/Users/change_user_password.ctp:44 Template/Users/register.ctp:75
+msgid "Confirm Password"
+msgstr "Confirmar contraseña"
+
+#: Template/Users/activate_password.ctp:47
+msgid "Save New Password"
+msgstr "Guardar nueva contraseña"
+
+#: Template/Users/add_multiple_users.ctp:47
+msgid "Please select atleast one user to add"
+msgstr "Por favor, selecciona por lo menos un usuario para agregar"
+
+#: Template/Users/add_multiple_users.ctp:56 Template/Users/upload_csv.ctp:32
+msgid "Add Multiple Users"
+msgstr "Agregar multiples usuarios"
+
+#: Template/Users/add_multiple_users.ctp:65
+msgid "Please Note: Unchecked rows will not be saved in database."
+msgstr "Nota: los renglones no seleccionados no va a hacer guardados en la base de datos"
+
+#: Template/Users/add_multiple_users.ctp:70
+msgid "User Group"
+msgstr "Grupo de usuario"
+
+
+#: Template/Users/add_multiple_users.ctp:71 Template/Users/add_user.ctp:52
+#: Template/Users/edit_profile.ctp:41 Template/Users/edit_user.ctp:52
+#: Template/Users/register.ctp:51
+msgid "User Name"
+msgstr "Nombre de Usuario"
+
+#: Template/Users/add_multiple_users.ctp:71 Template/Users/add_user.ctp:52
+#: Template/Users/edit_profile.ctp:41 Template/Users/edit_user.ctp:52
+#: Template/Users/register.ctp:51
+msgid "First Name"
+msgstr "Nombre"
+
+#: Template/Users/add_multiple_users.ctp:72 Template/Users/add_user.ctp:58
+#: Template/Users/edit_profile.ctp:47 Template/Users/edit_user.ctp:58
+#: Template/Users/register.ctp:57
+msgid "Last Name"
+msgstr "Apellido"
+
+
+#: Template/Users/add_multiple_users.ctp:72 Template/Users/add_user.ctp:57
+#: Template/Users/edit_profile.ctp:47 Template/Users/edit_user.ctp:58
+#: Template/Users/register.ctp:57
+msgid "Father's Last Name"
+msgstr "Apellido Paterno"
+
+#: Template/Users/add_multiple_users.ctp:72 Template/Users/add_user.ctp:59
+#: Template/Users/edit_profile.ctp:47 Template/Users/edit_user.ctp:58
+#: Template/Users/register.ctp:57
+msgid "Mother's Last Name"
+msgstr "Apellido Materno"
+
+#: Template/Users/add_multiple_users.ctp:73 Template/Users/register.ctp:45
+msgid "Username"
+msgstr "Nombre de usuario"
+
+#: Template/Users/add_multiple_users.ctp:75 Template/Users/add_user.ctp:70
+#: Template/Users/login.ctp:41;114;116 Template/Users/register.ctp:69
+msgid "Password"
+msgstr "Contraseña"
+
+#: Template/Users/add_multiple_users.ctp:75 Template/Users/add_user.ctp:71
+#: Template/Users/login.ctp:41;114;116 Template/Users/register.ctp:69
+msgid "Position"
+msgstr "Puesto"
+
+#: Template/Users/add_multiple_users.ctp:75 Template/Users/add_user.ctp:72
+#: Template/Users/login.ctp:41;114;116 Template/Users/register.ctp:69
+msgid "User Profile"
+msgstr "Perfil del Usuario"
+
+#: Template/Users/add_multiple_users.ctp:75 Template/Users/add_user.ctp:73
+#: Template/Users/login.ctp:41;114;116 Template/Users/register.ctp:69
+msgid "User Profile"
+msgstr "Perfil del Usuario"
+
+#: Template/Users/add_multiple_users.ctp:75
+msgid "Mobile Phone"
+msgstr "Teléfono Móvil"
+
+#: Template/Users/add_multiple_users.ctp:75
+msgid "Phone"
+msgstr "Teléfono"
+
+#: Template/Users/add_multiple_users.ctp:76
+msgid "Gender"
+msgstr "Genero"
+
+#: Template/Users/add_multiple_users.ctp:77
+msgid "Birthday"
+msgstr "Cumpleaños"
+
+#: Template/Users/add_multiple_users.ctp:78
+msgid "Location"
+msgstr "Locación"
+
+#: Template/Users/add_multiple_users.ctp:79
+msgid "Cellphone"
+msgstr "Celular"
+
+#: Template/Users/add_multiple_users.ctp:125
+msgid "Add Users"
+msgstr "Agregar Usuarios"
+
+#: Template/Users/add_user.ctp:34;82 Template/Users/index.ctp:30
+msgid "Add User"
+msgstr "Agregar Usuario"
+
+#: Template/Users/index.ctp
+msgid "New User"
+msgstr "Nuevo Usuario"
+
+#: Template/Users/index.ctp
+msgid "List of Users"
+msgstr "Listado de Usuarios"
+
+#: Template/Users/add_user.ctp:34;82 Template/Users/index.ctp:31
+msgid "Birth Date"
+msgstr "Fecha de Nacimiento"
+
+msgid "Entry Date"
+msgstr "Fecha de Ingreso"
+
+#: Template/Users/change_password.ctp:34
+msgid "Old Password"
+msgstr "Contraseña anterior"
+
+#: Template/Users/change_user_password.ctp:27
+msgid "Change Password for"
+msgstr "Cambiar contraseña por"
+
+#: Template/Users/edit_profile.ctp:27
+msgid "Edit Profile"
+msgstr "Editar Perfil"
+
+#: Template/Users/edit_profile.ctp:62 Template/Users/edit_user.ctp:72
+msgid "Photo"
+msgstr "Foto"
+
+#: Template/Users/edit_profile.ctp:68
+msgid "Update Profile"
+msgstr "Actualizar Perfil"
+
+#: Template/Users/email_verification.ctp:29 Template/Users/login.ctp:65;148
+msgid "Email Verification"
+msgstr "Verificación de Email"
+
+#: Template/Users/email_verification.ctp:35
+#: Template/Users/forgot_password.ctp:35
+msgid "Enter Email / Username"
+msgstr "Escribe Correo "
+
+#: Template/Users/email_verification.ctp:49
+#: Template/Users/forgot_password.ctp:49 Template/Users/login.ctp:54;139
+#: Template/Users/register.ctp:89
+msgid "Prove you're not a robot"
+msgstr "Prueba que no eres un robot"
+
+#: Template/Users/forgot_password.ctp:29
+msgid "Forgot Password"
+msgstr "Recuperar Contraseña"
+
+#: Template/Users/index.ctp:27
+msgid "All Users"
+msgstr "Todos los usuarios"
+
+#: Template/Users/login.ctp:63;96;146 Template/Users/register.ctp:30
+msgid "Sign In"
+msgstr "Entrar"
+
+#: Template/Users/login.ctp:64;147
+msgid "¿Forgot Password?"
+msgstr "¿Olvidaste tu contraseña?"
+
+#: Template/Users/login.ctp:74;124
+msgid "Remember me"
+msgstr "Recuerdame"
+
+#: Template/Users/login.ctp:100 Template/Users/register.ctp:27;96
+msgid "Sign Up"
+msgstr "Darse de alta"
+
+#: Template/Users/login.ctp:108;110
+msgid "Email / Username"
+msgstr "Email"
+
+#: Template/Users/myprofile.ctp:27
+msgid "My Profile"
+msgstr "Mi Perfil"
+
+#: Template/Users/myprofile.ctp:63 Template/Users/view_user.ctp:75
+msgid "Joined"
+msgstr "Creado el"
+
+#: Template/Users/online.ctp:27
+msgid "Online Users"
+msgstr "Usuarios conectados"
+
+#: Template/Users/upload_csv.ctp:41
+msgid "Select csv file"
+msgstr "Seleccionar el archivo csv"
+
+#: Template/Users/upload_csv.ctp:46
+msgid "Upload"
+msgstr "Subir"
+
+#: Template/Users/upload_csv.ctp:52
+msgid "Instructions for CSV file"
+msgstr "Instrucciones para el archivo CSV"
+
+#: Template/Users/upload_csv.ctp:55
+msgid "First line should be table fields name"
+msgstr "El primer renglon deben ser los nombres de las columnas"
+
+#: Template/Users/upload_csv.ctp:56
+msgid "You can add one or more than one users"
+msgstr "Tu puedes agregar uno o mas usuarios"
+
+#: Template/Users/upload_csv.ctp:57
+msgid "leave blank for empty values"
+msgstr "Dejar en blanco para valores vacios "
+
+#: Template/Users/upload_csv.ctp:59
+msgid "For user group id field value should be in following"
+msgstr "Para gurpo de usuario debe ser como el siguiente"
+
+#: Template/Users/upload_csv.ctp:64
+msgid ""
+"For multiple groups set group ids comma separated without space for e.g. 1,2"
+msgstr "Para multiples grupos colocar los ids del grupo separados por coma, pj. 1,2"
+
+#: Template/Users/upload_csv.ctp:66
+msgid "For gender field value should be in following"
+msgstr "Para el genero, deben ser los siguientes"
+
+#: Template/Users/upload_csv.ctp:71
+msgid "For Birthday date format should be Ymd format for e.g. 1999-01-25"
+msgstr "Para el cumpleaños, el formato debe ser Ymd Pj. 1999-01-25"
+
+#: Template/Users/upload_csv.ctp:72
+msgid "Sample CSV File"
+msgstr "Ejemplo  CSV"
+
+#: Template/Users/upload_csv.ctp:72
+msgid "for multiple users"
+msgstr "para multiples usuarios"
+
+#: Template/Users/view_user.ctp:27
+msgid "User Detail"
+msgstr "Detalles de usuario"
+
+#: Template/Users/view_user.ctp:79
+msgid "Created By"
+msgstr "Creado por"
+
+#: Template/Users/view_user.ctp:83
+msgid "Last Login"
+msgstr "Ultimo acceso"
+
+#: Template/Users/view_user_permissions.ctp:27
+msgid "Site Permissions for"
+msgstr "Permisos del sistema"
+
+#: Template/Users/view_user_permissions.ctp:35
+msgid "Please make sure permissions are based on groups."
+msgstr "Verifica que los permisos son basados en grupos"
+
+#: Controller/Component/AuthComponent.php:454
+msgid "You are not authorized to access that location."
+msgstr "No estas autorizado a accerder"
+
+#: Controller/Component/CsrfComponent.php:155
+msgid "Missing CSRF token cookie"
+msgstr "Falta el token CSRF en la cookie"
+
+#: Controller/Component/CsrfComponent.php:159
+msgid "CSRF token mismatch."
+msgstr "Token CSRF no concuerda"
+
+#: Error/ExceptionRenderer.php:249
+msgid "Not Found"
+msgstr "No encontrado"
+
+#: Error/ExceptionRenderer.php:251
+msgid "An Internal Error Has Occurred."
+msgstr "Un error interno ocurrio"
+
+#: I18n/Number.php:89
+msgid "{0,number,#,###.##} KB"
+msgstr "{0,number,#,###.##} KB"
+
+#: I18n/Number.php:91
+msgid "{0,number,#,###.##} MB"
+msgstr "{0,number,#,###.##} MB"
+
+#: I18n/Number.php:93
+msgid "{0,number,#,###.##} GB"
+msgstr "{0,number,#,###.##} GB"
+
+#: I18n/Number.php:95
+msgid "{0,number,#,###.##} TB"
+msgstr "{0,number,#,###.##} TB"
+
+#: I18n/Number.php:87
+msgid "{0,number,integer} Byte"
+msgid_plural "{0,number,integer} Bytes"
+msgstr[0] "{0,number,integer} Byte"
+msgstr[1] "{0,number,integer} Bytes"
+
+#: I18n/Time.php:271
+msgid "%s ago"
+msgstr "%s atras"
+
+#: I18n/Time.php:272
+msgid "on %s"
+msgstr "en %s"
+
+#: I18n/Time.php:312
+msgid "just now"
+msgstr "justo ahora"
+
+#: I18n/Time.php:428
+msgid "about a second ago"
+msgstr "cerca de un segundo atras"
+
+#: I18n/Time.php:429
+msgid "about a minute ago"
+msgstr "cerca de un minuto atras"
+
+#: I18n/Time.php:430
+msgid "about an hour ago"
+msgstr "cerca de una hora atras"
+
+#: I18n/Time.php:431
+msgid "about a day ago"
+msgstr "cerca de un día atras"
+
+#: I18n/Time.php:432
+msgid "about a week ago"
+msgstr "cercad de una semana atras"
+
+#: I18n/Time.php:433
+msgid "about a year ago"
+msgstr "cerca de un año"
+
+#: I18n/Time.php:442
+msgid "in about a second"
+msgstr "cerca de un segundo"
+
+#: I18n/Time.php:443
+msgid "in about a minute"
+msgstr "cerca de un minuto"
+
+#: I18n/Time.php:444
+msgid "in about an hour"
+msgstr "cerca de una hora"
+
+#: I18n/Time.php:445
+msgid "in about a day"
+msgstr "cerca de un día"
+
+#: I18n/Time.php:446
+msgid "in about a week"
+msgstr "cerca de una semana"
+
+#: I18n/Time.php:447
+msgid "in about a year"
+msgstr "cerca de un año"
+
+#: I18n/Time.php:401
+msgid "{0} year"
+msgid_plural "{0} years"
+msgstr[0] "{0} año"
+msgstr[1] "{0} años"
+
+#: I18n/Time.php:404
+msgid "{0} month"
+msgid_plural "{0} months"
+msgstr[0] "{0} mes"
+msgstr[1] "{0} meses"
+
+#: I18n/Time.php:407
+msgid "{0} week"
+msgid_plural "{0} weeks"
+msgstr[0] "{0} semana"
+msgstr[1] "{0} semanas"
+
+#: I18n/Time.php:410
+msgid "{0} day"
+msgid_plural "{0} days"
+msgstr[0] "{0} día"
+msgstr[1] "{0} días"
+
+#: I18n/Time.php:413
+msgid "{0} hour"
+msgid_plural "{0} hours"
+msgstr[0] "{0} hora"
+msgstr[1] "{0} horas"
+
+#: I18n/Time.php:416
+msgid "{0} minute"
+msgid_plural "{0} minutes"
+msgstr[0] "{0} minuto"
+msgstr[1] "{0} minutos"
+
+#: I18n/Time.php:419
+msgid "{0} second"
+msgid_plural "{0} seconds"
+msgstr[0] "{0} segundo"
+msgstr[1] "{0} segundos"
+
+#: Network/Response.php:1438
+msgid "The requested file was not found"
+msgstr "El archivo solicitado no se encontro"
+
+#: ORM/RulesChecker.php:49
+msgid "This value is already in use"
+msgstr "Este valor ya esta en uso"
+
+#: ORM/RulesChecker.php:83
+msgid "This value does not exist"
+msgstr "Este valor no existe"
+
+#: Utility/Text.php:724
+msgid "and"
+msgstr "y"
+
+#: Validation/Validator.php:102
+msgid "This field is required"
+msgstr "Este campo es obligatorio"
+
+#: Validation/Validator.php:103
+msgid "This field cannot be left empty"
+msgstr "El campo no puede ser vacío"
+
+#: Validation/Validator.php:663
+msgid "The provided value is invalid"
+msgstr "No es valido"
+
+#: View/Helper/FormHelper.php:925
+msgid "New %s"
+msgstr "Nuevo %s"
+
+#: View/Helper/FormHelper.php:928
+msgid "Edit %s"
+msgstr "Editar %s"
+
+#: View/Helper/HtmlHelper.php:770
+msgid "Home"
+msgstr "Inicio"
+
+#: View/Widget/DateTimeWidget.php:530
+msgid "January"
+msgstr "Enero"
+
+#: View/Widget/DateTimeWidget.php:531
+msgid "February"
+msgstr "febrero"
+
+#: View/Widget/DateTimeWidget.php:532
+msgid "March"
+msgstr "Marzo"
+
+#: View/Widget/DateTimeWidget.php:533
+msgid "April"
+msgstr "Abril"
+
+#: View/Widget/DateTimeWidget.php:534
+msgid "May"
+msgstr "Mayo"
+
+#: View/Widget/DateTimeWidget.php:535
+msgid "June"
+msgstr "Junio"
+
+#: View/Widget/DateTimeWidget.php:536
+msgid "July"
+msgstr "Julio"
+
+#: View/Widget/DateTimeWidget.php:537
+msgid "August"
+msgstr "Agosto"
+
+#: View/Widget/DateTimeWidget.php:538
+msgid "September"
+msgstr "Septiembre"
+
+#: View/Widget/DateTimeWidget.php:539
+msgid "October"
+msgstr "Octubre"
+
+#: View/Widget/DateTimeWidget.php:540
+msgid "November"
+msgstr "Noviembre"
+
+#: View/Widget/DateTimeWidget.php:541
+msgid "December"
+msgstr "Diciembre"
+
+#: Template/Element/navigation.ctp:34
+msgid "My Profile"
+msgstr "Mi perfil"
+
+#: Template/Element/navigation.ctp:37
+msgid "Edit Profile"
+msgstr "Editar perfil"
+
+#: Template/Element/navigation.ctp:40
+msgid "Change Password"
+msgstr "Cambiar contraseña"
+
+#: Template/Element/navigation.ctp:43
+msgid "Delete Account"
+msgstr "Borrar cuenta"
+
+#: Template/Element/navigation.ctp:43
+msgid "Are you sure you want to delete your account?"
+msgstr "¿Estas seguro de borrar tu cuenta?"
+
+#: Template/Element/navigation.ctp:65
+msgid "Users"
+msgstr "Usuarios"
+
+#: Template/Element/navigation.ctp:76
+msgid "All Users"
+msgstr "Todos los usuarios"
+
+#: Template/Element/navigation.ctp:91
+msgid "Groups"
+msgstr "Grupos"
+
+#: Template/Element/navigation.ctp:115
+msgid "Admin"
+msgstr "Administración"
+
+#: Template/Element/navigation.ctp:119
+msgid "Group Permissions"
+msgstr "Permisos de grupos"
+
+#: Template/Element/navigation.ctp:122
+msgid "Subgroup Permissions"
+msgstr "Permisos de subgrupos"
+
+#: Template/Element/navigation.ctp:131
+msgid "Delete Cache"
+msgstr "Borrar cache"
+
+#: Template/Element/navigation.ctp:150
+msgid "View Sent Emails"
+msgstr "Ver email enviados"
+
+#: Template/Element/navigation.ctp:153
+msgid "Scheduled Mails"
+msgstr "Emils programados "
+
+#: Template/Element/navigation.ctp:156
+msgid "Contact Enquiries"
+msgstr "Contactos"
+
+#: Template/Element/navigation.ctp:159
+msgid "Email Templates"
+msgstr "Plantillas de Email"
+
+#: Template/Element/navigation.ctp:162
+msgid "Email Signatures"
+msgstr "Firmas"
+
+#: Template/Element/navigation.ctp:173
+msgid "Pages"
+msgstr "Páginas"
+
+#: Template/Element/navigation.ctp:181
+msgid "All Pages"
+msgstr "Todas las Páginas"
+
+#: Template/Element/navigation.ctp:182
+msgid "Change Password"
+msgstr "Cambiar Contraseña"
+
+#: Template/Error/error400.ctp:33 Template/Error/error500.ctp:35
+msgid "Error"
+msgstr "Error"
+
+#: Template/Error/error400.ctp:35
+msgid "The requested address %s was not found on this server."
+msgstr "No encontramos la solicitud %s en este servidor "
+
+#: Template/Error/error500.ctp:33
+msgid "An Internal Error Has Occurred"
+msgstr "Ocurrio un error interno"
+
+msgid "Password must including a number, an uppercase and a lowercase letter."
+msgstr "Contraseña debe incluir al menos una minúscula, una mayúscula y un número"
+
+# Email de registro
+msgid "Registration is Complete"
+msgstr "Registro completado"
+
+msgid "Hi {0}."
+msgstr "Hola {0}"
+
+msgid "Starting this moment you can access to {0}"
+msgstr "A partir de este momento puede acceder a {0}"
+
+msgid "geting in the"
+msgstr "con la"
+
+msgid "following data"
+msgstr "siguiente informacion"
+
+msgid "In the face of anywhere problem access, you have question about account or the<br>privileges assigned, please contact the support area."
+msgstr "Al encontrar algún problema con el acceso, tener alguna pregunta acerca de la cuenta o los privilegios asignados, por favor contacte al área de soporte."
+
+msgid "The user has been added successfully"
+msgstr "El usuario se añadió con éxito"
+
+msgid "Selected user is deleted successfully"
+msgstr "El usuario se borró con éxito"
+
+msgid "Module"
+msgstr "Módulo"
+
+msgid "Matrix"
+msgstr "Matriz"
+
+msgid "Centers"
+msgstr "Centros"
+
+msgid "Cancel"
+msgstr "Cancelar"
+
+msgid "Company"
+msgstr "Compañia"
+
+msgid "Despartments"
+msgstr "Departamento"
+
+msgid "The franquicia has been saved."
+msgstr "La franquicia ha sido guardada."
+
+msgid "The franquicia could not be saved. Please, try again."
+msgstr "La franquicia no se pudo guardar. Por favor, intente nuevamente."
+
+msgid "The franquicia has been deleted."
+msgstr "La franquicia ha sido borrada."
+
+msgid "The franquicia could not be deleted. Please, try again."
+msgstr "La franquicia no se pudo borrar. Por favor, intente nuevamente."
+
+
+msgid "Selected franquicia is active successfully"
+msgstr "La franquicia seleccionada fue activada."
+
+msgid "Selected franquicia is activated successfully"
+msgstr "La franquicia seleccionada fue desactivada."
+
+
+
+
+
+
+
+#Customers
+
+
+
+
+
+msgid "Title"
+msgstr "Razón social"
+
+msgid "Business Name"
+msgstr "Razón comercial"
+
+msgid "Street"
+msgstr "Calle"
+
+msgid "Number"
+msgstr "Número"
+
+msgid "Municipality"
+msgstr "Municipio"
+
+msgid "State"
+msgstr "Estado"
+
+msgid "Country"
+msgstr "País"
+
+msgid "Postal Code"
+msgstr "Código postal"
+
+msgid "Customer Category"
+msgstr "Categoría del Cliente"
+
+msgid "Office"
+msgstr "Sucursal"
+
+msgid "Customer Type"
+msgstr "Tipo de Cliente"
+
+msgid "Customer Headcount"
+msgstr "Cantidad de epleados"
+
+msgid "Website"
+msgstr "Sitio web"
+
+msgid "Customer Since"
+msgstr "Cliente"
+
+msgid "The customer has been saved."
+msgstr "El Cliente ha sido guardado"
+
+msgid "The customer could not be saved. Please, try again."
+msgstr "El Cliente no se pudo guardar. Por favor, intente nuevamente"
+
+msgid "The customer could not be deleted. Please, try again."
+msgstr "El Cliente no se pudo borrar. Por favor, intente nuevamente"
+
+msgid "The customer has been deleted."
+msgstr "El Cliente ha sido borrado"
+
+msgid "Seller"
+msgstr "Vendedor Asignado"
+
+msgid "Customer"
+msgstr "Cliente"
+
+msgid "Customers"
+msgstr "Clientes"

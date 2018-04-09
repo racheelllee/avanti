@@ -1,0 +1,56 @@
+msgid "Title"
+msgstr "Razón social"
+
+msgid "Business Name"
+msgstr "Razón comercial"
+
+msgid "Street"
+msgstr "Calle"
+
+msgid "Number"
+msgstr "Número"
+
+msgid "Municipality"
+msgstr "Municipio"
+
+msgid "State"
+msgstr "Estado"
+
+msgid "Country"
+msgstr "País"
+
+msgid "Postal Code"
+msgstr "Código postal"
+
+msgid "Customer Category"
+msgstr "Categoría del Cliente"
+
+msgid "Office"
+msgstr "Sucursal"
+
+msgid "Customer Type"
+msgstr "Tipo de Cliente"
+
+msgid "Customer Headcount"
+msgstr "Cantidad de epleados"
+
+msgid "Website"
+msgstr "Sitio web"
+
+msgid "Customer Since"
+msgstr "Cliente"
+
+msgid "The customer has been saved"
+msgstr "El Cliente ha sido guardado"
+
+msgid "The customer could not be saved. Please, try again"
+msgstr "El Cliente no se pudo guardar. Por favor, intente nuevamente"
+
+msgid "The customer could not be deleted. Please, try again"
+msgstr "El Cliente no se pudo borrar. Por favor, intente nuevamente"
+
+msgid "The customer has been deleted"
+msgstr "El Cliente ha sido borrado"
+
+msgid "Seller"
+msgstr "Vendedor Asignado"
